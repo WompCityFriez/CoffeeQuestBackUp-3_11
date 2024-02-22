@@ -6,4 +6,6 @@ One person per page and help will be given if needed
 
 ## Pages and who they are assigned to
 
+Matthew - Checkout page
+
 <sub>This can be updated later</sub>
