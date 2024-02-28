@@ -19,3 +19,6 @@
         background: #006518a8;
     }
    }
+
+4. Blank Unicode object for HTML
+   &#10240;
