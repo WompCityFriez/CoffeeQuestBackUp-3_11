@@ -1,6 +1,24 @@
 body{
-    background-color: blueviolet;
+    background-position: relative;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-image:url("../Images/Check Out Page Background.png");
     color: white;
+}
+
+*{
+    ::-webkit-scrollbar {
+        background: #7a3b00;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #24b345;
+        -webkit-border-radius: 1.5ex;
+    }
+    
+    ::-webkit-scrollbar-corner {
+        background: #006518a8;
+    }
 }
 
 body::selection{
@@ -13,17 +31,7 @@ nav::selection{
     background-color: rgb(119, 66, 8);
 }
 
-#logo::selection{
-    color: rgb(60, 176, 1);
-    background-color: rgb(119, 66, 8);
-}
-
 #nav-buttons::selection{
-    color: rgb(60, 176, 1);
-    background-color: rgb(119, 66, 8);
-}
-
-#account_button::selection{
     color: rgb(60, 176, 1);
     background-color: rgb(119, 66, 8);
 }
@@ -31,4 +39,15 @@ nav::selection{
 #Page_Title::selection{
     color: rgb(60, 176, 1);
     background-color: rgb(119, 66, 8);
+}
+#Table{
+    position: absolute;
+    bottom: 20px; /* Adjust vertical position */
+    left: calc(50% - (Espresso_On_Table-width / 2)); /* Center horizontally */
+}
+
+#Espresso_On_Table{
+    position: absolute;
+    bottom: 50px; /* Adjust vertical position */
+    left: calc(50% - (Table-width / 2)); /* Center horizontally */
 }
