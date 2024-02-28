@@ -2,3 +2,33 @@ body{
     background-color: blueviolet;
     color: white;
 }
+
+body::selection{
+    color: rgb(60, 176, 1);
+    background-color: rgb(119, 66, 8);
+}
+
+nav::selection{
+    color: rgb(60, 176, 1);
+    background-color: rgb(119, 66, 8);
+}
+
+#logo::selection{
+    color: rgb(60, 176, 1);
+    background-color: rgb(119, 66, 8);
+}
+
+#nav-buttons::selection{
+    color: rgb(60, 176, 1);
+    background-color: rgb(119, 66, 8);
+}
+
+#account_button::selection{
+    color: rgb(60, 176, 1);
+    background-color: rgb(119, 66, 8);
+}
+
+#Page_Title::selection{
+    color: rgb(60, 176, 1);
+    background-color: rgb(119, 66, 8);
+}

@@ -1,1 +1,1 @@
-const nav = document.getElementById("cupAndCoffee");
+const cupAndCoffee = document.getElementById("cupAndCoffee");

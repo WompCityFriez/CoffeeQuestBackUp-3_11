@@ -1,0 +1,5 @@
+1. How to link .js files to html
+   In your page (can be head or body) type <script>, from there it should auto complete with <script></script>. Within the opening script tag (<script>) write src="{.js file location}". It should look something like this: <script src="../JavaScript/MyScript.js"></script>
+
+2. How to grab an ID within JavaScript from an HTML file
+   The syntax for JavaScript is a lot different form HTML or CSS, and uses a similar syntax as C# if you've played with that (if not don't worry about it). To grab an ID that is in your HTML file from JavaScript first connect the files (see note 1), then type the following: cons {variable name} = document.getElementById("{ID name}");
