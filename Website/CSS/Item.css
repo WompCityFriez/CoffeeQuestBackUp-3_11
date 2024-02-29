@@ -54,3 +54,18 @@ body {
         background: #006518a8;
     }
    }
+   .AddToCart {
+    color: white;
+    background-color: #67b41ae6;
+    border: none;
+    border-radius: 10px;
+   }
+   .AddToCart ::hover {
+    background-color: red;
+   }
+   .FavoriteButton {
+    color: white;
+    background-color: #758b3cc0;
+    border: none;
+    border-radius: 200px;
+   }
