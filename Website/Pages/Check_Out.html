@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <script src="../JavaScript/CheckOut.js"></script>
+    <!-- <script src="../JavaScript/CheckOut.js"></script> -->
 
     <nav>
         <img id="Logo" alt="logo" src="../Images/quest-coffee-logo.svg" width="75" height="75">
@@ -65,8 +65,32 @@
     <p>&#10240;</p>
     <p>&#10240;</p>
     <p>&#10240;</p>
+
+
     
     <div id="CupAndCoffee"><img id="Espresso_On_Table" alt="Espresso" src="../Assets/Resources/Resources/Quest Coffee_Images/quest-coffee-16oz-removebg-preview.png" width="250" height="150"><img id="Table" alt="Table the espresso is on" src="../Assets/—Pngtree—solid wood table clipart_5737580.png" width="150" height="150"></div>
     
+        <script>
+        // Get the Espresso and Table ID's from HTML and declare them as cup and table variable's.
+const cup = document.getElementById("Espresso_On_Table");
+
+function pop_in(){
+    cup.style.transitionDuration = `0.2s`;
+    cup.style.transform = `translate(-50%, -50%) scale(1.5)`;
+
+    setTimeout(() => {
+        cup.style.transitionDuration = `0.7s`;
+        cup.style.transform = `translate(-50%, -50%) scale(1)`;
+    });
+}
+
+// window.addEventListener(`keyup`, event => {
+//     if(event.keyup === a) pop_in();
+// })
+
+window.onload = function() {
+    pop_in();
+};
+    </script>
 </body>
 </html>
