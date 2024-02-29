@@ -51,3 +51,7 @@ nav::selection{
     bottom: 50px; /* Adjust vertical position */
     left: calc(50% - (Table-width / 2)); /* Center horizontally */
 }
+
+#account-button{
+    float: right;
+}
