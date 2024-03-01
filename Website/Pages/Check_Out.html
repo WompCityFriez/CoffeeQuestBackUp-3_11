@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../Images/quest-coffee-logo.svg">
     <link href="../CSS/CheckOut.css" rel="stylesheet">
-    <!-- <script src="../JavaScript/CheckOut.js"></script> -->
 </head>
 <body>
 
@@ -69,27 +68,21 @@
     
     <div id="CupAndCoffee"><img id="Espresso_On_Table" alt="Espresso" src="../Assets/Resources/Resources/Quest Coffee_Images/quest-coffee-16oz-removebg-preview.png" width="250" height="150"><img id="Table" alt="Table the espresso is on" src="../Assets/—Pngtree—solid wood table clipart_5737580.png" width="150" height="150"></div>
     
-        <script>
-        // Get the Espresso and Table ID's from HTML and declare them as cup and table variable's.
-const cup = document.getElementById("Espresso_On_Table");
-
-function pop_in(){
-    cup.style.transitionDuration = `0.2s`;
-    cup.style.transform = `translate(-50%, -50%) scale(1.5)`;
-
+    <script>
+    const cup = document.getElementById("Espresso_On_Table");
+        
+    function pop_in(){
+        cup.style.transitionDuration = `0.2s`;
+        cup.style.transform = `translate(-50%, -50%) scale(1.5)`;
+            
     setTimeout(() => {
         cup.style.transitionDuration = `0.7s`;
         cup.style.transform = `translate(-50%, -50%) scale(1)`;
     });
-}
-
-// window.addEventListener(`keyup`, event => {
-//     if(event.keyup === a) pop_in();
-// })
-
-window.onload = function() {
-    pop_in();
-};
+    }
+    window.onload = function() {
+        pop_in();
+    };
     </script>
 </body>
 </html>
