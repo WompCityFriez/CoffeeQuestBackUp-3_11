@@ -26,10 +26,12 @@ body{
     position: absolute;
     top: 250px;
     left: 150px;
+    background-color: #A7BB78d3;
+
 } 
 
 
-#applyhere {
+#applyherebox {
     border: 5px solid #000000;
     border-radius: 50px;
     position: absolute;
