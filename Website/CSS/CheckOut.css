@@ -1,3 +1,4 @@
+/* Background styling and page text color */
 body{
     background-position: relative;
     background-size: cover;
@@ -6,6 +7,7 @@ body{
     color: white;
 }
 
+/* Scroll bar customization */
 *{
     ::-webkit-scrollbar {
         background: #7a3b00;
@@ -21,6 +23,7 @@ body{
     }
 }
 
+/* Highlighting effects */
 body::selection{
     color: rgb(60, 176, 1);
     background-color: rgb(119, 66, 8);
@@ -40,18 +43,25 @@ nav::selection{
     color: rgb(60, 176, 1);
     background-color: rgb(119, 66, 8);
 }
+/* Highlighting effects END */
+
+/* Table positioning and effect */
 #Table{
+    pointer-events: none;
     position: absolute;
     bottom: 20px; /* Adjust vertical position */
     left: calc(50% - (Espresso_On_Table-width / 2)); /* Center horizontally */
 }
 
+/* Espresso positioning  and effects*/
 #Espresso_On_Table{
+    pointer-events: none;
     position: absolute;
     bottom: 50px; /* Adjust vertical position */
     left: calc(50% - (Table-width / 2)); /* Center horizontally */
 }
 
+/* Account button placement */
 #account-button{
     float: right;
 }
