@@ -45,20 +45,19 @@ nav::selection{
 }
 /* Highlighting effects END */
 
+/* Espresso positioning  and effects*/
+#Cup{
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    left: 350px; /* Center horizontally */
+}
+
 /* Table positioning and effect */
 #Table{
     pointer-events: none;
     position: absolute;
-    bottom: 20px; /* Adjust vertical position */
-    left: calc(50% - (Espresso_On_Table-width / 2)); /* Center horizontally */
-}
-
-/* Espresso positioning  and effects*/
-#Espresso_On_Table{
-    pointer-events: none;
-    position: absolute;
-    bottom: 50px; /* Adjust vertical position */
-    left: calc(50% - (Table-width / 2)); /* Center horizontally */
+    left: 350px;
 }
 
 /* Account button placement */
