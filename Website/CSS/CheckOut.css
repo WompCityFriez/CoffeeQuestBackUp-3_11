@@ -7,6 +7,14 @@
     font-style: normal; 
 } 
 
+.ubuntu-condensed-regular {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
 /* Background styling and page text color */
 body{
     background-position: relative;
