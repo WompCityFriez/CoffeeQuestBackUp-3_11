@@ -1,3 +1,12 @@
+@font-face { 
+    font-family: 'Woodwarrior-Regular'; 
+    src: 
+        url('../../fonts/Woodwarrior-Regular.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+
 /* Background styling and page text color */
 body{
     background-position: relative;
@@ -63,4 +72,8 @@ nav::selection{
 /* Account button placement */
 #account-button{
     float: right;
+}
+
+#Page_Title{
+    font-family: Woodwarrior-Regular;
 }
