@@ -1,8 +1,9 @@
-1. How to link .js files to html
-   In your page (can be head or body) type <script>, from there it should auto complete with <script></script>. Within the opening script tag (<script>) write src="{.js file location}". It should look something like this: <script src="../JavaScript/MyScript.js"></script>
+1. How to write JavaScript in HTML
+   In your page (must be in your body) type <script>, it should auto complete with <script></script>. Within this script tag you can make your JavaScript.
 
-2. How to grab an ID within JavaScript from an HTML file
-   The syntax for JavaScript is a lot different form HTML or CSS, and uses a similar syntax as C# if you've played with that (if not don't worry about it). To grab an ID that is in your HTML file from JavaScript first connect the files (see note 1), then type the following: cons {variable name} = document.getElementById("{ID name}");
+2. How to grab an ID with JavaScript from your HTML file
+   The syntax for JavaScript is a lot different form HTML or CSS, and uses a similar syntax as C# if you've played with that (if not don't worry about it). To grab an element with an ID from your HTML file, type the following: cons {variable name} = document.getElementById("{ID name}");.
+   Please note that if your attaching a script to an element with an ID the script must be UNDER where the IDed element is.
 
 3. Custom scroll bar CSS code
    *{
