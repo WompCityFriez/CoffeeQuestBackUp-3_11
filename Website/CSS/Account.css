@@ -1,4 +1,76 @@
-body{
+@font-face {
+ font-family:'Woodwarrior-Regular';
+src:
+   url('../../fonts/Woodwarrior-Regular.otf')
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ @font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src:
+    url('../../fonts/PlayfairDisplay-Regular.ttf')
+    format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
+
+ .ubuntu-condensed-regular {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+ body {
     background-color: #814e3d;
     color: white;
 }
@@ -29,10 +101,30 @@ left: 3450px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    top: 700px;
-    left: 3450px;
+    top: 15px;
+    left: 50px;
 }
 
 #account-button{
     float: right;
 }
+
+#Page_Title{ font-family: Woodwarrior-Regular;
+
+}
+
+ *{
+    ::-webkit-scrollbar {
+        background: #7a3b00;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #24b345;
+        -webkit-border-radius: 1.5ex;
+    }
+    
+    ::-webkit-scrollbar-corner {
+        background: #006518a8;
+    }
+
+ }
