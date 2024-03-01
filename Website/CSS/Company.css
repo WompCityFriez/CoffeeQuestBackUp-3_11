@@ -21,24 +21,29 @@ body{
    }
 
 #companyboxintro {
-    border: 5px solid #000000;
+    border: 3.5px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 250px;
     left: 150px;
-    background-color: #A7BB78d3;
+    background-color: #a7bb78c7;
 
 } 
 
 
 #applyherebox {
-    border: 5px solid #000000;
+    border: 3.5px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 250px;
     left: 150px;
-    background-color: #99b84fdc
+    background-color: #99b84fc9
 } 
+
+#mr-coffee {
+    border: 3.5px solid #000000;
+    border-radius: 50px;
+}
 
 
 
