@@ -1,3 +1,14 @@
+@font-face {
+    font-family:'Woodwarrior-Regular';
+   src:
+      url('../../fonts/Woodwarrior-Regular.otf')
+       format('opentype');
+       font-weight: normal;
+       font-style: normal;
+   }
+
+
+
 body{
     background-position: relative;
     background-size: cover;
@@ -47,15 +58,27 @@ body{
 
 
 
-#apply {
+#jointhequest {
     color: #0060d0;
 }
 
 
-#socials {
+#quest-coffee {
     color: #0060d0;
 }
 
-#companyinfo {
+#quest-coff {
+    color: #0060d0;
+}
+
+#questcof {
+    color: #0060d0;
+}
+
+#wompcityfries {
+    color: #0060d0;
+}
+
+#mrcoffee {
     color: #0060d0;
 }
