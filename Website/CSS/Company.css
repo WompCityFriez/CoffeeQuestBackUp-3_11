@@ -7,6 +7,12 @@
     font-weight: normal; 
     font-style: normal; 
 } 
+.ubuntu-condensed-regular {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 
 
 /* Background styling and page text color */
@@ -36,9 +42,14 @@ body{
     border: 3.5px solid #000000;
     border-radius: 50px;
     position: absolute;
-    top: 250px;
-    left: 150px;
+    top: 100px;
+    left: 650px;
+    padding: 50px;
+    width: 600px;
     background-color: #a7bb78c7;
+    font-size:large;
+    font-weight:bold
+
 
 } 
 
@@ -47,12 +58,16 @@ body{
     border: 3.5px solid #000000;
     border-radius: 50px;
     position: absolute;
-    top: 250px;
-    left: 150px;
-    padding: 20px;
+    font-weight:bold;
+    font-size: large;
+    top: 600px;
+    left: 655px;
+    padding: 60px;
     height: 120px;
     width: 500px;
     background-color: #99b84fc9
+    
+    
     
     }
     
@@ -67,6 +82,8 @@ body{
 /*Blue text */
 #jointhequest {
     color: #0060d0;
+    font-size:large;
+    font-weight:bold;
 }
 
 
@@ -93,5 +110,12 @@ body{
 /*Page title*/
 #Page_Title{
     font-family: 'Woodwarrior-Regular';
+}
+
+#applyhere {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+    font-weight: bolder;
 }
 
