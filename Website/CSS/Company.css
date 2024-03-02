@@ -57,12 +57,13 @@ body{
 #applyherebox {
     border: 3.5px solid #000000;
     border-radius: 50px;
+    display:inline-block;
     position: absolute;
     font-weight:bold;
     font-size: large;
-    top: 600px;
+    top: 550px;
     left: 655px;
-    padding: 60px;
+    padding: 90px;
     height: 120px;
     width: 500px;
     background-color: #99b84fc9
@@ -76,14 +77,16 @@ body{
 #mr-coffee {
     border: 3.5px solid #000000;
     border-radius: 50px;
+    right: 100px;
 }
 
 
 /*Blue text */
 #jointhequest {
     color: #0060d0;
-    font-size:large;
-    font-weight:bold;
+    top: auto;
+    font-size:larger;
+    font-weight:bolder;
 }
 
 
@@ -119,3 +122,6 @@ body{
     font-weight: bolder;
 }
 
+#applyhere, #mrcoffee,#wompcityfries,#questcof,#quest-coff,#quest-coffee,#jointhequest{
+    margin-top:auto
+}
