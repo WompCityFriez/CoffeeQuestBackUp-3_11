@@ -1,3 +1,4 @@
+/* Wood Warrior font*/
 @font-face { 
     font-family: 'Woodwarrior-Regular'; 
     src: 
@@ -8,14 +9,14 @@
 } 
 
 
-
+/* Background styling and page text color */
 body{
     background-position: relative;
     background-size: cover;
     background-repeat: repeat-y;
     background-image:url("../Images/Campony\ Info\ Page\ Background.png");
 }
-   
+ /* Scroll bar customization */  
 *{
     ::-webkit-scrollbar {
         background: #7a3b00;
@@ -30,7 +31,7 @@ body{
         background: #006518a8;
     }
    }
-
+/* Boxes*/
 #companyboxintro {
     border: 3.5px solid #000000;
     border-radius: 50px;
@@ -41,23 +42,29 @@ body{
 
 } 
 
-
+/*Boxes*/
 #applyherebox {
     border: 3.5px solid #000000;
     border-radius: 50px;
     position: absolute;
     top: 250px;
     left: 150px;
+    padding: 20px;
+    height: 120px;
+    width: 500px;
     background-color: #99b84fc9
-} 
-
+    
+    }
+    
+ 
+/*mrcoffeeimg*/
 #mr-coffee {
     border: 3.5px solid #000000;
     border-radius: 50px;
 }
 
 
-
+/*Blue text */
 #jointhequest {
     color: #0060d0;
 }
@@ -83,7 +90,8 @@ body{
     color: #0060d0;
 }
 
-
+/*Page title*/
 #Page_Title{
     font-family: 'Woodwarrior-Regular';
 }
+
