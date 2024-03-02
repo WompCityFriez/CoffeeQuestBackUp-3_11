@@ -1,11 +1,11 @@
-@font-face {
-    font-family:'Woodwarrior-Regular';
-   src:
-      url('../../fonts/Woodwarrior-Regular.otf')
-       format('opentype');
-       font-weight: normal;
-       font-style: normal;
-   }
+@font-face { 
+    font-family: 'Woodwarrior-Regular'; 
+    src: 
+        url('../../fonts/Woodwarrior-Regular.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
 
 
 
@@ -81,4 +81,9 @@ body{
 
 #mrcoffee {
     color: #0060d0;
+}
+
+
+#Page_Title{
+    font-family: Woodwarrior-Regular;
 }
