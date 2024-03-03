@@ -29,7 +29,7 @@ body{
     }
     
     ::-webkit-scrollbar-thumb {
-        background: #24b345;
+        background: #60bb75;
         -webkit-border-radius: 1.5ex;
     }
     
@@ -40,10 +40,10 @@ body{
 /* Boxes*/
 #companyboxintro {
     border: 3.5px solid #000000;
-    border-radius: 30px;
+    border-radius: 25px;
     position: absolute;
-    top: 100px;
-    left: 650px;
+    top: 50px;
+    left: 700px;
     padding: 50px;
     width: 600px;
     background-color: #a7bb78c7;
@@ -56,15 +56,15 @@ body{
 /*Boxes*/
 #applyherebox {
     border: 3.5px solid #000000;
-    border-radius: 30px;
+    border-radius: 25px;
     position: absolute;
-    top: 60%;
+    top: 490px;
     font-weight:bold;
     font-size: large;
-    left: 655px;
-    padding: 90px;
+    left: 700px;
+    padding: 130px;
     height: 140px;
-    width: 515px;
+    width: 430px;
     background-color: #99b84fb6
     
     }
@@ -115,6 +115,7 @@ body{
 /*Page title*/
 #Page_Title{
     font-family: 'Woodwarrior-Regular';
+    color: aliceblue;
 }
 
 #applyhere {
