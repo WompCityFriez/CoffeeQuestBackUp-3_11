@@ -58,13 +58,13 @@ body{
     border: 3.5px solid #000000;
     border-radius: 30px;
     position: absolute;
+    top: 60%;
     font-weight:bold;
     font-size: large;
-    top: 550px;
     left: 655px;
     padding: 90px;
-    height: 120px;
-    width: 500px;
+    height: 140px;
+    width: 515px;
     background-color: #99b84fb6
     
     }
