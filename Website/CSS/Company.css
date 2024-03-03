@@ -57,10 +57,8 @@ body{
 #applyherebox {
     border: 3.5px solid #000000;
     border-radius: 30px;
-    display:inline-block;
     position: absolute;
     font-weight:bold;
-
     font-size: large;
     top: 550px;
     left: 655px;
@@ -68,8 +66,6 @@ body{
     height: 120px;
     width: 500px;
     background-color: #99b84fc9
-    
-    
     
     }
     
@@ -148,18 +144,26 @@ body{
 
 #AboutUs{
     margin-right: auto;
-    font-size: larger;
+    font-size: 25px;
     font-weight: bolder;
     text-transform: uppercase;
     text-decoration:underline;
+    padding-left: 40%;
 
 }
 
 #CONTACTINFO{
     margin-right: auto;
-    font-size: larger;
+    font-size: 25px;
     font-weight: bolder;
     text-transform: uppercase;
     text-decoration:underline;
+    padding-left: 30%;
 
+}
+
+#quest{
+    font-size: 21px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
