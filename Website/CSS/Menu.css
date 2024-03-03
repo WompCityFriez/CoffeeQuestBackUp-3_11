@@ -1,0 +1,42 @@
+/* Wood Warrior font*/
+@font-face { 
+    font-family: 'Woodwarrior-Regular'; 
+    src: 
+        url('../../fonts/Woodwarrior-Regular.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+.ubuntu-condensed-regular {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+  body{
+    background-position: relative;
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-image:url("../Images/Menu\ page\ Background.png")
+}
+
+
+  *{
+    ::-webkit-scrollbar {
+        background: #7a3b00;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #24b345;
+        -webkit-border-radius: 1.5ex;
+    }
+    
+    ::-webkit-scrollbar-corner {
+        background: #006518a8;
+    }
+   }
+
+
+   
