@@ -40,7 +40,7 @@ body{
 /* Boxes*/
 #companyboxintro {
     border: 3.5px solid #000000;
-    border-radius: 50px;
+    border-radius: 30px;
     position: absolute;
     top: 100px;
     left: 650px;
@@ -56,10 +56,11 @@ body{
 /*Boxes*/
 #applyherebox {
     border: 3.5px solid #000000;
-    border-radius: 50px;
+    border-radius: 30px;
     display:inline-block;
     position: absolute;
     font-weight:bold;
+
     font-size: large;
     top: 550px;
     left: 655px;
@@ -76,38 +77,43 @@ body{
 /*mrcoffeeimg*/
 #mr-coffee {
     border: 3.5px solid #000000;
-    border-radius: 50px;
+    border-radius: 15px;
     right: 100px;
 }
 
 
 /*Blue text */
 #jointhequest {
-    color: #0060d0;
+    color: #0858b3;
     top: auto;
-    font-size:larger;
+    font-size:21px;
     font-weight:bolder;
 }
 
 
 #quest-coffee {
-    color: #0060d0;
+    color: #0858b3;
+    font-size:21px;
+
 }
 
 #quest-coff {
-    color: #0060d0;
+    color: #0858b3;
+    font-size:21px;
 }
 
 #questcof {
-    color: #0060d0;
+    color: #0858b3;
+    font-size:21px;
 }
 
 #wompcityfries {
-    color: #0060d0;
+    color: #0858b3;
+    font-size:21px;
 }
 
 #mrcoffee {
-    color: #0060d0;
+    color: #0858b3;
 }
 
 /*Page title*/
@@ -118,10 +124,42 @@ body{
 #applyhere {
     margin-left: auto;
     margin-right: auto;
-    font-size: larger;
+    font-size: large;
     font-weight: bolder;
 }
 
 #applyhere, #mrcoffee,#wompcityfries,#questcof,#quest-coff,#quest-coffee,#jointhequest{
     margin-top:auto
+}
+
+#socials{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#companyemails{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#AboutUs{
+    margin-right: auto;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration:underline;
+
+}
+
+#CONTACTINFO{
+    margin-right: auto;
+    font-size: larger;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration:underline;
+
 }
