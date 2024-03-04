@@ -43,4 +43,7 @@
     color: aliceblue;
 }
 
-
+/* Account button placement */
+#account-button{
+    float: right;
+}

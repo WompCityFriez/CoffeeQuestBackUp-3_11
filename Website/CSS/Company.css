@@ -36,7 +36,13 @@ body{
     ::-webkit-scrollbar-corner {
         background: #006518a8;
     }
-   }
+}
+
+/* Account button placement */
+#account-button{
+    float: right;
+}
+
 /* Boxes*/
 #companyboxintro {
     border: 3.5px solid #000000;
