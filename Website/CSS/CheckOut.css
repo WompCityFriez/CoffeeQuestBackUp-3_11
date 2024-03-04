@@ -86,3 +86,27 @@ nav::selection{
     font-family: Woodwarrior-Regular;
     color: aliceblue;
 }
+
+#Info-Feild_1{
+    width: 500px;
+    height: 200px;
+    background-color: #809948eb;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    text-align:center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 450px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+}
+
+#star{
+    color: rgb(170, 0, 0);
+}
+
+.note{
+    font-size: 12px;
+}
