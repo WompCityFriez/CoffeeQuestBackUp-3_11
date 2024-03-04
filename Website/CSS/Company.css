@@ -174,3 +174,20 @@ body{
     font-weight: bolder;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
+
+.contacttext{
+    position: absolute;
+    margin-top: -70px;
+    left: 60px;
+}
+
+#CONTACT-INFO{
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-decoration:underline;
+    padding-left: 25%;
+}
+
+
