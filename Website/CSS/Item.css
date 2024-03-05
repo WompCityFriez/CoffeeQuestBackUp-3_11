@@ -46,7 +46,7 @@ body {
     color: white;
     font-family: Arial, sans-serif;
     position: absolute;
-    left: 850px;
+    left: 950px;
     top: 550px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
@@ -76,16 +76,17 @@ body {
 #QuestCoffeeText {
     color:white;
     position: absolute;
-    left: 825px;
+    left: 1000px;
     top: 255px;
     font-family: inter;
 }
 #price {
     color: white;
     position: absolute;
-    left: 1050px;
+    left: 1300px;
     top: 300px;
     font-family: inter;
+    font-size: 35px;
 }
 *{
     ::-webkit-scrollbar {
@@ -109,7 +110,7 @@ body {
     width: 200px;
     height: 70px;
     position: absolute;
-    left: 800px;
+    left: 1000px;
     top: 400px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
@@ -126,11 +127,14 @@ body {
     border-radius: 35%;
     width: 100px;
     height: 90px;
-    left: 1050px;
+    left: 1300px;
     top: 400px;
     position: absolute;
    }
    #Page_Title {
     font-family: Woodwarrior-Regular;
     color: aliceblue;
+   }
+   .FavoriteButton:hover {
+    background-color: #758b3ce3;
    }
