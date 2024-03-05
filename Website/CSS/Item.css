@@ -56,11 +56,11 @@ body {
 }
 .calories {
     width: 500px;
-    height: 500px;
+    height: 600px;
     background-color: #809948eb;
     border: 3px solid #000000;
     border-radius: 20px;
-    text-align: center;
+    font-size: 21px;
     color: white;
     font-family: Arial, sans-serif;
     position: absolute;
