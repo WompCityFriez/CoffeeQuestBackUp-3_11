@@ -24,4 +24,28 @@
 4. Blank Unicode object for HTML
    &#10240;
 
-   
+5. .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(175, 195, 223, 0.486);
+}
+
+.navbar > li {
+    float: left;
+}
+
+.navbar a {
+    display:block;
+    color:rgb(17, 13, 7);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #bbb998;
+    color:rgb(170, 29, 235);
+}   
