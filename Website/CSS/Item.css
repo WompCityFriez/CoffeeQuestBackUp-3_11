@@ -50,21 +50,23 @@ body {
     top: 550px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .calories {
-    width: 350px;
+    width: 500px;
     height: 500px;
     background-color: #809948eb;
     border: 3px solid #000000;
     border-radius: 20px;
-    padding: 20px;
-    text-align:center;
+    text-align: center;
     color: white;
     font-family: Arial, sans-serif;
     position: absolute;
     top: 930px;
-    left: 260px;
-    font-family: SFUIText-Regular;
+    left: 200px;
+    font-family: SFUIText-Regular
 }
 #espresso {
     border: 5px solid #000000;
