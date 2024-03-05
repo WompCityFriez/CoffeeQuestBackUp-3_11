@@ -1,0 +1,15 @@
+/* Wood Warrior font*/
+@font-face { 
+    font-family: 'Woodwarrior-Regular'; 
+    src: 
+        url('../../fonts/Woodwarrior-Regular.otf')  
+        format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+.ubuntu-condensed-regular {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
