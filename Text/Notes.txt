@@ -49,3 +49,28 @@
     background-color: #bbb998;
     color:rgb(170, 29, 235);
 }   
+
+
+6. body nav { text-align:center; position: fixed; bottom:3vw;
+    display:block; z-index: 8; margin-left: 10% }
+    nav a:hover {color:rgb(207, 114, 176);}
+    nav a {color:rgb(49, 45, 35); text-decoration: none;}
+    nav ul li {display: inline-block;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: rgb(240, 182, 182);
+    border: .6vw double rgb(189, 142, 154);
+    border-radius: .8vw;
+    font-size: 2vw;
+    width: 100%;
+    text-align: center;
+    padding: .1vw .5vw .1vw .5vw;
+    text-decoration: none;}
+    /*end Nav Bar*/
+
+
+
+    
+    
+    
+    
