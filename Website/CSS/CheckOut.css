@@ -1,112 +1,108 @@
-@font-face { 
-    font-family: 'Woodwarrior-Regular'; 
-    src: 
-        url('../../fonts/Woodwarrior-Regular.otf')  
-        format('opentype'); 
-    font-weight: normal; 
-    font-style: normal; 
-} 
+@font-face {
+  font-family: "Woodwarrior-Regular";
+  src: url("../../fonts/Woodwarrior-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 .ubuntu-condensed-regular {
-    font-family: "Ubuntu Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Background styling and page text color */
-body{
-    background-position: relative;
-    background-size: cover;
-    background-repeat: repeat-y;
-    background-image:url("../Images/Check Out Page Background.png");
-    color: white;
+body {
+  background-position: relative;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-image: url("../Images/Check Out Page Background.png");
+  color: white;
 }
 
 /* Scroll bar customization */
-*{
-    ::-webkit-scrollbar {
-        background: #7a3b00;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background: #24b345;
-        -webkit-border-radius: 1.5ex;
-    }
-    
-    ::-webkit-scrollbar-corner {
-        background: #006518a8;
-    }
+* {
+  ::-webkit-scrollbar {
+    background: #7a3b00;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #24b345;
+    -webkit-border-radius: 1.5ex;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: #006518a8;
+  }
 }
 
 /* Highlighting effects */
-body::selection{
-    color: rgb(60, 176, 1);
-    background-color: rgb(119, 66, 8);
+body::selection {
+  color: rgb(60, 176, 1);
+  background-color: rgb(119, 66, 8);
 }
 
-nav::selection{
-    color: rgb(60, 176, 1);
-    background-color: rgb(119, 66, 8);
+nav::selection {
+  color: rgb(60, 176, 1);
+  background-color: rgb(119, 66, 8);
 }
 
-#nav-buttons::selection{
-    color: rgb(60, 176, 1);
-    background-color: rgb(119, 66, 8);
+#nav-buttons::selection {
+  color: rgb(60, 176, 1);
+  background-color: rgb(119, 66, 8);
 }
 
-#Page_Title::selection{
-    color: rgb(60, 176, 1);
-    background-color: rgb(119, 66, 8);
+#Page_Title::selection {
+  color: rgb(60, 176, 1);
+  background-color: rgb(119, 66, 8);
 }
 /* Highlighting effects END */
 
 /* Espresso positioning  and effects*/
-#Cup{
-    pointer-events: none;
-    position: absolute;
-    z-index: 1;
-    left: 350px; /* Center horizontally */
+#Cup {
+  pointer-events: none;
+  position: absolute;
+  z-index: 1;
+  left: 350px; /* Center horizontally */
 }
 
 /* Table positioning and effect */
-#Table{
-    pointer-events: none;
-    position: absolute;
-    left: 350px;
+#Table {
+  pointer-events: none;
+  position: absolute;
+  left: 350px;
 }
 
 /* Account button placement */
-#account-button{
-    float: right;
+#account-button {
+  float: right;
 }
 
-#Page_Title{
-    font-family: Woodwarrior-Regular;
-    color: aliceblue;
+#Page_Title {
+  font-family: Woodwarrior-Regular;
+  color: aliceblue;
 }
 
-#Info-Feild_1{
-    width: 500px;
-    height: 200px;
-    background-color: #809948eb;
-    border: 5px solid #000000;
-    border-radius: 20px;
-    padding: 20px;
-    text-align:center;
-    color: white;
-    font-family: Arial, sans-serif;
-    position: absolute;
-    top: 450px;
-    font-family: Ubuntu Condensed;
-    font-size: 20px;
+#Info-Field_1 {
+  width: 500px;
+  height: 200px;
+  background-color: #809948eb;
+  border: 5px solid #000000;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 450px;
+  font-family: Ubuntu Condensed;
+  font-size: 20px;
 }
 
-#star{
-    color: rgb(170, 0, 0);
+#star {
+  color: rgb(170, 0, 0);
 }
 
-.note{
-    font-size: 12px;
+.note {
+  font-size: 12px;
 }

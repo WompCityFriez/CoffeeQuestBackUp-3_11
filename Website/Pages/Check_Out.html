@@ -1,82 +1,146 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Check Out</title>
     <!-- Page responsiveness -->
-    <meta name="viewport" co ntent="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../Images/quest-coffee-logo.svg">
-    <link href="../CSS/CheckOut.css" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../Images/quest-coffee-logo.svg"
+    />
+    <link href="../CSS/CheckOut.css" rel="stylesheet" />
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+      @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <!--Site navigation-->
     <nav>
-        <img id="Logo" alt="logo" src="../Images/quest-coffee-logo.svg" width="75" height="75">
-        <span id="Page_Title">Quest Coffee | Check Out</span>
-        <br>
-        <button id="nav-buttons" onclick="window.location.href='../Index.html';">Home</button>
-        <button id="nav-buttons" onclick="window.location.href='Menu.html';">Menu</button>
-        <button id="nav-buttons" onclick="window.location.href='Company.html';">Info</button>
-        <button id="nav-buttons" onclick="window.location.href='Check_Out.html';">Cart</button>
-        <a id="account-button" href="Account.html"><img alt="Account button" src="../Assets/person-circle.svg" width="35" height="35"></a>
+      <img
+        id="Logo"
+        alt="logo"
+        src="../Images/quest-coffee-logo.svg"
+        width="75"
+        height="75"
+      />
+      <span id="Page_Title">Quest Coffee | Check Out</span>
+      <br />
+      <button id="nav-buttons" onclick="window.location.href='../Index.html';">
+        Home
+      </button>
+      <button id="nav-buttons" onclick="window.location.href='Menu.html';">
+        Menu
+      </button>
+      <button id="nav-buttons" onclick="window.location.href='Company.html';">
+        Info
+      </button>
+      <button id="nav-buttons" onclick="window.location.href='Check_Out.html';">
+        Cart
+      </button>
+      <a id="account-button" href="Account.html"
+        ><img
+          alt="Account button"
+          src="../Assets/person-circle.svg"
+          width="35"
+          height="35"
+      /></a>
     </nav>
 
     <!--Cup and table images-->
-    <div id="CupAndCoffee"><img id="Cup" alt="Espresso" src="../Assets/Resources/Resources/Quest Coffee_Images/quest-coffee-16oz-removebg-preview.png" width="0" height="0">
-    <br>
-    <img id="Table" alt="Table the espresso is on" src="../Assets/—Pngtree—solid wood table clipart_5737580.png" width="250" height="250"></div>
-    
-    <!--JavaScript animation for the cup-->
-    <script>
-    const cup = document.getElementById("Cup");
-
-    // Get the original size of the image.
-    var originalWidth = cup.width;
-    var originalHeight = cup.height;
-
-    // Set the new size of the image.
-    cup.width = 250;
-    cup.height = 145;
-
-    // Animate the image size change.
-    var animation = cup.animate([
-        { width: originalWidth, height: originalHeight },
-        { width: 350, height: 245 }
-    ], {
-        duration: 1000, // 1 second
-        easing: 'ease-in-out'
-});
-
-// Start the animation.
-animation.play();
-    </script>
-
-    <div id="Info-Feild_1">
-        <sub><span class="note" id="star">* Feilds Are Required</span></sub>
-        <br>
-        Email<span id="star">*</span> <input type="email" id="Text-Feilds" placeholder="Ex. Espresso@skiff.com" required>
-        <br>
-        Full Name<span id="star">*</span> <input type="text" id="Text-Feilds" placeholder="Ex. Deacon Saint John" required>
-        <br>
-        Phone #<span id="star">*</span> <input type="tel" id="Text-Feilds" placeholder="+1 (234) 567-8910">
-        <br>
-        Address<span id="star">*</span> <input type="text" id="Text-Feilds" placeholder="123 Sesame Street blvd." required>
-        <br>
-        City<span id="star">*</span> <input type="text" id="Text-Feilds" placeholder="New York City" required>
-        <br>
-        State<span id="star">*</span> <input type="text" id="Text-Feilds" placeholder="New York" required>
-        <br>
-        Zip Code<span id="star">*</span> <input type="number" id="Text-Feilds" placeholder="10169" required>
+    <div id="CupAndCoffee">
+      <img
+        id="Cup"
+        alt="Espresso"
+        src="../Assets/Resources/Resources/Quest Coffee_Images/quest-coffee-16oz-removebg-preview.png"
+        width="0"
+        height="0"
+      />
+      <br />
+      <img
+        id="Table"
+        alt="Table the espresso is on"
+        src="../Assets/—Pngtree—solid wood table clipart_5737580.png"
+        width="250"
+        height="250"
+      />
     </div>
 
-</body>
+    <!--JavaScript animation for the cup-->
+    <script>
+      const cup = document.getElementById("Cup");
 
+      // Get the original size of the image.
+      var originalWidth = cup.width;
+      var originalHeight = cup.height;
+
+      // Set the new size of the image.
+      cup.width = 250;
+      cup.height = 145;
+
+      // Animate the image size change.
+      var animation = cup.animate(
+        [
+          { width: originalWidth, height: originalHeight },
+          { width: 350, height: 245 },
+        ],
+        {
+          duration: 1000, // 1 second
+          easing: "ease-in-out",
+        }
+      );
+
+      // Start the animation.
+      animation.play();
+    </script>
+
+    <div id="Info-Field_1">
+      <sub><span class="note" id="star">* Fields Are Required</span></sub>
+      <br />
+      Email<span id="star">*</span>
+      <input
+        type="email"
+        id="Text-Fields"
+        placeholder="Ex. Espresso@skiff.com"
+        required
+      />
+      <br />
+      Full Name<span id="star">*</span>
+      <input
+        type="text"
+        id="Text-Fields"
+        placeholder="Ex. Deacon Saint John"
+        required
+      />
+      <br />
+      Phone #<span id="star">*</span>
+      <input type="tel" id="Text-Fields" placeholder="+1 (234) 567-8910" />
+      <br />
+      Address<span id="star">*</span>
+      <input
+        type="text"
+        id="Text-Fields"
+        placeholder="123 Sesame Street blvd."
+        required
+      />
+      <br />
+      City<span id="star">*</span>
+      <input
+        type="text"
+        id="Text-Fields"
+        placeholder="New York City"
+        required
+      />
+      <br />
+      State<span id="star">*</span>
+      <input type="text" id="Text-Fields" placeholder="New York" required />
+      <br />
+      Zip Code<span id="star">*</span>
+      <input type="number" id="Text-Fields" placeholder="10169" required />
+    </div>
+  </body>
 </html>
