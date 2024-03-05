@@ -190,4 +190,17 @@ body{
     padding-left: 25%;
 }
 
+#applyherebox ::selection{
+        color: rgb(60, 176, 1);
+        background-color: rgb(119, 66, 8);
+      
+}
+
+#companyboxintro ::selection{
+    color: rgb(60, 176, 1);
+    background-color: rgb(119, 66, 8);
+  
+}
+
+
 
