@@ -6,6 +6,7 @@ Update the index.html landing page:
 
 You can utilize the Live View mode or Split view to edit the HTML or CSS code directly. Feel free
 to preview your web page using Dreamweaver’s Browser preview option.
+
 1. Apply the class of “logo” to the Trail Blazers logo. Add ALT tag to logo with the text “Trail
 Blazers”.
 
