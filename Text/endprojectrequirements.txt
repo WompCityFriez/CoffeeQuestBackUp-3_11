@@ -8,55 +8,99 @@ You can utilize the Live View mode or Split view to edit the HTML or CSS code di
 to preview your web page using Dreamweaver’s Browser preview option.
 1. Apply the class of “logo” to the Trail Blazers logo. Add ALT tag to logo with the text “Trail
 Blazers”.
+
 2. Replace the placeholder image with the image “hero-image1.png” in the header.
+
 3. Change the hero area “.hero” CSS class background color from “#ccc” “#2d402f” with an
 option to attach the background image “”, also change the text color to white by adding
 a “color” property of “#fff”.
+
 4. On the “hero-text” CSS class add padding value for “left” and “right” padding of “5rem”.
+
 5. Change the font family property of the “H1” CSS tag to reference the already linked
 Google font “Courgette”.
+
 6. Fix the broken images with the correct image for the featured Hiking Adventures section.
+
 7. Update the navigation bar to change the alignment from “left” to “center” aligned.
+
 8. Link the Contact text in the navigation bar to the “contact.html” page.
+
 9. Change the first paragraph that starts with “Welcome to Trail Blazers, the ultimate
 destination for adventure seekers! Our company was founded by Gail Rogers…..” under
 the hero from a “P” tag to an “H3” tag.
+
 10. Fix the broken images in the Featured Hiking adventures section. You’ll replace the
 broken images with the appropriate image from the images folder.
 Update the contact.html page:
+
 1. Add the missing Last Name field above the below the First Name field. Use the existing
 First Name field as a reference for creating the field.
+
+
 2. Update the navigation bar link to add the correct link for Home to go to the home page.
 Last step is to zip the project resources folder. Name the zip “
 Grading Rubric for Adobe Dreamweaver Project: Trail Blazers
 Total Points: 60
 Index.html Updates (45 points)
+
 1. Logo Modifications (5 points)
+
 a. "logo" class applied to Trail Blazers logo (2 points)
+
 b. ALT tag added with the text "Trail Blazers" (3 points)
+
 2. Replace Placeholder Image (5 points)
+
 a. Placeholder image replaced with "hero-image1.png" (5 points)
+
 3. Hero Area CSS Modifications (5 points)
+
 a. Background color changed to "#2d402f" (2 points)
+
 b. Option to attach background image provided (2 points)
+
 c. Text color changed to white (#fff) (1 points)
+
 4. Padding for Hero-text CSS Class (3 points)
+
 a. Left and right padding of "5rem" added (3 points)
+
 5. H1 Font Family Modification (2 points)
+
 a. Font family property updated to use Google font "Courgette" (2 points)
+
 6. Fix Broken Images in Featured Hiking Adventures (10 points)
+
 a. All broken images replaced with correct images (10 points)
+
 7. Navigation Bar Alignment (5 points)
+
 a. Alignment changed from left to center (5 points)
+
 8. Contact Text Link (5 points)
+
 a. Contact text linked to "contact.html" page (5 points)
+
 9. Change Paragraph Tag (5 points)
+
 a. "P" tag changed to "H3" tag for the first paragraph under the hero (5 points)
 Contact.html Updates (15 points)
+
 1. Add Missing Last Name Field (10 points)
+
+
 a. Last Name field added below First Name field (5 points)
+
+
 b. Field formatting matches First Name field (5 points)
+
+
 2. Update Navigation Bar Link (5 points)
+
+
 a. Home link in the navigation bar updated to link to the home page (15 points)
+
+
 Grades will be assigned based on the total points earned. Points will be deducted for missing or
 incorrect elements as specified in the rubric.
