@@ -5,10 +5,72 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Future-Regular";
+  src: url("../../fonts/Futura-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SFUIText-Regular";
+  src: url("../../fonts/SFUIText-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .ubuntu-condensed-regular {
   font-family: "Ubuntu Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 /* Background styling and page text color */
@@ -117,8 +179,12 @@ nav::selection {
 }
 
 #Text-Fields {
+  color: #1b01c4;
   font-family: Ubuntu Condensed;
   font-size: 15px;
+  border-radius: 20px;
+  border: 0px solid #000000;
+  background-color: rgb(182, 182, 182);
 }
 
 #star {
@@ -130,7 +196,32 @@ nav::selection {
 }
 
 input.PayPal {
+  font-family: Futura-Regular;
   background-image: url(../Assets/paypal.svg); /* 16px x 16px */
+  background-repeat: no-repeat; /* make the background image appear only once */
+  background-position: 0px 0px; /* equivalent to 'top left' */
+  border: none; /* assuming we don't want any borders */
+  cursor: pointer; /* make the cursor like hovering over an <a> element */
+  height: 16px; /* make this the size of your image */
+  padding-left: 16px; /* make text start to the right of the image */
+  vertical-align: middle; /* align the text vertically centered */
+}
+
+input.ApplePay {
+  font-family: SFUIText-Regular;
+  background-image: url(../Assets/apple.svg); /* 16px x 16px */
+  background-repeat: no-repeat; /* make the background image appear only once */
+  background-position: 0px 0px; /* equivalent to 'top left' */
+  border: none; /* assuming we don't want any borders */
+  cursor: pointer; /* make the cursor like hovering over an <a> element */
+  height: 16px; /* make this the size of your image */
+  padding-left: 16px; /* make text start to the right of the image */
+  vertical-align: middle; /* align the text vertically centered */
+}
+
+input.Other {
+  font-family: Ubuntu;
+  background-image: url(../Assets/app-indicator.svg); /* 16px x 16px */
   background-repeat: no-repeat; /* make the background image appear only once */
   background-position: 0px 0px; /* equivalent to 'top left' */
   border: none; /* assuming we don't want any borders */
