@@ -177,9 +177,21 @@
         required
       />
       <br />
-      <input type="button" value="PayPal" class="PayPal" />
-      <input type="button" value="Apple Pay" class="ApplePay" />
-      <input type="button" value="Other" class="Other" />
+      <a
+        href="#"
+        onClick="MyWindow=window.open('https://www.paypal.com/signin','MyWindow','width=600,height=300'); return false;"
+        ><input type="button" value="PayPal" id="PayPal"
+      /></a>
+      <a
+        href="#"
+        onClick="MyWindow=window.open('https://www.apple.com/','MyWindow','width=600,height=300'); return false;"
+        ><input type="button" value="Apple Pay" id="ApplePay"
+      /></a>
+      <a
+        href="../Pages/mini_page.html"
+        onClick="MyWindow=window.open('../Pages/mini_page.html','MyWindow','width=600,height=300'); return false;"
+        ><input type="button" value="Other" id="Other"
+      /></a>
     </div>
   </body>
 </html>

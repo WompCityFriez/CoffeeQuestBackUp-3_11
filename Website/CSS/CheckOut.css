@@ -195,36 +195,49 @@ nav::selection {
   font-size: 12px;
 }
 
-input.PayPal {
+#mini-page {
+  font-family: Ubuntu Condensed;
+}
+
+input#PayPal {
   font-family: Futura-Regular;
+  color: #0060d0;
+  background-color: #51acc8b3;
   background-image: url(../Assets/paypal.svg); /* 16px x 16px */
   background-repeat: no-repeat; /* make the background image appear only once */
   background-position: 0px 0px; /* equivalent to 'top left' */
   border: none; /* assuming we don't want any borders */
+  border-radius: 10px;
   cursor: pointer; /* make the cursor like hovering over an <a> element */
   height: 16px; /* make this the size of your image */
   padding-left: 16px; /* make text start to the right of the image */
   vertical-align: middle; /* align the text vertically centered */
 }
 
-input.ApplePay {
+input#ApplePay {
   font-family: SFUIText-Regular;
+  color: #ffffff;
+  background-color: #222222b3;
   background-image: url(../Assets/apple.svg); /* 16px x 16px */
   background-repeat: no-repeat; /* make the background image appear only once */
   background-position: 0px 0px; /* equivalent to 'top left' */
   border: none; /* assuming we don't want any borders */
+  border-radius: 10px;
   cursor: pointer; /* make the cursor like hovering over an <a> element */
   height: 16px; /* make this the size of your image */
   padding-left: 16px; /* make text start to the right of the image */
   vertical-align: middle; /* align the text vertically centered */
 }
 
-input.Other {
+input#Other {
   font-family: Ubuntu;
+  color: #a05211;
+  background-color: #67b41ac5;
   background-image: url(../Assets/app-indicator.svg); /* 16px x 16px */
   background-repeat: no-repeat; /* make the background image appear only once */
   background-position: 0px 0px; /* equivalent to 'top left' */
   border: none; /* assuming we don't want any borders */
+  border-radius: 10px;
   cursor: pointer; /* make the cursor like hovering over an <a> element */
   height: 16px; /* make this the size of your image */
   padding-left: 16px; /* make text start to the right of the image */
