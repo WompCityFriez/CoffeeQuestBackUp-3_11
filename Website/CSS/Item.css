@@ -104,7 +104,7 @@ body {
         background: #006518a8;
     }
    }
-   .AddToCart {
+   #AddToCart {
     color: white;
     background-color: #67b41ae6;
     border: none;
@@ -118,7 +118,7 @@ body {
     font-size: 20px;
    }
 
-   .AddToCart:hover {
+   #AddToCart:hover {
     background-color: #67B41A;
    }
 
