@@ -55,6 +55,9 @@
 <input type="button" value="Add to cart" id="AddToCart">
 <script>
     const addtocart = document.getElementById("AddToCart");
+    addtocart.addEventListener('click', () => {
+        addtocart.value = 'Added to cart!';
+    });
 </script>
 <input type="button" value="Fav" class="FavoriteButton">
 </body>
