@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
   font-family: "Woodwarrior-Regular";
   src: url("../../fonts/Woodwarrior-Regular.otf") format("opentype");
@@ -72,6 +73,7 @@
   font-weight: 700;
   font-style: italic;
 }
+/* Fonts END */
 
 /* Background styling and page text color */
 body {
@@ -140,11 +142,13 @@ nav::selection {
   float: right;
 }
 
+/* Page title */
 #Page_Title {
   font-family: Woodwarrior-Regular;
   color: aliceblue;
 }
 
+/* Cart */
 #Cart {
   width: 300px;
   height: 500px;
@@ -162,6 +166,7 @@ nav::selection {
   font-size: 20px;
 }
 
+/* Cart Title */
 #Cart-Title {
   position: absolute;
   top: 0px;
@@ -169,11 +174,21 @@ nav::selection {
   font-size: 25px;
 }
 
+/* Cart Image */
 #Cart-Image {
   left: 0px;
   position: absolute;
 }
 
+/* Cart remove button */
+#Price:hover {
+  content: "X";
+  color: red;
+  cursor: pointer;
+  padding: 15px;
+}
+
+/* Info Fields */
 #Info-Field_1 {
   width: 300px;
   height: 200px;
@@ -207,7 +222,9 @@ nav::selection {
   font-family: Ubuntu Condensed;
   font-size: 20px;
 }
+/* Info Fields END */
 
+/* Text Fields */
 #Text-Fields {
   color: #1b01c4;
   font-family: Ubuntu Condensed;
@@ -217,18 +234,61 @@ nav::selection {
   background-color: rgb(182, 182, 182);
 }
 
+/* Submit Button */
+#Submit-Button {
+  font-family: Ubuntu Condensed;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 3px solid #000000;
+  background-color: rgb(42, 120, 0);
+  color: white;
+  width: 550px;
+  height: 50px;
+  position: absolute;
+  top: 750px;
+  left: 450px;
+  padding: 10px;
+  margin: 1em auto 1em auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Submit Button Hover */
+#Submit-Button:hover {
+  animation-name: button-hover;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes button-hover {
+  from {
+    background-color: rgb(42, 120, 0);
+    border: 3px solid #000000;
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+    border: 5px solid #000000;
+  }
+}
+
+/* Stars */
 #star {
   color: rgb(170, 0, 0);
 }
 
+/* "Fields Are Required" notes */
 .note {
   font-size: 12px;
 }
 
+/* Mini Page styling connected to mini_page.html */
 #mini-page {
   font-family: Ubuntu Condensed;
 }
+/* Mini Page styling END */
 
+/* Payment buttons */
 input#PayPal {
   font-family: Futura-Regular;
   color: #0060d0;
@@ -273,3 +333,4 @@ input#Other {
   padding-left: 16px; /* make text start to the right of the image */
   vertical-align: middle; /* align the text vertically centered */
 }
+/* Payment buttons END */

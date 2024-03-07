@@ -117,7 +117,17 @@
       <span id="Price">$12.99</span>
 
       <script>
-        const remove = document.getElementById("Price");
+        document
+          .getElementById("Price")
+          .addEventListener("mouseover", function () {
+            this.textContent = "X";
+          });
+
+        document
+          .getElementById("Price")
+          .addEventListener("mouseout", function () {
+            this.textContent = "$12.99";
+          });
       </script>
     </div>
 
@@ -214,6 +224,11 @@
         onClick="MyWindow=window.open('../Pages/mini_page.html','MyWindow','width=600,height=400'); return false;"
         ><input type="button" value="Other" id="Other"
       /></a>
+    </div>
+
+    <!--Submit Button-->
+    <div id="Submit">
+      <input type="submit" value="Submit Order" id="Submit-Button" />
     </div>
   </body>
 </html>
