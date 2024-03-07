@@ -242,32 +242,47 @@ left: 3450px;
                 font-size: 25px;}
 
                 #Line {
+                  user-select: none;
+                  pointer-events: none;
                   position: absolute;
                   top: 830px;
-                  left: 12px;
+                  left: 6px;
                   color: #d96800;
                   font-size: 25px;
                   font-weight: 500px;
                   letter-spacing: -6px;}
 
                   #Diamond {
+                    user-select: none; 
+                    pointer-events: none;
                     position: absolute;
-                    top: 830px;
-                    left: 12px;
+                    top: 833px;
+                    left: 3px;
                     color: #d96800;
                     font-size: 25px;
                     font-weight: 500px;
                     letter-spacing: -6px;}
 
                     #Diamond1 {
+                      user-select: none;
+                      pointer-events: none;
                       position: absolute;
-                      top: 830px;
-                      left: 12px;
+                      top: 833px;
+                      left: 245px;
                       color: #d96800;
                       font-size: 25px;
                       font-weight: 500px;
                       letter-spacing: -6px;}
-                      
+
+                      #Arrow {
+                        user-select: none;
+                        pointer-events: none;
+                        position: absolute;
+                        top: 186px;
+                        left: 245px;
+                        color: #ffffff;
+                        font-size: 115px;
+                        font-weight: 500px;}
 
                       @media (max-width: 767px) {
                         body {
