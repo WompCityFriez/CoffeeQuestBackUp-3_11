@@ -138,8 +138,8 @@ left: 3450px;
   width: 200px;
   height: 70px;
   position: absolute;
-  left: 800px;
-  top: 400px;
+  left: 500px;
+  top:  10px;
   font-family: Ubuntu Condensed;
   font-size: 20px;
  }
@@ -156,8 +156,8 @@ left: 3450px;
   width: 200px;
   height: 70px;
   position: absolute;
-  left: 600px;
-  top: 400px;
+  left: 500px;
+  top: 90px;
   font-family: Ubuntu Condensed;
   font-size: 20px;
  }
@@ -165,3 +165,140 @@ left: 3450px;
  .ChangePassword:hover {
   background-color: #67B41A;
  }
+
+ .ChangeAccountName {
+  color: white;
+  background-color: #67b41ae6;
+  border: none;
+  border-radius: 40px;
+  width: 500px;
+  height: 70px;
+  position: absolute;
+  left: 100px;
+  top: 202px;
+  font-family: Ubuntu Condensed;
+  font-size: 20px;
+ }
+
+ .ChangeAccountName:hover {
+  background-color: #67B41A;
+ }
+
+ #Username {
+  position: absolute;
+  top: 29px;
+  left: 10px;
+  font-size: 25px;}
+
+  #Password {
+    position: absolute;
+    top: 104px;
+    left: 10px;
+    font-size: 25px;}
+
+    #AccountSettings {
+      position: absolute;
+      top: 251px;
+      left: 35px;
+      font-size: 25px;}
+
+      #PersonalSettings {
+        position: absolute;
+        top: 320px;
+        left: 27px;
+        font-size: 25px;}
+
+        #PaymentOptions {
+          position: absolute;
+          top:  399px;
+          left: 30px;
+          font-size: 25px;}
+
+          #Help {
+            position: absolute;
+            top: 460px;
+            left: 31px;
+            font-size: 25px;}
+
+            #DangerZone {
+              position: absolute;
+              top: 799px;
+              left: 37px;
+              color: #fd0000;
+              font-size: 25px;}
+
+            #DeleteAccount {
+              position: absolute;
+              top: 900px;
+              left: 45px;
+              color: #a00000;
+              font-size: 25px;}
+
+              #SignOut {
+                position: absolute;
+                top: 1011px;
+                left: 79px;
+                color: #fd0000;
+                font-size: 25px;}
+
+                #Line {
+                  position: absolute;
+                  top: 830px;
+                  left: 12px;
+                  color: #d96800;
+                  font-size: 25px;
+                  font-weight: 500px;
+                  letter-spacing: -6px;}
+
+                  #Diamond {
+                    position: absolute;
+                    top: 830px;
+                    left: 12px;
+                    color: #d96800;
+                    font-size: 25px;
+                    font-weight: 500px;
+                    letter-spacing: -6px;}
+
+                    #Diamond1 {
+                      position: absolute;
+                      top: 830px;
+                      left: 12px;
+                      color: #d96800;
+                      font-size: 25px;
+                      font-weight: 500px;
+                      letter-spacing: -6px;}
+                      
+
+                      @media (max-width: 767px) {
+                        body {
+                            font-size: 14px;
+                        }
+                        .container {
+                            width: 100%;
+                        }
+                    }
+                    
+                    /* For screens 768px and larger */
+                    @media (min-width: 768px) {
+                        body {
+                            font-size: 16px;
+                        }
+                        .container {
+                            width: 750px;
+                        }
+                    }
+                    
+                    /* For screens 992px and larger */
+                    @media (min-width: 992px) {
+                        .container {
+                            width: 970px;
+                        }
+                    }
+                    
+                    /* For screens 1200px and larger */
+                    @media (min-width: 1200px) {
+                        .container {
+                            width: 1170px;
+                        }
+                    }
+
