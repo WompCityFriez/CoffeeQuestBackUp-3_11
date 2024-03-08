@@ -178,7 +178,7 @@ nav {
   overflow: hidden;
 }
 
-#nav-buttons1 {
+#nav1 {
   position: absolute;
   top: 50px;
   left: 100px;
@@ -192,10 +192,10 @@ nav {
   font-family: Ubuntu Condensed;
 }
 
-#nav-buttons2 {
+#nav2 {
   position: absolute;
   top: 50px;
-  left: 200px;
+  left: 250px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #009f2d;
@@ -206,21 +206,7 @@ nav {
   font-family: Ubuntu Condensed;
 }
 
-#nav-buttons3 {
-  position: absolute;
-  top: 50px;
-  left: 300px;
-  color: #ffffff;
-  border-radius: 25px;
-  background-color: #009f2d;
-  padding: 10px;
-  width: 130px;
-  text-align: center;
-  font-size: 20px;
-  font-family: Ubuntu Condensed;
-}
-
-#nav-buttons4 {
+#nav3 {
   position: absolute;
   top: 50px;
   left: 400px;
@@ -234,16 +220,33 @@ nav {
   font-family: Ubuntu Condensed;
 }
 
+#nav4 {
+  position: absolute;
+  top: 50px;
+  left: 550px;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #009f2d;
+  padding: 10px;
+  width: 130px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Ubuntu Condensed;
+}
+
 #account-button {
   position: absolute;
   top: 10px;
-  left: 1855px;
+  left: 1475px;
 }
 
 /* Page title */
 #Page_Title {
   font-family: Woodwarrior-Regular;
   color: aliceblue;
+  position: absolute;
+  left: 100px;
+  top: 20px;
 }
 
 /* Cart */
