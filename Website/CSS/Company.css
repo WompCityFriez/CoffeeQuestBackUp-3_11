@@ -40,7 +40,9 @@ body{
 
 /* Account button placement */
 #account-button{
-    float: right;
+    position:absolute;
+    top: 10px;
+    left: 1855px;
 }
 
 /* Boxes*/
@@ -122,6 +124,9 @@ body{
 #Page_Title{
     font-family: 'Woodwarrior-Regular';
     color: aliceblue;
+    position:absolute;
+    left: 100px;
+    top: 30px;
 }
 
 #applyhere {
@@ -203,19 +208,27 @@ body{
 }
 
 #nav-buttons1 {
-left: 50px;
+position: absolute;
+top: 50px;  
+left: 100px;
 }
 
 #nav-buttons2 {
-left: 50px;   
+position: absolute;
+top: 50px;  
+left: 200px;   
 }
 
 #nav-buttons3 {
-left: 50px;   
+position: absolute;
+top: 50px;  
+left: 300px;   
 }
 
 #nav-buttons4 {
-left: 50px;
+position: absolute;
+top: 50px;  
+left: 400px;
 }
 
 
