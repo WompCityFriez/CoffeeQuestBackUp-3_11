@@ -179,6 +179,9 @@ nav {
 }
 
 #nav-buttons1 {
+  position: absolute;
+  top: 50px;
+  left: 100px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #009f2d;
@@ -190,6 +193,9 @@ nav {
 }
 
 #nav-buttons2 {
+  position: absolute;
+  top: 50px;
+  left: 200px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #009f2d;
@@ -201,6 +207,9 @@ nav {
 }
 
 #nav-buttons3 {
+  position: absolute;
+  top: 50px;
+  left: 300px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #009f2d;
@@ -212,6 +221,9 @@ nav {
 }
 
 #nav-buttons4 {
+  position: absolute;
+  top: 50px;
+  left: 400px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #009f2d;
@@ -223,7 +235,9 @@ nav {
 }
 
 #account-button {
-  float: right;
+  position: absolute;
+  top: 10px;
+  left: 1855px;
 }
 
 /* Page title */
