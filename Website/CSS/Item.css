@@ -125,6 +125,10 @@ body {
    .FavoriteButton {
     color: white;
     background-color: #758b3cc0;
+    background-image: url(../Assets/heart.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px;
     border: none;
     border-radius: 35%;
     width: 100px;
