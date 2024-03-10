@@ -52,6 +52,8 @@ body{
 p{
     color: forestgreen;
     font-size: 25px;
+    position: relative;
+    right: 30px;
 }
 
 img{
