@@ -62,3 +62,9 @@ p{
 img{
     padding: 15px;
 }
+
+span{
+    font-size: 25px;
+    position: relative;
+    right: 35px;
+}
