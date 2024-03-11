@@ -121,6 +121,8 @@
       <span id="Items">Espresso</span>
       <br />
       <span id="Price">$12.99</span>
+      <br />
+      <span id="Total">Total: $12.99</span>
 
       <script>
         document
@@ -134,6 +136,27 @@
           .addEventListener("mouseout", function () {
             this.textContent = "$12.99";
           });
+
+        // Get the price element
+        var priceElement = document.getElementById("Price");
+
+        // Add event listener to the price element
+        priceElement.addEventListener("click", function (event) {
+          if (event.target.innerText === "X") {
+            // Hide the elements when "X" is clicked
+            var cartImage = document.getElementById("Cart-Image");
+            var price = document.getElementById("Price");
+            var items = document.getElementById("Items");
+            var cup = document.getElementById("Cup");
+            var total = document.getElementById("Total");
+
+            cartImage.style.display = "none";
+            price.style.display = "none";
+            items.style.display = "none";
+            cup.style.display = "none";
+            total.style.display = "none";
+          }
+        });
       </script>
     </div>
 
@@ -235,6 +258,71 @@
     <!--Submit Button-->
     <div id="Submit">
       <input type="submit" value="Submit Order" id="Submit-Button" />
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const elementsToCheck = [
+            "Cart-Image",
+            "Price",
+            "Items",
+            "Cup",
+            "Total",
+          ];
+          let allHidden = true;
+          elementsToCheck.forEach(function (id) {
+            const element = document.getElementById(id);
+            if (element.style.display !== "none") {
+              allHidden = false;
+            } else {
+              allHidden = true;
+            }
+          });
+          if (allHidden) {
+            alert("No items on your cart, add items to check out.");
+          }
+          document
+            .getElementById("Submit-Button")
+            .addEventListener("click", function () {
+              alert("Your order has been sent! Thank you for your purchase!");
+              window.location.href = "../Index.html";
+            });
+        });
+      </script>
     </div>
+    <!--Footer-->
+    <footer>
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <style>
+        #footer-buttons {
+          cursor: pointer;
+        }
+      </style>
+
+      <a href="../Pages/Company.html"
+        ><input type="button" value="Contact us" id="footer-buttons" /></a
+      >&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+
+      <a href="../Pages/Terms of services.html"
+        ><input type="button" value="Terms" id="footer-buttons" /></a
+      >&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+
+      <a href="../Pages/CookiePolicy.html"
+        ><input type="button" value="Cookies Policy" id="footer-buttons"
+      /></a>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <span id="footer-text">
+        Copyright &copy; 2024 Quest Coffee.
+        <br />
+        All rights reserved.
+      </span>
+    </footer>
   </body>
 </html>
