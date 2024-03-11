@@ -53,10 +53,10 @@ body{
 }
 
 p{
-    color: forestgreen;
+    color: white;
     font-size: 25px;
     position: relative;
-    right: 30px;
+    left: 50px;
 }
 
 img{
@@ -66,5 +66,5 @@ img{
 span{
     font-size: 25px;
     position: relative;
-    right: 25px;
+    left: 40px;
 }
