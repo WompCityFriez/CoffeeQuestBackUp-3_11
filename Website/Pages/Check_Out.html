@@ -121,7 +121,6 @@
       <span id="Items">Espresso</span>
       <br />
       <span id="Price">$12.99</span>
-      <br />
       <span id="Total">Total: $12.99</span>
 
       <script>
@@ -259,33 +258,30 @@
     <div id="Submit">
       <input type="submit" value="Submit Order" id="Submit-Button" />
       <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          const elementsToCheck = [
-            "Cart-Image",
-            "Price",
-            "Items",
-            "Cup",
-            "Total",
-          ];
-          let allHidden = true;
-          elementsToCheck.forEach(function (id) {
-            const element = document.getElementById(id);
-            if (element.style.display !== "none") {
-              allHidden = false;
+        document
+          .getElementById("Submit-Button")
+          .addEventListener("click", function () {
+            const elementsToCheck = [
+              "Cart-Image",
+              "Price",
+              "Items",
+              "Cup",
+              "Total",
+            ];
+            let allHidden = true;
+            elementsToCheck.forEach(function (id) {
+              const element = document.getElementById(id);
+              if (element.style.display !== "none") {
+                allHidden = false;
+              }
+            });
+            if (allHidden) {
+              alert("No items on your cart. Add items to check out.");
             } else {
-              allHidden = true;
-            }
-          });
-          if (allHidden) {
-            alert("No items on your cart, add items to check out.");
-          }
-          document
-            .getElementById("Submit-Button")
-            .addEventListener("click", function () {
               alert("Your order has been sent! Thank you for your purchase!");
               window.location.href = "../Index.html";
-            });
-        });
+            }
+          });
       </script>
     </div>
     <!--Footer-->

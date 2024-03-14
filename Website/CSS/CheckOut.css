@@ -281,12 +281,22 @@ nav {
   position: absolute;
 }
 
+#Price {
+  position: absolute;
+  left: 280px;
+}
+
 /* Cart remove button */
 #Price:hover {
   content: "X";
   color: red;
   cursor: pointer;
-  padding: 15px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #007011;
+  left: 280px;
+  position: absolute;
+  top: 50px;
 }
 
 #Total {
