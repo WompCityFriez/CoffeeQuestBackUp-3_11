@@ -53,21 +53,33 @@
 <h2 id="price">$12.99</h2>
 <input type="button" value="Add to cart" id="AddToCart">
 <script>
-    const addtocart = document.getElementById("AddToCart");
-    addtocart.addEventListener('click', () => {
-        addtocart.value = 'Added to cart!';
-    });
+  const addToCartButton = document.getElementById("AddToCart");
+  let isAdded = false;
+  
+  addToCartButton.addEventListener('click', () => {
+      if (isAdded) {
+          addToCartButton.value = 'Add to cart';
+      } else {
+          addToCartButton.value = 'Added to cart!';
+      }
+      isAdded = !isAdded;
+  });
 </script>
-<button id="FavoriteButton" onclick="changeImage()"></button>
+<button id="FavoriteButton"></button>
 <script>
-   function changeImage() {
-     var button = document.getElementById('FavoriteButton');
-     if (button.style.backgroundImage.includes('../Assets/heart.svg')) {
-       button.style.backgroundImage = "url('../Assets/heart-fill.svg')";
-     } else {
-       button.style.backgroundImage = "url('../Assets/heart.svg')";
-     }
-   }
+window.addEventListener('load', function() {
+    const favoriteButton = document.getElementById('FavoriteButton');
+    let isHeartFilled = false; // Add a variable to track the state of the button's image
+
+    favoriteButton.addEventListener('click', function() {
+        if (!isHeartFilled) {
+            favoriteButton.style.backgroundImage = 'url("../Assets/heart-fill.svg")';
+        } else {
+            favoriteButton.style.backgroundImage = 'url("../Assets/heart.svg")';
+        }
+        isHeartFilled = !isHeartFilled; // Toggle the state for the next click
+    });
+});
 </script>
 <img id="LofiCoffee" src="../Images/Lofi Coffee.png" alt="Lofi Coffee" width="750px">
 <footer>
