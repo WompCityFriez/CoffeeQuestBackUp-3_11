@@ -333,3 +333,8 @@ footer {
   border: 35px;
   font-family: Ubuntu Condensed;
 }
+
+
+#footer-text {
+  top: -50px;
+}
