@@ -14,13 +14,12 @@
 </head>
 <body>
     <nav>
-        <img id="Logo" alt="logo" src="../Images/quest-coffee-logo.svg" width="75" height="75">
+        <img id="Logo" alt="logo" src="../Images/quest-coffee-logo.svg" width="125px" height="125px">
         <span id="Page_Title">Quest Coffee | Product - Espresso</span>
-        <br>
-        <button id="nav-buttons" onclick="window.location.href='../Index.html';">Home</button>
-        <button id="nav-buttons" onclick="window.location.href='Menu.html';">Menu</button>
-        <button id="nav-buttons" onclick="window.location.href='Company.html';">Info</button>
-        <button id="nav-buttons" onclick="window.location.href='Check_Out.html';">Cart</button>
+        <br><div id="nav-buttons1"><a href="../Index.html"><input type="button" value="Home" id="nav1"/></a></div>
+        <div id="nav-buttons2"><a href="Menu.html"><input type="button" value="Menu" id="nav2"/></a></div>
+        <div id="nav-buttons3"><a href="Company.html"><input type="button" value="Info" id="nav3"/></a></div>
+        <div id="nav-buttons4"><a href="Check_Out.html"><input type="button" value="Cart" id="nav4"/></a></div>
         <a id="account-button" href="Account.html"><img alt="Account button" src="../Assets/person-circle.svg" width="35" height="35"></a>
     </nav>
     <div class="description">
@@ -59,6 +58,52 @@
         addtocart.value = 'Added to cart!';
     });
 </script>
-<input type="button" class="FavoriteButton">
+<button id="FavoriteButton" onclick="changeImage()"></button>
+<script>
+   function changeImage() {
+     var button = document.getElementById('FavoriteButton');
+     if (button.style.backgroundImage.includes('../Assets/heart.svg')) {
+       button.style.backgroundImage = "url('../Assets/heart-fill.svg')";
+     } else {
+       button.style.backgroundImage = "url('../Assets/heart.svg')";
+     }
+   }
+</script>
+<img id="LofiCoffee" src="../Images/Lofi Coffee.png" alt="Lofi Coffee" width="750px">
+<footer>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <style>
+      #footer-buttons {
+        cursor: pointer;
+      }
+    </style>
+
+    <a href="../Pages/Company.html"
+      ><input type="button" value="Contact us" id="footer-buttons" /></a
+    >&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+
+    <a href="../Pages/Terms of services.html"
+      ><input type="button" value="Terms" id="footer-buttons" /></a
+    >&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;&#10240;
+
+    <a href="../Pages/CookiePolicy.html"
+      ><input type="button" value="Cookies Policy" id="footer-buttons"
+    /></a>
+
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <span id="footer-text">
+      Copyright &copy; 2024 Quest Coffee.
+      <br />
+      All rights reserved.
+    </span>
+  </footer>
 </body>
 </html>

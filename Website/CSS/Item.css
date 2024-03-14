@@ -122,7 +122,7 @@ body {
     background-color: #67B41A;
    }
 
-   .FavoriteButton {
+   #FavoriteButton {
     color: white;
     background-color: #758b3cc0;
     background-image: url(../Assets/heart.svg);
@@ -140,7 +140,108 @@ body {
    #Page_Title {
     font-family: Woodwarrior-Regular;
     color: aliceblue;
+    font-size: 25px;
+    position: absolute;
+    left: 150px;
    }
-   .FavoriteButton:hover {
+   #FavoriteButton:hover {
     background-color: #758b3ce3;
    }
+   nav {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  #nav1 {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #809848;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+  }
+  
+  #nav2 {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #809848;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+  }
+  
+  #nav3 {
+    position: absolute;
+    top: 60px;
+    left: 450px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #809848;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+  }
+  
+  #nav4 {
+    position: absolute;
+    top: 60px;
+    left: 600px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #809848;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+  }
+  
+  #account-button {
+    position: absolute;
+    top: 10px;
+    left: 1475px;
+  }
+  #Logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  footer {
+    position: absolute;
+    top: 1575px;
+    left: 0px;
+    width: 100%;
+    background-color: #182c25;
+    color: white;
+    text-align: center;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+  }
+  
+  #footer-buttons {
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #009f2d;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+  }
+  #LofiCoffee {
+    position: absolute;
+    top: 1000px;
+    left: 850px;
+  }
