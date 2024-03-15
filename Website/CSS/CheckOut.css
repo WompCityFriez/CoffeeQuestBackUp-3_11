@@ -109,6 +109,26 @@
   }
 }
 
+@keyframes button-hover {
+  from {
+    background-color: rgb(42, 120, 0);
+    border: 3px solid #000000;
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+    border: 5px solid #000000;
+  }
+}
+
+@keyframes button-hover2 {
+  from {
+    background-color: rgb(42, 120, 0);
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+  }
+}
+
 /* Background styling and page text color */
 body {
   background-position: relative;
@@ -179,6 +199,7 @@ nav {
 }
 
 #nav1 {
+  cursor: pointer;
   position: absolute;
   top: 50px;
   left: 100px;
@@ -192,7 +213,15 @@ nav {
   font-family: Ubuntu Condensed;
 }
 
+#nav1:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #nav2 {
+  cursor: pointer;
   position: absolute;
   top: 50px;
   left: 250px;
@@ -206,7 +235,15 @@ nav {
   font-family: Ubuntu Condensed;
 }
 
+#nav2:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #nav3 {
+  cursor: pointer;
   position: absolute;
   top: 50px;
   left: 400px;
@@ -220,7 +257,15 @@ nav {
   font-family: Ubuntu Condensed;
 }
 
+#nav3:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #nav4 {
+  cursor: pointer;
   position: absolute;
   top: 50px;
   left: 550px;
@@ -234,7 +279,15 @@ nav {
   font-family: Ubuntu Condensed;
 }
 
+#nav4:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #account-button {
+  cursor: pointer;
   position: absolute;
   top: 10px;
   left: 1475px;
@@ -297,6 +350,10 @@ nav {
   left: 280px;
   position: absolute;
   top: 50px;
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 #Total {
@@ -379,17 +436,6 @@ nav {
   animation-fill-mode: forwards;
 }
 
-@keyframes button-hover {
-  from {
-    background-color: rgb(42, 120, 0);
-    border: 3px solid #000000;
-  }
-  to {
-    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
-    border: 5px solid #000000;
-  }
-}
-
 /* Footer */
 footer {
   position: absolute;
@@ -412,6 +458,14 @@ footer {
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
+  cursor: pointer;
+}
+
+#footer-buttons:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 /* Stars */
