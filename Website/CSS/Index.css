@@ -17,6 +17,7 @@
 
 /*Background image*/
 body{
+    overflow-x: hidden;
     background-position: relative;
     background-size: cover;
     background-repeat: repeat-y;
@@ -68,4 +69,65 @@ span{
     position: relative;
     left: 40px;
     color: white;
+}
+
+#BOGO {
+    position: relative;
+    img{
+        width: 30%;
+    }
+    p{
+        position:absolute;
+        top: 40%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+}
+
+#Starter {
+    position: relative;
+    img{
+        width: 30%;
+    }
+    p{
+        position:absolute;
+        top: 40%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+}
+
+#BOGOtwo {
+    position: relative;
+    img{
+        width: 30%;
+    }
+    p{
+        position:absolute;
+        top: 40%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        font-size: 30px;
+    }
+}
+
+#Summer {
+    position: relative;
+    img{
+        width: 30%;
+    }
+    p{
+        position:absolute;
+        top: 40%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        font-size: 35px;
+    }
+}
+
+footer{
+    position: relative;
+    bottom: 0;
 }
