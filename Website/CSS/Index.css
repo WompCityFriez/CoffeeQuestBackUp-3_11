@@ -127,65 +127,83 @@ span {
 
 #redone {
   background-color: red;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img {
+    width: 250px;
+    height: 150px;
+  }
 }
 
 #blueone {
   background-color: blue;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img{
+    width: 250px;
+    height: 150px;
+  }
 }
 
 #greenone {
   background-color: green;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img{
+    width: 250px;
+    height: 150px;
+  }
 }
 
 #redtwo {
   background-color: red;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img{
+    width: 250px;
+    height: 150px;
+  }
 }
 
 #bluetwo {
   background-color: blue;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img{
+    width: 250px;
+    height: 150px;
+  }
 }
 
 #greentwo {
   background-color: green;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img{
+    width: 250px;
+    height: 150px;
+  }
 }
 
 #redthree {
   background-color: red;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img{
+    width: 250px;
+    height: 150px;
+  }
 }
 
 #bluethree {
   background-color: blue;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img{
+    width: 250px;
+    height: 150px;
+  }
 }
 
 #greenthree {
   background-color: green;
-  width: 250px;
-  height: 150px;
   background-size: cover;
+  img{
+    width: 250px;
+    height: 150px;
+  }
 }
 
 footer {
