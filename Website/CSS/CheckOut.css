@@ -486,7 +486,8 @@ footer {
 
 /* Payment buttons */
 input#PayPal {
-  font-family: Futura-Regular;
+  font-family: Future-Regular;
+  font-size: 13.5px;
   color: #0060d0;
   background-color: #51acc8b3;
   background-image: url(../Assets/paypal.svg); /* 16px x 16px */
