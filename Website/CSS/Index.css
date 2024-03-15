@@ -126,7 +126,7 @@ span {
 }
 
 #redone {
-  background-color: red;
+  background-color:;
   background-size: cover;
   img {
     width: 250px;
@@ -135,7 +135,7 @@ span {
 }
 
 #blueone {
-  background-color: blue;
+  background-color:;
   background-size: cover;
   img{
     width: 250px;
@@ -144,7 +144,7 @@ span {
 }
 
 #greenone {
-  background-color: green;
+  background-color:;
   background-size: cover;
   img{
     width: 250px;
@@ -153,7 +153,7 @@ span {
 }
 
 #redtwo {
-  background-color: red;
+  background-color: ;
   background-size: cover;
   img{
     width: 250px;
@@ -162,7 +162,7 @@ span {
 }
 
 #bluetwo {
-  background-color: blue;
+  background-color: ;
   background-size: cover;
   img{
     width: 250px;
@@ -171,7 +171,7 @@ span {
 }
 
 #greentwo {
-  background-color: green;
+  background-color: ;
   background-size: cover;
   img{
     width: 250px;
@@ -180,7 +180,7 @@ span {
 }
 
 #redthree {
-  background-color: red;
+  background-color: ;
   background-size: cover;
   img{
     width: 250px;
@@ -189,7 +189,7 @@ span {
 }
 
 #bluethree {
-  background-color: blue;
+  background-color: ;
   background-size: cover;
   img{
     width: 250px;
@@ -198,7 +198,7 @@ span {
 }
 
 #greenthree {
-  background-color: green;
+  background-color: ;
   background-size: cover;
   img{
     width: 250px;
@@ -263,7 +263,6 @@ nav {
   font-size: 20px;
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
-
 }
 
 #nav3 {
