@@ -127,6 +127,18 @@ span{
     }
 }
 
+#redone {
+    background-color: red;
+    width: 250px; 
+    height: 150px;
+    background-size: cover;
+}
+
+
+
+
+
+
 footer{
     position: relative;
     bottom: 0;
