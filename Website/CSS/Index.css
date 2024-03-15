@@ -1,145 +1,194 @@
 /* Wood Warrior font*/
-@font-face { 
-    font-family: 'Woodwarrior-Regular'; 
-    src: 
-        url('../../fonts/Woodwarrior-Regular.otf')  
-        format('opentype'); 
-    font-weight: normal; 
-    font-style: normal; 
-} 
+@font-face {
+  font-family: "Woodwarrior-Regular";
+  src: url("../../fonts/Woodwarrior-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /* Ubuntu Condensed Font */
 .ubuntu-condensed-regular {
-    font-family: "Ubuntu Condensed", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Ubuntu Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*Background image*/
-body{
-    overflow-x: hidden;
-    background-position: relative;
-    background-size: cover;
-    background-repeat: repeat-y;
-    background-image:url("../Images/Index Background.png")
+body {
+  overflow-x: hidden;
+  background-position: relative;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-image: url("../Images/Index Background.png");
 }
 
 /*Scrollbar*/
-*{
-    ::-webkit-scrollbar {
-        background: #7a3b00;
-    }
-    
-    ::-webkit-scrollbar-thumb {
-        background: #24b345;
-        -webkit-border-radius: 1.5ex;
-    }
-    
-    ::-webkit-scrollbar-corner {
-        background: #006518a8;
-    }
+* {
+  ::-webkit-scrollbar {
+    background: #7a3b00;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #24b345;
+    -webkit-border-radius: 1.5ex;
+  }
+
+  ::-webkit-scrollbar-corner {
+    background: #006518a8;
+  }
 }
 
-#Page_Title{
-    font-family: 'Woodwarrior-Regular';
-    color: aliceblue;
+#Page_Title {
+  font-family: "Woodwarrior-Regular";
+  color: aliceblue;
 }
 
 /* Account button placement */
-#account-button{
-    float: right;
-    position: relative;
-    top: 20px;
-    right: 20px;    
+#account-button {
+  float: right;
+  position: relative;
+  top: 20px;
+  right: 20px;
 }
 
-p{
-    color: white;
-    font-size: 25px;
-    position: relative;
-    left: 50px;
+p {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  left: 50px;
 }
 
-img{
-    padding: 15px;
+img {
+  padding: 15px;
 }
 
-span{
-    font-size: 25px;
-    position: relative;
-    left: 40px;
-    color: white;
+span {
+  font-size: 25px;
+  position: relative;
+  left: 40px;
+  color: white;
 }
 
 #BOGO {
-    position: relative;
-    img{
-        width: 30%;
-    }
-    p{
-        position:absolute;
-        top: 40%;
-        left: 15%;
-        transform: translate(-50%, -50%);
-        font-size: 30px;
-    }
+  position: relative;
+  img {
+    width: 30%;
+  }
+  p {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
 }
 
 #Starter {
-    position: relative;
-    img{
-        width: 30%;
-    }
-    p{
-        position:absolute;
-        top: 40%;
-        left: 15%;
-        transform: translate(-50%, -50%);
-        font-size: 20px;
-    }
+  position: relative;
+  img {
+    width: 30%;
+  }
+  p {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
 }
 
 #BOGOtwo {
-    position: relative;
-    img{
-        width: 30%;
-    }
-    p{
-        position:absolute;
-        top: 40%;
-        left: 15%;
-        transform: translate(-50%, -50%);
-        font-size: 30px;
-    }
+  position: relative;
+  img {
+    width: 30%;
+  }
+  p {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
 }
 
 #Summer {
-    position: relative;
-    img{
-        width: 30%;
-    }
-    p{
-        position:absolute;
-        top: 40%;
-        left: 15%;
-        transform: translate(-50%, -50%);
-        font-size: 35px;
-    }
+  position: relative;
+  img {
+    width: 30%;
+  }
+  p {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+  }
 }
 
 #redone {
-    background-color: red;
-    width: 250px; 
-    height: 150px;
-    background-size: cover;
+  background-color: red;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
 }
 
+#blueone {
+  background-color: blue;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
 
+#greenone {
+  background-color: green;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
 
+#redtwo {
+  background-color: red;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
 
+#bluetwo {
+  background-color: blue;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
 
+#greentwo {
+  background-color: green;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
 
-footer{
-    position: relative;
-    bottom: 0;
+#redthree {
+  background-color: red;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
+
+#bluethree {
+  background-color: blue;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
+
+#greenthree {
+  background-color: green;
+  width: 250px;
+  height: 150px;
+  background-size: cover;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
 }
