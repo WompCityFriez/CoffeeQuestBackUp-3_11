@@ -294,3 +294,12 @@ nav {
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
 }
+
+#Page_Title {
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Woodwarrior-Regular";
+}
