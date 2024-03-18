@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -13,18 +13,18 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     </style>
-</head>
-<body>
-   <!--Site Navigation-->
-   <nav>
-    <img id="Logo" alt="logo" src="../Images/quest-coffee-logo.svg" width="75" height="75">
-    <span id="Page_Title">Quest Coffee | Account</span>
-    <br><div id="nav-buttons1"><a href="../Index.html"><input type="button" value="Home" id="nav1"/></a></div>
-    <div id="nav-buttons2"><a href="Menu.html"><input type="button" value="Menu" id="nav2"/></a></div>
-    <div id="nav-buttons3"><a href="Company.html"><input type="button" value="Info" id="nav3"/></a></div>
-    <div id="nav-buttons4"><a href="Check_Out.html"><input type="button" value="Cart" id="nav4"/></a></div>
-    <a id="account-button" href="Account.html"><img alt="Account button" src="../Assets/person-circle.svg" width="35" height="35"></a>
-</nav>
+ </head>
+ <body>
+    <nav>
+        <img id="Logo" alt="logo" src="../Images/quest-coffee-logo.svg" width="75" height="75">
+        <span id="Page_Title">Quest Coffee | Account</span>
+        <br>
+        <button id="nav-button" onclick="window.location.href='../Index.html';">Home</button>
+        <button id="nav-button" onclick="window.location.href='Meun.html';" >Meun</button>
+        <button id="nav-button" onclick="window.location.href='Company.html';">Info</button>
+        <button id="nav-button" onclick="window.location.href='check_out.html';">Cart</button>
+        <a id="account-button" href="Account.html"><img alt="Account button" src="../Assets/person-circle.svg"width="35"height="35"></a>
+     </nav>
 
          <h1><img id="person-circle" alt="Account person" src="../Assets/person-circle copy.svg" width="75" height="75"> Welcome WompCity!</h1>
 
@@ -33,24 +33,24 @@
             <p>&#10240</p>
 
             <br>
-            <span id="AccountSettings">Account Settings</span>
+            <a href=""><span id="AccountSettings">Account Settings</span></a>
             <script>const ASetting = document.getElementById("AccountSettings");</script>
             <br>
-            <span id="PersonalSettings">Personal Settings</span>
+            <a href=""><span id="PersonalSettings">Personal Settings</span></a>
             <script>const PSetting =  document.getElementById("PersonalSettings");</script>
             <br>
-            <span id="PaymentOptions">Payment Options</span>
+            <a href=""><span id="PaymentOptions">Payment Options</span></a>
             <script> const POptions = document.getElementById("PaymentOptions");</script>
             <br>
-            <span id="Help">Help</span>
+            <a href=""><span id="Help">Help</span></a>
             <script> const Help = document.getElementById("Help");</script>
             <br>
             <span id="DangerZone">&#9772;Danger Zone&#9772;</span>
             <br>
-            <span id="DeleteAccount">Delete Account</span>
+            <a href=""><span id="DeleteAccount">Delete Account</span></a>
             <script> const DAccount = document.getElementById("DeleteAccount");</script>
             <br>
-            <span id="SignOut">Sign Out</span>
+            <a href=""><span id="SignOut">Sign Out</span></a>
             <script> const SOut = document.getElementById("SignOut");</script>
         </div>
 
@@ -58,11 +58,21 @@
             <p>&#10240</p>
 
             <br>
-           <span id="Username">Username:</span>  <input type="button" value="Change Username" class="ChangeUsername">
+           <span id="Username">Username:</span>  
+           
+           <br>
+            <input type="text" name="Newname" id="Username" value="WompCity">
+
+
             <br>
-           <span id="Password">Password:</span>  <input type="button" value="Change Password" class="ChangePassword">
+           <span id="Password">Password:</span> 
+           <br>
+          <input type="password" name="Password" id="Password">
+          <a href=""><input type="button" value="Change Username" class="ChangeUsername"></a>
+
+           <a href=""><input type="button" value="Change Password" class="ChangePassword"></a>
             <br>
-            <input type="button" value="Change Account Name" class="ChangeAccountName">
+            <a href=""><input type="button" value="Change Account Name" class="ChangeAccountName"></a>
             <br>
 
         </div>
@@ -78,4 +88,5 @@
          <script></script>
    </body>
    </html>
+
 

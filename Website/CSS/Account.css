@@ -79,10 +79,17 @@ body {
   border-radius: 20px;
   padding: 20px;
   text-align: center;
-  color: white;
   font-family: Arial, Helvetica, sans-serif;
   top: 700px;
   left: 3450px;
+}
+
+.Account_Settings > a {
+  color:#7a3b00;
+}
+
+.Account_Settings > a:hover {
+  color:#270ae4;
 }
 
 .Change_Accounts {
@@ -139,7 +146,7 @@ body {
 }
 
 .ChangeUsername:hover {
-  background-color: #67b41a;
+  background-color: #ff00c8;
 }
 
 .ChangePassword {
@@ -157,7 +164,7 @@ body {
 }
 
 .ChangePassword:hover {
-  background-color: #67b41a;
+  background-color: #ff0090;
 }
 
 .ChangeAccountName {
@@ -175,22 +182,32 @@ body {
 }
 
 .ChangeAccountName:hover {
-  background-color: #67b41a;
+  background-color: #ff00c3;
 }
 
 #Username {
-  position: absolute;
+  /* position: absolute; */
   top: 29px;
   left: 10px;
   font-size: 25px;
 }
 
+#Username, #Password{
+  float: left;
+  border: 1px solid red;}
+
 #Password {
-  position: absolute;
+  /* position: absolute; */
   top: 104px;
   left: 10px;
   font-size: 25px;
 }
+
+.Account_Settings {
+  color:#a00000;
+
+}
+
 
 #AccountSettings {
   position: absolute;
@@ -242,6 +259,10 @@ body {
   left: 79px;
   color: #fd0000;
   font-size: 25px;
+}
+
+#DeleteAccount:hover, #SignOut:hover {
+  color: #ffffff;
 }
 
 #Line {
@@ -322,74 +343,4 @@ body {
   .container {
     width: 1170px;
   }
-}
-
-
-/* <nav> styling */
-
-nav {
-  list-style-type: none;
-  overflow: hidden;
-}
-
-#nav1 {
-  position: absolute;
-  top: 50px;
-  left: 100px;
-  color: #ffffff;
-  border-radius: 25px;
-  background-color: #009f2d;
-  padding: 10px;
-  width: 130px;
-  text-align: center;
-  font-size: 20px;
-  font-family: Ubuntu Condensed;
-}
-
-#nav2 {
-  position: absolute;
-  top: 50px;
-  left: 250px;
-  color: #ffffff;
-  border-radius: 25px;
-  background-color: #009f2d;
-  padding: 10px;
-  width: 130px;
-  text-align: center;
-  font-size: 20px;
-  font-family: Ubuntu Condensed;
-}
-
-#nav3 {
-  position: absolute;
-  top: 50px;
-  left: 400px;
-  color: #ffffff;
-  border-radius: 25px;
-  background-color: #009f2d;
-  padding: 10px;
-  width: 130px;
-  text-align: center;
-  font-size: 20px;
-  font-family: Ubuntu Condensed;
-}
-
-#nav4 {
-  position: absolute;
-  top: 50px;
-  left: 550px;
-  color: #ffffff;
-  border-radius: 25px;
-  background-color: #009f2d;
-  padding: 10px;
-  width: 130px;
-  text-align: center;
-  font-size: 20px;
-  font-family: Ubuntu Condensed;
-}
-
-#account-button {
-  position: absolute;
-  top: 10px;
-  left: 1475px;
 }
