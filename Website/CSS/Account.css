@@ -443,6 +443,7 @@ footer {
   width: 130px;
   text-align: center;
   font-size: 20px;
+  border: #000000 solid 2.5px;
   font-family: Ubuntu Condensed;
   cursor: pointer;
 }
