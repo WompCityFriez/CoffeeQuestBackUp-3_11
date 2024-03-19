@@ -16,7 +16,7 @@
 /*Background image*/
 body {
   overflow-x: hidden;
-  background-position: relative;
+  background-position: absolute;
   background-size: cover;
   background-repeat: repeat-y;
   background-image: url("../Images/Index Background.png");
@@ -46,7 +46,7 @@ body {
 /* Account button placement */
 #account-button {
   float: right;
-  position: relative;
+  position: absolute;
   top: 20px;
   right: 20px;
 }
@@ -54,7 +54,7 @@ body {
 p {
   color: white;
   font-size: 25px;
-  position: relative;
+  position: absolute;
   left: 50px;
 }
 
@@ -64,69 +64,69 @@ img {
 
 span {
   font-size: 25px;
-  position: relative;
+  position: absolute;
   left: 40px;
   color: white;
 }
 
 #BOGO {
-  position: relative;
+  position: absolute;
   img {
-    width: 30%;
+    width: 30px;
   }
   p {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 40px;
+    left: 15px;
     transform: translate(-50%, -50%);
     font-size: 30px;
   }
 }
 
 #Starter {
-  position: relative;
+  position: absolute;
   img {
-    width: 30%;
+    width: 30px;
   }
   p {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 40px;
+    left: 15px;
     transform: translate(-50%, -50%);
     font-size: 20px;
   }
 }
 
 #BOGOtwo {
-  position: relative;
+  position: absolute;
   img {
-    width: 30%;
+    width: 30px;
   }
   p {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 40px;
+    left: 15px;
     transform: translate(-50%, -50%);
     font-size: 30px;
   }
 }
 
 #Summer {
-  position: relative;
+  position: absolute;
   img {
-    width: 30%;
+    width: 30px;
   }
   p {
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 40px;
+    left: 15px;
     transform: translate(-50%, -50%);
     font-size: 35px;
   }
 }
 
 #redone {
-  background-color:;
+  background-color: ;
   background-size: cover;
   img {
     width: 250px;
@@ -135,18 +135,18 @@ span {
 }
 
 #blueone {
-  background-color:;
+  background-color: ;
   background-size: cover;
-  img{
+  img {
     width: 250px;
     height: 150px;
   }
 }
 
 #greenone {
-  background-color:;
+  background-color: ;
   background-size: cover;
-  img{
+  img {
     width: 250px;
     height: 150px;
   }
@@ -155,7 +155,7 @@ span {
 #redtwo {
   background-color: ;
   background-size: cover;
-  img{
+  img {
     width: 250px;
     height: 150px;
   }
@@ -164,7 +164,7 @@ span {
 #bluetwo {
   background-color: ;
   background-size: cover;
-  img{
+  img {
     width: 250px;
     height: 150px;
   }
@@ -173,7 +173,7 @@ span {
 #greentwo {
   background-color: ;
   background-size: cover;
-  img{
+  img {
     width: 250px;
     height: 150px;
   }
@@ -182,7 +182,7 @@ span {
 #redthree {
   background-color: ;
   background-size: cover;
-  img{
+  img {
     width: 250px;
     height: 150px;
   }
@@ -191,7 +191,7 @@ span {
 #bluethree {
   background-color: ;
   background-size: cover;
-  img{
+  img {
     width: 250px;
     height: 150px;
   }
@@ -200,26 +200,26 @@ span {
 #greenthree {
   background-color: ;
   background-size: cover;
-  img{
+  img {
     width: 250px;
     height: 150px;
   }
 }
 
 footer {
-    position: absolute;
-    top: 3000px;
-    left: 0px;
-    width: 100%;
-    background-color: #465239;
-    color: white;
-    text-align: center;
-    font-family: Ubuntu Condensed;
-    font-size: 20px;
+  position: absolute;
+  top: 3170px;
+  left: 0px;
+  width: 100%;
+  background-color: #465239;
+  color: white;
+  text-align: center;
+  font-family: Ubuntu Condensed;
+  font-size: 20px;
 }
 
-#footerbutton{
-    color: #ffffff;
+#footerbutton {
+  color: #ffffff;
   border-radius: 25px;
   background-color: #3c8b53;
   padding: 10px;
