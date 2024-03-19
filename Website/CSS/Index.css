@@ -72,7 +72,8 @@ span {
 #BOGO {
   position: absolute;
   img {
-    width: 550px;
+    width: 750px;
+    height: 450px;
   }
   p {
     position: absolute;
@@ -81,6 +82,15 @@ span {
     transform: translate(-50%, -50%);
     font-size: 30px;
   }
+  
+}
+
+
+#BOGOIMG {
+  position: absolute;
+  top: -800px;
+  left: 150px;
+  
 }
 
 #Starter {
@@ -100,15 +110,24 @@ span {
 #BOGOtwo {
   position: absolute;
   img {
-    width: 30px;
+    width: 750px;
+    height: 450px;
   }
   p {
     position: absolute;
     top: 40px;
-    left: 15px;
+    left: 25px;
     transform: translate(-50%, -50%);
     font-size: 30px;
   }
+}
+
+
+#BOGOtwoIMG {
+  position: absolute;
+  top: -800px;
+  left: 950px;
+  
 }
 
 #Summer {
