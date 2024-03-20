@@ -137,11 +137,12 @@ body {
   border-radius: 40px;
   width: 200px;
   height: 70px;
-  position: absolute;
-  left: 500px;
-  top: 10px;
+  /* position: absolute; */
+  /* left: 500px;
+  top: 10px; */
   font-family: Ubuntu Condensed;
   font-size: 20px;
+  margin-left: 1em;
 }
 
 .ChangeUsername:hover {
@@ -158,11 +159,12 @@ body {
   border-radius: 40px;
   width: 200px;
   height: 70px;
-  position: absolute;
+  /* position: absolute;
   left: 500px;
-  top: 90px;
+  top: 90px; */
   font-family: Ubuntu Condensed;
   font-size: 20px;
+  margin-left: 1em;
 }
 
 .ChangePassword:hover {
@@ -179,9 +181,9 @@ body {
   border-radius: 40px;
   width: 500px;
   height: 70px;
-  position: absolute;
+  /* position: absolute;
   left: 100px;
-  top: 202px;
+  top: 202px; */
   font-family: Ubuntu Condensed;
   font-size: 20px;
 }
@@ -192,22 +194,28 @@ body {
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
 }
+.Userflex {
+  display: flex;
+  align-items: center;
+  margin-bottom:  0.9em;
+  justify-content: center;
+}
+
+.Passflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 #Username {
-  /* position: absolute; */
-  top: 29px;
-  left: 10px;
   font-size: 25px;
 }
 
 #Username, #Password{
   float: left;
-  border: 1px solid red;}
+}
 
 #Password {
-  /* position: absolute; */
-  top: 104px;
-  left: 10px;
   font-size: 25px;
 }
 
