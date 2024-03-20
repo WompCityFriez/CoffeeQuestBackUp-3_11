@@ -6,12 +6,14 @@
   font-style: normal;
 }
 
+
 /* Ubuntu Condensed Font */
 .ubuntu-condensed-regular {
   font-family: "Ubuntu Condensed", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 
 /*Background image*/
 body {
@@ -22,26 +24,31 @@ body {
   background-image: url("../Images/Index Background.png");
 }
 
+
 /*Scrollbar*/
 * {
   ::-webkit-scrollbar {
     background: #7a3b00;
   }
 
+
   ::-webkit-scrollbar-thumb {
     background: #24b345;
     -webkit-border-radius: 1.5ex;
   }
+
 
   ::-webkit-scrollbar-corner {
     background: #006518a8;
   }
 }
 
+
 #Page_Title {
   font-family: "Woodwarrior-Regular";
   color: aliceblue;
 }
+
 
 /* Account button placement */
 #account-button {
@@ -51,6 +58,7 @@ body {
   right: 20px;
 }
 
+
 p {
   color: white;
   font-size: 25px;
@@ -58,9 +66,11 @@ p {
   left: 50px;
 }
 
+
 img {
   padding: 15px;
 }
+
 
 span {
   font-size: 25px;
@@ -69,161 +79,231 @@ span {
   color: white;
 }
 
-#BOGO {
+
+#BOGOtext {
   position: absolute;
-  img {
-    width: 750px;
-    height: 450px;
-  }
-  p {
-    position: absolute;
-    top: 40px;
-    left: 15px;
+    top: 70px;
+    left: 200px;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 15px;
   }
-  
-}
 
 
-#BOGOIMG {
+
+
+#BOGOimg {
   position: absolute;
-  top: -800px;
-  left: 150px;
-  
+  top: 1780px;
+  left: 70px;
+  width: 850px;
+  height: 450px;
+  border: #000000 solid 2.5px;
+  border-radius: 5px;
+  border-top: -5px;
+  padding:0.02px;
+  margin:3px;
+  z-index: 2;
 }
 
-#Starter {
-  position: absolute;
-  img {
-    width: 30px;
-  }
-  p {
-    position: absolute;
-    top: 40px;
-    left: 15px;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-  }
-}
+
+
 
 #BOGOtwo {
   position: absolute;
-  img {
-    width: 750px;
-    height: 450px;
-  }
   p {
     position: absolute;
-    top: 40px;
-    left: 25px;
+    top: 0px;
+    left: 0px;
     transform: translate(-50%, -50%);
     font-size: 30px;
   }
 }
 
 
-#BOGOtwoIMG {
+#BOGOtwoimg{
   position: absolute;
-  top: -800px;
+  top: 375px;
   left: 950px;
-  
+  width: 850px;
+  height: 450px;
+  border : #000000 solid 2.5px;
+  border-radius: 5px;
+  padding:0.02px;
+  margin:4px;
+  z-index: 1;
+
+
+
+
 }
+
+
+
+
+#black {
+  position: absolute;
+  top: 1770px;
+  left: 57px;
+  width: 855px;
+  height: 460px;
+}
+
+
+#black2{
+  position: absolute;
+  top: 364px;
+  left: 938px;
+  width: 855px;
+  height: 460px;
+}
+
+
+
+
+#Starter {
+  position: absolute;
+}
+
+
+#Starterimg {
+  position: absolute;
+  top: -575px;
+  left: 70px;
+  width: 850px;
+  height: 450px;
+}
+
 
 #Summer {
   position: absolute;
-  img {
-    width: 30px;
-  }
-  p {
-    position: absolute;
-    top: 40px;
-    left: 15px;
-    transform: translate(-50%, -50%);
-    font-size: 35px;
-  }
 }
+
+
+#Summerimg {
+  position: absolute;
+  top: -575px;
+  left: 950px;
+  width: 850px;
+  height: 450px;
+}
+
 
 #redone {
-  background-color: ;
-  background-size: cover;
-  img {
-    width: 250px;
-    height: 150px;
-  }
+  position: absolute;
+  left: 850px;
+  width: 150px;
+  height: 150px;
 }
+
+
+#redoneimg {
+  background-color: #986931d9;
+  background-size: 22px;
+}
+
+
+
 
 #blueone {
-  background-color: ;
-  background-size: cover;
-  img {
+  position: absolute;
+    left: 850px;
+    top: 400px;
     width: 250px;
     height: 150px;
-  }
 }
+
+
+#blueoneimg {
+  background-color: #986931d9;
+  background-size: 22px;
+}
+
 
 #greenone {
-  background-color: ;
-  background-size: cover;
+
+
+
+
   img {
     width: 250px;
     height: 150px;
+    background-color:#986931d9;
+    background-size: cover;
   }
 }
+
 
 #redtwo {
-  background-color: ;
-  background-size: cover;
+
+
+
+
   img {
     width: 250px;
     height: 150px;
+    background-color: #1B411Fd9;
+    background-size: cover;
   }
 }
+
 
 #bluetwo {
-  background-color: ;
-  background-size: cover;
+
+
+
+
   img {
     width: 250px;
     height: 150px;
+    background-color:#1B411Fd9 ;
+      background-size: cover;
   }
 }
+
 
 #greentwo {
-  background-color: ;
-  background-size: cover;
   img {
     width: 250px;
     height: 150px;
+    background-color:#1B411Fd9;
+    background-size: cover;
   }
 }
+
 
 #redthree {
-  background-color: ;
-  background-size: cover;
   img {
-    width: 250px;
+    width: 50px;
     height: 150px;
+    background-color: #809848d9;
+    background-size: cover;
+
+
   }
 }
+
 
 #bluethree {
-  background-color: ;
-  background-size: cover;
   img {
     width: 250px;
     height: 150px;
+    background-color:#809848d9 ;
+    background-size: cover;
   }
 }
 
+
 #greenthree {
-  background-color: ;
-  background-size: cover;
+ 
+ 
   img {
     width: 250px;
     height: 150px;
+    background-color:#809848d9;
+    background-size: cover;
   }
 }
+
 
 footer {
   position: absolute;
@@ -237,6 +317,7 @@ footer {
   font-size: 20px;
 }
 
+
 #footerbutton {
   color: #ffffff;
   border-radius: 25px;
@@ -249,10 +330,12 @@ footer {
   font-family: Ubuntu Condensed;
 }
 
+
 nav {
   list-style-type: none;
   overflow: hidden;
 }
+
 
 #nav1 {
   position: absolute;
@@ -269,6 +352,7 @@ nav {
   border: #000000 solid 2.5px;
 }
 
+
 #nav2 {
   position: absolute;
   top: 60px;
@@ -283,6 +367,7 @@ nav {
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
 }
+
 
 #nav3 {
   position: absolute;
@@ -299,6 +384,7 @@ nav {
   border: #000000 solid 2.5px;
 }
 
+
 #nav4 {
   position: absolute;
   top: 60px;
@@ -313,6 +399,7 @@ nav {
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
 }
+
 
 #Page_Title {
   position: absolute;
