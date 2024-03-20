@@ -151,36 +151,36 @@ nav {
 
   /*Search bar*/
   #SearchBar {
-    width: *px;
-    height: *px;
-    background-color: #809948eb;
+    width: 200px;
+    height: 250px;
+    background-color:#809948eb;
     border: 5px solid #000000;
-    border-radius: 20px; 
-    padding: *px;
+    border-radius: 20px;
+    padding: 2px;
     text-align: center;
     color: white;
     font-family: Arial, sans-serif;
     position: absolute;
-    top: *px;
-    left: *px;
+    top: 2px;
+    left: 1px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
   }
   
   /* box on the left with menu item categories*/
   #Menu {
-    width: *px;
-    height: *px;
+    width: 400px;
+    height: 20px;
     background-color: #809948eb;
     border: 5px solid #000000;
     border-radius: 20px;
-    padding: *px;
+    padding: 2px;
     text-align: center;
     color: white;
     font-family: Arial, sans-serif;
     position: absolute;
-    top: *px;
-    left: *px;
+    top: 2px;
+    left: 1px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
   }
