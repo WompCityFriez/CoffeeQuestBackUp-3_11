@@ -149,9 +149,26 @@ nav {
   }
   /* End of footer CSS code. */
 
-  /*item bar on the left */
-
-  #[SearchBar] {
+  /*Search bar*/
+  #SearchBar {
+    width: *px;
+    height: *px;
+    background-color: #809948eb;
+    border: 5px solid #000000;
+    border-radius: 20px; 
+    padding: *px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: *px;
+    left: *px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+  }
+  
+  /* box on the left with menu item categories*/
+  #Menu {
     width: *px;
     height: *px;
     background-color: #809948eb;
