@@ -21,7 +21,7 @@ body {
   background-position: absolute;
   background-size: cover;
   background-repeat: repeat-y;
-  background-image: url("../Images/Index Background.png");
+  background-image: url("../Images/Index_Background.png");
 }
 
 
@@ -75,10 +75,11 @@ span {
 
 #BOGOtext {
   position: absolute;
-    top: 70px;
-    left: 200px;
+    top: 1150px;
+    left: 565px;
     transform: translate(-50%, -50%);
-    font-size: 15px;
+    font-size: 45px;
+    z-index: 5;
   }
 
 
@@ -86,7 +87,7 @@ span {
 
 #BOGOimg {
   position: absolute;
-  top: 1780px;
+  top: 1783px;
   left: 70px;
   width: 850px;
   height: 450px;
@@ -115,7 +116,7 @@ span {
 
 #BOGOtwoimg{
   position: absolute;
-  top: 375px;
+  top: 1665px;
   left: 950px;
   width: 850px;
   height: 450px;
@@ -124,10 +125,6 @@ span {
   padding:0.02px;
   margin:4px;
   z-index: 1;
-
-
-
-
 }
 
 
@@ -144,14 +141,28 @@ span {
 
 #black2{
   position: absolute;
-  top: 364px;
-  left: 938px;
+  top: 1771px;
+  left: 946px;
   width: 855px;
   height: 460px;
 }
 
+#black3{
+  position: absolute;
+  top: 940px;
+  left: 955px;
+  width: 855px;
+  height: 460px;
 
+}
 
+#black4{
+  position: absolute;
+  top: 941px;
+  left: 67px;
+  width: 855px;
+  height: 460px;
+} */
 
 #Starter {
   position: absolute;
@@ -160,10 +171,11 @@ span {
 
 #Starterimg {
   position: absolute;
-  top: -575px;
+  top: 945px;
   left: 70px;
   width: 850px;
   height: 450px;
+  z-index: 3;
 }
 
 
@@ -174,22 +186,23 @@ span {
 
 #Summerimg {
   position: absolute;
-  top: -575px;
+  top: 825px;
   left: 950px;
   width: 850px;
   height: 450px;
+  z-index: 4;
 }
 
 
 #redone {
   position: absolute;
-  left: 850px;
+  left: 865px;
+  top: 400px;
   width: 180px;
   height: 180px;
   background-color: #986931d9;
-  background-image: url(../Website/Assets/Resources/Resources/Quest Coffee_Images/quest-coffee-16oz-removebg-preview.png);
+  background-image: url(../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-16oz-removebg-preview.png);
   border: none;
-
 }
 
 #redone:hover {
@@ -198,108 +211,94 @@ span {
 
 #blueone {
   position: absolute;
-    left: 850px;
-    top: 400px;
+    left: 865px;
+    top: 700px;
 }
 
 
 #blueoneimg {
   background-color: #986931d9;
-  background-size: 22px;
 }
 
 
 #greenone {
-
-
-
-
-  img {
-    width: 250px;
-    height: 150px;
-    background-color:#986931d9;
-    background-size: cover;
-  }
+  position: absolute;
+  left: 865px;
+  top: 1500px;
 }
 
+#greenoneimg {
+  background-color: #986931d9;
+}
 
 #redtwo {
-
-
-
-
-  img {
-    width: 250px;
-    height: 150px;
-    background-color: #1B411Fd9;
-    background-size: cover;
-  }
+  position: absolute;
+  top: 400px;
+  left: 1350px;
 }
 
+#redtwoimg {
+  background-color: #1B411Fd9;
+}
 
 #bluetwo {
+  position: absolute;
+  left: 1350px;
+  top: 700px;
 
+}
 
-
-
-  img {
-    width: 250px;
-    height: 150px;
-    background-color:#1B411Fd9 ;
-      background-size: cover;
-  }
+#bluetwoimg {
+  background-color: #1B411Fd9;
 }
 
 
 #greentwo {
-  img {
-    width: 250px;
-    height: 150px;
-    background-color:#1B411Fd9;
-    background-size: cover;
-  }
+  position: absolute;
+  left: 1350px;
+  top: 1500px;
 }
 
+#greentwoimg {
+  background-color: #1B411Fd9;
+}
 
 #redthree {
-  img {
-    width: 50px;
-    height: 150px;
-    background-color: #809848d9;
-    background-size: cover;
-
-
-  }
+  position: absolute;
+  left: 350px;
+  top: 400px;
 }
 
+#redthreeimg {
+  background-color: #809848d9;
+}
 
 #bluethree {
-  img {
-    width: 250px;
-    height: 150px;
-    background-color:#809848d9 ;
-    background-size: cover;
-  }
+  position: absolute;
+  left: 350px;
+  top: 700px;
 }
 
+#bluethreeimg {
+  background-color: #809848d9;
+}
 
 #greenthree {
- 
- 
-  img {
-    width: 250px;
-    height: 150px;
-    background-color:#809848d9;
-    background-size: cover;
-  }
+  position: absolute;
+  left: 350px;
+  top: 1500px;
 }
 
+#greenthreeimg {
+  background-color: #809848d9;
+}
 
 footer {
   position: absolute;
   top: 2500px;
   left: 0px;
   width: 100%;
+  height: 300px;
   background-color: #182c25;
   color: white;
   text-align: center;
@@ -315,9 +314,13 @@ footer {
   width: 130px;
   text-align: center;
   font-size: 20px;
+  border: #000000 solid 2.5px;
   font-family: Ubuntu Condensed;
 }
 
+#footer-text {
+  font-size: 20px;
+}
 
 nav {
   list-style-type: none;
