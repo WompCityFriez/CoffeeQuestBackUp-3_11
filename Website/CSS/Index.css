@@ -193,16 +193,15 @@ span {
   left: 850px;
   width: 150px;
   height: 150px;
-}
-
-
-#redoneimg {
   background-color: #986931d9;
-  background-size: 22px;
+  background-image: url(../Website/Assets/Resources/Resources/Quest Coffee_Images/quest-coffee-16oz-removebg-preview.png);
+  border: none;
+
 }
 
-
-
+#redone:hover {
+  background-color: #986a31;
+}
 
 #blueone {
   position: absolute;
