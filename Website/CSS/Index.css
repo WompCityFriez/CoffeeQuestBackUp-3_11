@@ -184,8 +184,8 @@ span {
 #redone {
   position: absolute;
   left: 850px;
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   background-color: #986931d9;
   background-image: url(../Website/Assets/Resources/Resources/Quest Coffee_Images/quest-coffee-16oz-removebg-preview.png);
   border: none;
@@ -200,8 +200,6 @@ span {
   position: absolute;
     left: 850px;
     top: 400px;
-    width: 250px;
-    height: 150px;
 }
 
 
