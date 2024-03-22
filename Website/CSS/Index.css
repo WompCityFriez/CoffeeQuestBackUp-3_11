@@ -75,10 +75,12 @@ span {
 
 #BOGOtext {
   position: absolute;
-    top: 1150px;
-    left: 565px;
+    top: 1185px;
+    left: 585px;
     transform: translate(-50%, -50%);
     font-size: 45px;
+    font-family: playfair-display, serif;
+    color: #EAF6CC;
     z-index: 5;
   }
 
