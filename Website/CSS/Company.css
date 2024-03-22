@@ -268,11 +268,6 @@ nav {
     border: #000000 solid 2.5px;
   }
   
-  #account-button {
-    position: absolute;
-    top: 10px;
-    left: 1475px;
-  }
 
 /* For screens smaller than 768px */
 @media (max-width: 767px) {
