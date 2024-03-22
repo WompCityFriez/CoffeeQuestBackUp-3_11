@@ -34,24 +34,40 @@
 
             <br>
             <a href=""><span id="AccountSettings">Account Settings</span></a>
-            <script>const ASetting = document.getElementById("AccountSettings");</script>
+            <script>var ASetting = document.getElementById("AccountSettings");
+            var SettingsArea = document.getElementsByClassName("Change_Accounts");
+
+           ASetting.onclick = function() {
+            SettingsArea.
+           }
+            </script>
             <br>
             <a href=""><span id="PersonalSettings">Personal Settings</span></a>
-            <script>const PSetting =  document.getElementById("PersonalSettings");</script>
+            <script>var PSetting = document.getElementById("PersonalSettings");
+            var SettingsArea = document.getElementsByClassName("Change_Personal");
+            </script>
             <br>
             <a href=""><span id="PaymentOptions">Payment Options</span></a>
-            <script> const POptions = document.getElementById("PaymentOptions");</script>
+            <script>var POptions = document.getElementById("PaymentOptions");
+            var SettingsArea = document.getElementByClassName("Change_Payment");
+            </script>
             <br>
             <a href=""><span id="Help">Help</span></a>
-            <script> const Help = document.getElementById("Help");</script>
+            <script>var Help = document.getElementById("Help");
+            var SettingsArea = document.getElementByClassName("Change_Help");
+            </script>
             <br>
             <span id="DangerZone">&#9772;Danger Zone&#9772;</span>
             <br>
             <a href=""><span id="DeleteAccount">Delete Account</span></a>
-            <script> const DAccount = document.getElementById("DeleteAccount");</script>
+            <script>var DAccount = document.getElementById("DeleteAccount");
+            var SettingsArea = document.getElementByClassName("Change_Delete");
+            </script>
             <br>
             <a href=""><span id="SignOut">Sign Out</span></a>
-            <script> const SOut = document.getElementById("SignOut");</script>
+            <script>var SOut = document.getElementById("SignOut");
+            var SettingsArea = document.getElementByClassName("Change_Sign");
+            </script>
         </div>
 
         <div class="Change_Accounts">
