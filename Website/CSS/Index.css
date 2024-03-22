@@ -78,8 +78,9 @@ span {
     top: 1185px;
     left: 585px;
     transform: translate(-50%, -50%);
-    font-size: 45px;
+    font-size: 50px;
     font-family: playfair-display, serif;
+    font-style: italic;
     color: #EAF6CC;
     z-index: 5;
   }
@@ -105,7 +106,7 @@ span {
 
 
 #BOGOtwo {
-  position: absolute;
+position: absolute;
   p {
     position: absolute;
     top: 0px;
@@ -117,7 +118,7 @@ span {
 
 
 #BOGOtwoimg{
-  position: absolute;
+position: absolute;
   top: 1665px;
   left: 950px;
   width: 850px;
@@ -129,11 +130,23 @@ span {
   z-index: 1;
 }
 
+#BOGOtwotext {
+  position: absolute;
+    top: 1135px;
+    left: 1550px;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: playfair-display, serif;
+    font-style: italic;
+    color: #EAF6CC;
+    z-index: 6;
+}
+
 
 
 
 #black {
-  position: absolute;
+position: absolute;
   top: 1770px;
   left: 57px;
   width: 855px;
@@ -142,7 +155,7 @@ span {
 
 
 #black2{
-  position: absolute;
+position: absolute;
   top: 1771px;
   left: 946px;
   width: 855px;
@@ -150,7 +163,7 @@ span {
 }
 
 #black3{
-  position: absolute;
+position: absolute;
   top: 940px;
   left: 955px;
   width: 855px;
@@ -159,7 +172,7 @@ span {
 }
 
 #black4{
-  position: absolute;
+position: absolute;
   top: 941px;
   left: 67px;
   width: 855px;
@@ -172,12 +185,24 @@ span {
 
 
 #Starterimg {
-  position: absolute;
+position: absolute;
   top: 945px;
   left: 70px;
   width: 850px;
   height: 450px;
   z-index: 3;
+}
+
+#Startertext {
+  position: absolute;
+    top: 2025px;
+    left: 1465px;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: playfair-display, serif;
+    font-style: italic;
+    color: #EAF6CC;
+    z-index: 6;
 }
 
 
@@ -187,13 +212,26 @@ span {
 
 
 #Summerimg {
-  position: absolute;
+position: absolute;
   top: 825px;
   left: 950px;
   width: 850px;
   height: 450px;
   z-index: 4;
 }
+
+#Summertext {
+  position: absolute;
+    top: 1935px;
+    left: 545px;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: playfair-display, serif;
+    font-style: italic;
+    color: #EAF6CC;
+    z-index: 6;
+}
+
 
 
 #redone {
