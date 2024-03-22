@@ -240,13 +240,17 @@ position: absolute;
 
 #redone {
   position: absolute;
-  left: 865px;
-  top: 400px;
-  width: 180px;
-  height: 180px;
+  left: 881px;
+  top: 500px;
+  width: 140px;
+  height: 140px;
   background-color: #986931d9;
-  background-image: url(../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-16oz-removebg-preview.png);
+  background-image: url(/Website/Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-16oz-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
   border: none;
+  cursor: pointer;
 }
 
 #redone:hover {
@@ -255,8 +259,8 @@ position: absolute;
 
 #blueone {
   position: absolute;
-    left: 865px;
-    top: 700px;
+    left: 880px;
+    top: 800px;
 }
 
 
@@ -277,8 +281,8 @@ position: absolute;
 
 #redtwo {
   position: absolute;
-  top: 400px;
-  left: 1350px;
+  top: 500px;
+  left: 1360px;
 }
 
 #redtwoimg {
@@ -287,8 +291,8 @@ position: absolute;
 
 #bluetwo {
   position: absolute;
-  left: 1350px;
-  top: 700px;
+  left: 1360px;
+  top: 800px;
 
 }
 
@@ -309,8 +313,8 @@ position: absolute;
 
 #redthree {
   position: absolute;
-  left: 350px;
-  top: 400px;
+  left: 370px;
+  top: 500px;
 }
 
 #redthreeimg {
@@ -319,8 +323,8 @@ position: absolute;
 
 #bluethree {
   position: absolute;
-  left: 350px;
-  top: 700px;
+  left: 370px;
+  top: 800px;
 }
 
 #bluethreeimg {
@@ -444,6 +448,13 @@ footer {
   font-family: Ubuntu Condensed;
 }
 
+#footer-buttons:hover {
+  animation-name: button-hover2;
+animation-duration: 0.1s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+}
+
 #footer-text {
   font-size: 20px;
 }
@@ -467,8 +478,15 @@ nav {
   font-size: 20px;
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
+  cursor: pointer;
 }
 
+#nav1:hover {
+  animation-name: button-hover2;
+animation-duration: 0.1s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+}
 
 #nav2 {
   position: absolute;
@@ -483,8 +501,15 @@ nav {
   font-size: 20px;
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
+  cursor: pointer;
 }
 
+#nav2:hover {
+  animation-name: button-hover2;
+animation-duration: 0.1s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+}
 
 #nav3 {
   position: absolute;
@@ -499,8 +524,15 @@ nav {
   font-size: 20px;
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
+  cursor: pointer;
 }
 
+#nav3:hover {
+  animation-name: button-hover2;
+animation-duration: 0.1s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+}
 
 #nav4 {
   position: absolute;
@@ -515,8 +547,15 @@ nav {
   font-size: 20px;
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
+  cursor: pointer;
 }
 
+#nav4:hover {
+  animation-name: button-hover2;
+animation-duration: 0.1s;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+}
 
 #Page_Title {
   position: absolute;
@@ -526,3 +565,25 @@ nav {
   font-size: 20px;
   font-family: "Woodwarrior-Regular";
 }
+
+/* Animation on submit order button */
+@keyframes button-hover {
+  from {
+    background-color: rgb(42, 120, 0);
+    border: 3px solid #000000;
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+    border: 5px solid #000000;
+  }
+  }
+  
+  /* Animation on other buttons */
+  @keyframes button-hover2 {
+  from {
+    background-color: rgb(42, 120, 0);
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+  }
+  }
