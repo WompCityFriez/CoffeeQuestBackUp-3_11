@@ -117,11 +117,13 @@ span {
 
 #BOGOtwotext {
   position: absolute;
-  top: 1135px;
+  top: 1085px;
   left: 1550px;
   transform: translate(-50%, -50%);
   font-size: 50px;
   font-family: playfair-display, serif;
+  width: 200px;
+  white-space: nowrap;
   text-align: center;
   font-style: italic;
   color: #eaf6cc;
@@ -199,12 +201,14 @@ span {
 }
 
 #Summertext {
-  position: absolute;
-  top: 1935px;
-  left: 545px;
+  position: relative;
+  top: 1920px;
+  left: 645px;
   transform: translate(-50%, -50%);
   font-size: 50px;
   font-family: playfair-display, serif;
+  display: inline-block;
+  width: 200px;
   text-align: center;
   font-style: italic;
   color: #eaf6cc;
@@ -378,9 +382,9 @@ span {
 
 #dealcup4 {
   position: absolute;
-  top: 1915px;
+  top: 1920px;
   left: 987px;
-  z-index: 6;
+  z-index: 8;
 }
 
 footer {
