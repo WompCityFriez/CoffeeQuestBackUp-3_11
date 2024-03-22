@@ -80,6 +80,7 @@ span {
     transform: translate(-50%, -50%);
     font-size: 50px;
     font-family: playfair-display, serif;
+    text-align: center;
     font-style: italic;
     color: #EAF6CC;
     z-index: 5;
@@ -137,6 +138,7 @@ position: absolute;
     transform: translate(-50%, -50%);
     font-size: 50px;
     font-family: playfair-display, serif;
+    text-align: center;
     font-style: italic;
     color: #EAF6CC;
     z-index: 6;
@@ -200,6 +202,7 @@ position: absolute;
     transform: translate(-50%, -50%);
     font-size: 50px;
     font-family: playfair-display, serif;
+    text-align: center;
     font-style: italic;
     color: #EAF6CC;
     z-index: 6;
@@ -227,6 +230,7 @@ position: absolute;
     transform: translate(-50%, -50%);
     font-size: 50px;
     font-family: playfair-display, serif;
+    text-align: center;
     font-style: italic;
     color: #EAF6CC;
     z-index: 6;
@@ -333,13 +337,95 @@ position: absolute;
   background-color: #809848d9;
 }
 
+#dealbox1 {
+  position: absolute;
+  top: 1900px;
+  left: 250px;
+  z-index: 7;
+
+}
+
+#dealbox2 {
+  position: absolute;
+  top: 1913px;
+  left: 887px;
+  z-index: 7;
+
+}
+
+#dealbox3 {
+  position: absolute;
+  top: 1058px;
+  left: 1023px;
+  z-index: 7;
+
+}
+
+#dealbox4 {
+  position: absolute;
+  top: 1058px;
+  left: 1128px;
+  z-index: 6;
+
+}
+
+
+#dealbag1 {
+  position: absolute;
+  top: 1019px;
+  left: 900px;
+  z-index: 6;  
+}
+
+#dealbag2 {
+  position: absolute;
+  top: 1845px;
+  left: 126px;
+  z-index: 6;  
+}
+
+#dealbag3 {
+  position: absolute;
+  top: 1850px;
+  left: 1005px;
+  z-index: 6;  
+}
+
+#dealcup1 {
+  position: absolute;
+  top: 1120px;
+  left: 1125px;
+  z-index: 7;  
+}
+
+#dealcup2 {
+  position: absolute;
+  top: 1120px;
+  left: 1010px;
+  z-index: 7;  
+}
+
+#dealcup3 {
+  position: absolute;
+  top: 1080px;
+  left: 175px;
+  z-index: 7;  
+}
+
+#dealcup4 {
+  position: absolute;
+  top: 1915px;
+  left: 987px;
+  z-index: 6;  
+}
+
 footer {
   position: absolute;
   top: 2500px;
   left: 0px;
   width: 100%;
   height: 300px;
-  background-color: #182c25;
+  background-color: #0e2e1f;
   color: white;
   text-align: center;
   font-family: Ubuntu Condensed;
@@ -349,12 +435,12 @@ footer {
 #footer-buttons {
   color: #ffffff;
   border-radius: 25px;
-  background-color: #009f2d;
+  background-color: #45a838;
   padding: 10px;
   width: 130px;
   text-align: center;
   font-size: 20px;
-  border: #000000 solid 2.5px;
+  border: #000000 solid 3px;
   font-family: Ubuntu Condensed;
 }
 
