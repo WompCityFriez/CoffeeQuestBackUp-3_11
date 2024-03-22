@@ -82,10 +82,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   top: 700px;
   left: 3450px;
+  color: #a00000;
 }
 
 .Account_Settings > a {
-  color:#7a3b00;
+  color: #7a3b00;
 }
 
 .Change_Accounts {
@@ -105,6 +106,9 @@ body {
 
 #account-button {
   float: right;
+  position: absolute;
+  top: 10px;
+  left: 1475px;
 }
 
 #Page_Title {
@@ -137,9 +141,6 @@ body {
   border-radius: 40px;
   width: 200px;
   height: 70px;
-  /* position: absolute; */
-  /* left: 500px;
-  top: 10px; */
   font-family: Ubuntu Condensed;
   font-size: 20px;
   margin-left: 1em;
@@ -159,9 +160,6 @@ body {
   border-radius: 40px;
   width: 200px;
   height: 70px;
-  /* position: absolute;
-  left: 500px;
-  top: 90px; */
   font-family: Ubuntu Condensed;
   font-size: 20px;
   margin-left: 1em;
@@ -181,9 +179,6 @@ body {
   border-radius: 40px;
   width: 500px;
   height: 70px;
-  /* position: absolute;
-  left: 100px;
-  top: 202px; */
   font-family: Ubuntu Condensed;
   font-size: 20px;
 }
@@ -197,7 +192,7 @@ body {
 .Userflex {
   display: flex;
   align-items: center;
-  margin-bottom:  0.9em;
+  margin-bottom: 0.9em;
   justify-content: center;
 }
 
@@ -211,19 +206,14 @@ body {
   font-size: 25px;
 }
 
-#Username, #Password{
+#Username,
+#Password {
   float: left;
 }
 
 #Password {
   font-size: 25px;
 }
-
-.Account_Settings {
-  color:#a00000;
-
-}
-
 
 #AccountSettings {
   position: absolute;
@@ -277,7 +267,8 @@ body {
   font-size: 25px;
 }
 
-#DeleteAccount:hover, #SignOut:hover {
+#DeleteAccount:hover,
+#SignOut:hover {
   color: #ffffff;
 }
 
@@ -458,12 +449,6 @@ nav {
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-}
-
-#account-button {
-  position: absolute;
-  top: 10px;
-  left: 1475px;
 }
 
 /* Footer */
