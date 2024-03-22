@@ -32,6 +32,10 @@
   float: right;
 }
 
+body {
+  background-color: #ec7241;
+}
+
 [data-custom-class="body"] {
   color: #000000 !important;
 }
@@ -40,7 +44,6 @@
   font-family: "Woodwarrior-Regular";
   color: #000000;
 }
-
 
 /* <nav> styling */
 
@@ -77,7 +80,6 @@ nav {
   font-size: 20px;
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
-
 }
 
 #nav3 {

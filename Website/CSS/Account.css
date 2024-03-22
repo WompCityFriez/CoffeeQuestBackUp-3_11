@@ -144,6 +144,7 @@ body {
   font-family: Ubuntu Condensed;
   font-size: 20px;
   margin-left: 1em;
+  cursor: pointer;
 }
 
 .ChangeUsername:hover {
@@ -163,6 +164,7 @@ body {
   font-family: Ubuntu Condensed;
   font-size: 20px;
   margin-left: 1em;
+  cursor: pointer;
 }
 
 .ChangePassword:hover {
@@ -181,6 +183,7 @@ body {
   height: 70px;
   font-family: Ubuntu Condensed;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .ChangeAccountName:hover {
