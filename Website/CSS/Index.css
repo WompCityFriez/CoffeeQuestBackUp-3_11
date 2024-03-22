@@ -224,6 +224,9 @@ span {
   background-color: #986931d9;
   border: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #redone:hover {
