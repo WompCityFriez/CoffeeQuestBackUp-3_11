@@ -56,7 +56,7 @@
       <div class="hero1 active">
         <img
           id="hero1"
-          src="/Website/Images/strongmancoffee.jpg"
+          src="Images/strongmancoffee.jpg"
           alt=""
           width="750"
           height="350"
@@ -65,7 +65,7 @@
       <div class="hero2 inactive">
         <img
           id="hero2"
-          src="/Website/Images/lattetable.PNG"
+          src="Images/lattetable.PNG"
           alt=""
           width="750"
           height="350"
@@ -74,7 +74,7 @@
       <div class="hero3 inactive">
         <img
           id="hero3"
-          src="/Website/Images/darkcoffeee.jpg"
+          src="Images/darkcoffeee.jpg"
           alt=""
           width="750"
           height="350"
@@ -82,9 +82,10 @@
       </div>
 
       <script>
-        const heroImages = document.querySelectorAll(".hero > div");
+        const heroImages = document.querySelectorAll(".hero > div"); //Get all hero images
         let currentIndex = 0;
 
+        //Functions to show and hide images
         function showImage(index) {
           heroImages.forEach((image, idx) => {
             if (index === idx) {
@@ -102,6 +103,7 @@
           heroImages[index].classList.add("inactive");
         }
 
+        //Slide show code
         function slideShow() {
           hideImage(currentIndex);
           currentIndex = (currentIndex + 1) % heroImages.length;
@@ -112,8 +114,8 @@
         showImage(0);
 
         setTimeout(function () {
-          setInterval(slideShow, 10000); // Change image every 3 seconds
-        }, 3000); // Start the slideshow after 3 seconds
+          setInterval(slideShow, 10000); //< Change image every 10 seconds
+        }, 0); // < Time until slide show starts
       </script>
     </div>
 
