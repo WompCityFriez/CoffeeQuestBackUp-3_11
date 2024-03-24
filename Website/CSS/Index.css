@@ -53,15 +53,70 @@ p {
   left: 50px;
 }
 
-img {
-  padding: 15px;
-}
-
 span {
   font-size: 25px;
   position: absolute;
   left: 40px;
   color: white;
+}
+
+.hero {
+  position: absolute;
+  top: 120px;
+  left: 550px;
+}
+
+#hero1 {
+  position: absolute;
+}
+
+#hero2 {
+  position: absolute;
+}
+
+#hero3 {
+  position: absolute;
+}
+
+.hero1.active {
+  display: block;
+}
+
+.hero1.inactive {
+  display: none;
+}
+
+.hero2.active {
+  display: block;
+}
+
+.hero2.inactive {
+  display: none;
+}
+
+.hero3.active {
+  display: block;
+}
+
+.hero3.inactive {
+  display: none;
+}
+
+.hero > div {
+  position: absolute;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.hero > div.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hero > div.inactive {
+  opacity: 0;
+  transform: translateX(-100%);
 }
 
 #BOGOtext {
@@ -79,8 +134,8 @@ span {
 
 #BOGOimg {
   position: absolute;
-  top: 1783px;
-  left: 70px;
+  top: 1765px;
+  left: 55px;
   width: 850px;
   height: 450px;
   border: #000000 solid 2.5px;
@@ -104,8 +159,8 @@ span {
 
 #BOGOtwoimg {
   position: absolute;
-  top: 1665px;
-  left: 950px;
+  top: 1676px;
+  left: 935px;
   width: 850px;
   height: 450px;
   border: #000000 solid 2.5px;
@@ -193,7 +248,7 @@ span {
 
 #Summerimg {
   position: absolute;
-  top: 825px;
+  top: 855px;
   left: 950px;
   width: 850px;
   height: 450px;

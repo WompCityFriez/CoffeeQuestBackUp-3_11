@@ -52,6 +52,73 @@
       /></a>
     </nav>
 
+    <div class="hero">
+      <div class="hero1 active">
+        <img
+          id="hero1"
+          src="Images/strongmancoffee.jpg"
+          alt=""
+          width="750"
+          height="350"
+        />
+      </div>
+      <div class="hero2 inactive">
+        <img
+          id="hero2"
+          src="Images/lattetable.PNG"
+          alt=""
+          width="750"
+          height="350"
+        />
+      </div>
+      <div class="hero3 inactive">
+        <img
+          id="hero3"
+          src="Images/darkcoffeee.jpg"
+          alt=""
+          width="750"
+          height="350"
+        />
+      </div>
+
+      <script>
+        const heroImages = document.querySelectorAll(".hero > div"); //Get all hero images
+        let currentIndex = 0;
+
+        //Functions to show and hide images
+        function showImage(index) {
+          heroImages.forEach((image, idx) => {
+            if (index === idx) {
+              image.classList.add("active");
+              image.classList.remove("inactive");
+            } else {
+              image.classList.remove("active");
+              image.classList.add("inactive");
+            }
+          });
+        }
+
+        function hideImage(index) {
+          heroImages[index].classList.remove("active");
+          heroImages[index].classList.add("inactive");
+        }
+
+        //Slide show code
+        function slideShow() {
+          hideImage(currentIndex);
+          currentIndex = (currentIndex + 1) % heroImages.length;
+          showImage(currentIndex);
+        }
+
+        hideImage(0);
+        showImage(0);
+
+        setTimeout(function () {
+          setInterval(slideShow, 10000); //< Change image every 10 seconds
+        }, 0); // < Time until slide show starts
+      </script>
+    </div>
+
     <a href="Pages/Item.html"
       ><button id="redone">
         <img
