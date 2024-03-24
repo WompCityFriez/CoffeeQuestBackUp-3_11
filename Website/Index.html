@@ -13,7 +13,7 @@
     </style>
   </head>
 
-  <body>
+  <body onload="startscripts()">
     <!--Site Navigation-->
     <nav>
       <img
@@ -52,7 +52,7 @@
       /></a>
     </nav>
 
-    <div class="hero">
+    <!--<div class="hero" style="opacity: 0;">
       <div class="hero1 active">
         <img
           id="hero1"
@@ -79,43 +79,71 @@
           width="750"
           height="350"
         />
+      </div>-->
+      <div id="transimage">
+        <!--both set to a null image because i can do that-->
+        <!--in before: "style="margin-left:auto;margin-right:auto;display:block;""-->
+        <img id="trans" width="750" height="350" src="Images/nothing.png"/> 
+        <!--could've just said "transition", but its funnier to just say trans.
+          this layer is going to have the trans image on it, before it gets shifted to final-->
+        <img id="finstat" width="750" height="350" src="Images/nothing.png"/> 
+        <!--this is the final state after the transition finishes-->
       </div>
 
+      <script src="Assets/imagetransition.js"></script>
       <script>
-        const heroImages = document.querySelectorAll(".hero > div"); //Get all hero images
-        let currentIndex = 0;
+        // my cowode uwu
+        const imgpafs = ["Images/strongmancoffee.jpg","Images/lattetable.PNG","Images/darkcoffeee.jpg"];
+        async function startscripts(){
+          // start stuff up
+          setTrans("trans",0); //sets transparency to nothin, so for now its all ok!
+          document.getElementById("finstat").src=imgpafs[imgpafs.length-1]; //sets the first image
 
-        //Functions to show and hide images
-        function showImage(index) {
-          heroImages.forEach((image, idx) => {
-            if (index === idx) {
-              image.classList.add("active");
-              image.classList.remove("inactive");
-            } else {
-              image.classList.remove("active");
-              image.classList.add("inactive");
+          // start the rep loop
+          while(true){
+            // just the loop of every item in order
+            for(let x=0;x<imgpafs.length;x++){
+              await doWaittime();
+              await transImage(imgpafs[x]);
             }
-          });
+          }
         }
 
-        function hideImage(index) {
-          heroImages[index].classList.remove("active");
-          heroImages[index].classList.add("inactive");
-        }
+        // the old code
+        // const heroImages = document.querySelectorAll(".hero > div"); //Get all hero images
+        // let currentIndex = 0;
 
-        //Slide show code
-        function slideShow() {
-          hideImage(currentIndex);
-          currentIndex = (currentIndex + 1) % heroImages.length;
-          showImage(currentIndex);
-        }
+        // //Functions to show and hide images
+        // function showImage(index) {
+        //   heroImages.forEach((image, idx) => {
+        //     if (index === idx) {
+        //       image.classList.add("active");
+        //       image.classList.remove("inactive");
+        //     } else {
+        //       image.classList.remove("active");
+        //       image.classList.add("inactive");
+        //     }
+        //   });
+        // }
 
-        hideImage(0);
-        showImage(0);
+        // function hideImage(index) {
+        //   heroImages[index].classList.remove("active");
+        //   heroImages[index].classList.add("inactive");
+        // }
 
-        setTimeout(function () {
-          setInterval(slideShow, 10000); //< Change image every 10 seconds
-        }, 0); // < Time until slide show starts
+        // //Slide show code
+        // function slideShow() {
+        //   hideImage(currentIndex);
+        //   currentIndex = (currentIndex + 1) % heroImages.length;
+        //   showImage(currentIndex);
+        // }
+
+        // hideImage(0);
+        // showImage(0);
+
+        // setTimeout(function () {
+        //   setInterval(slideShow, 10000); //< Change image every 10 seconds
+        // }, 0); // < Time until slide show starts
       </script>
     </div>
 
@@ -313,8 +341,8 @@
     <div id="dealiconcup4">
       <img
         id="dealcup4"
-        width="315"
-        height="220"
+        width="300"
+        height="195"
         src="../Website/Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-16oz-removebg-preview.png"
         alt="Quest Coffee Drink"
       />

@@ -59,8 +59,44 @@ span {
   left: 40px;
   color: white;
 }
+#transimage {
+  vertical-align: middle;
+  margin:50px 0px;
+}
+#trans {
+  z-index:2;
+  /* top:120px;
+  left:550px; */
+  top: -18px !important;
+  left: 542px !important;
+  position:relative;
+}
+#finstat {
+  z-index:1;
+  top:120px;
+  left:550px;
+  position:absolute;
+}
 
-.hero {
+/* #transimage {
+  position: relative;
+}
+.twamsimage {
+  position: absolute;
+  top: 120px;
+  left: 550px;
+} */
+/* #trans {z-index:2;}
+#finstat {z-index: 1;top:-550px;} */
+
+/* .transimage > div {
+  position: absolute;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateX(100%);
+} */
+
+/*.hero {
   position: absolute;
   top: 120px;
   left: 550px;
@@ -117,7 +153,7 @@ span {
 .hero > div.inactive {
   opacity: 0;
   transform: translateX(-100%);
-}
+} */
 
 #BOGOtext {
   position: absolute;
@@ -172,13 +208,11 @@ span {
 
 #BOGOtwotext {
   position: absolute;
-  top: 1085px;
+  top: 1135px;
   left: 1550px;
   transform: translate(-50%, -50%);
   font-size: 50px;
   font-family: playfair-display, serif;
-  width: 200px;
-  white-space: nowrap;
   text-align: center;
   font-style: italic;
   color: #eaf6cc;
@@ -256,14 +290,12 @@ span {
 }
 
 #Summertext {
-  position: relative;
-  top: 1920px;
-  left: 645px;
+  position: absolute;
+  top: 1935px;
+  left: 545px;
   transform: translate(-50%, -50%);
   font-size: 50px;
   font-family: playfair-display, serif;
-  display: inline-block;
-  width: 200px;
   text-align: center;
   font-style: italic;
   color: #eaf6cc;
@@ -279,9 +311,6 @@ span {
   background-color: #986931d9;
   border: none;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #redone:hover {
@@ -440,9 +469,9 @@ span {
 
 #dealcup4 {
   position: absolute;
-  top: 1920px;
+  top: 1915px;
   left: 987px;
-  z-index: 8;
+  z-index: 6;
 }
 
 footer {
@@ -461,7 +490,7 @@ footer {
 #footer-buttons {
   color: #ffffff;
   border-radius: 25px;
-  background-color: #809848;
+  background-color: #45a838;
   padding: 10px;
   width: 130px;
   text-align: center;
