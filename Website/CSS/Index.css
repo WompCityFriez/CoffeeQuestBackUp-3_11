@@ -59,23 +59,26 @@ span {
   left: 40px;
   color: white;
 }
+
 #transimage {
   vertical-align: middle;
-  margin:50px 0px;
+  margin: 50px 0px;
 }
+
 #trans {
-  z-index:2;
+  z-index: 2;
   /* top:120px;
   left:550px; */
   top: -18px !important;
   left: 542px !important;
-  position:relative;
+  position: relative;
 }
+
 #finstat {
-  z-index:1;
-  top:120px;
-  left:550px;
-  position:absolute;
+  z-index: 1;
+  top: 120px;
+  left: 550px;
+  position: absolute;
 }
 
 /* #transimage {
@@ -95,6 +98,8 @@ span {
   opacity: 0;
   transform: translateX(100%);
 } */
+
+/* Previous CSS code for slide show */
 
 /*.hero {
   position: absolute;
@@ -195,7 +200,7 @@ span {
 
 #BOGOtwoimg {
   position: absolute;
-  top: 1676px;
+  top: 1226px;
   left: 935px;
   width: 850px;
   height: 450px;
@@ -208,7 +213,7 @@ span {
 
 #BOGOtwotext {
   position: absolute;
-  top: 1135px;
+  top: 630px;
   left: 1550px;
   transform: translate(-50%, -50%);
   font-size: 50px;
@@ -282,7 +287,7 @@ span {
 
 #Summerimg {
   position: absolute;
-  top: 855px;
+  top: 405px;
   left: 950px;
   width: 850px;
   height: 450px;
@@ -291,7 +296,7 @@ span {
 
 #Summertext {
   position: absolute;
-  top: 1935px;
+  top: 1435px;
   left: 545px;
   transform: translate(-50%, -50%);
   font-size: 50px;
@@ -306,11 +311,14 @@ span {
   position: absolute;
   left: 881px;
   top: 500px;
-  width: 140px;
-  height: 140px;
+  width: 110px;
+  height: 110px;
   background-color: #986931d9;
   border: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #redone:hover {

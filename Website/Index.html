@@ -52,6 +52,8 @@
       /></a>
     </nav>
 
+    <!-- Elli's (Matthew's) attempt at the slide show -->
+
     <!--<div class="hero" style="opacity: 0;">
       <div class="hero1 active">
         <img
@@ -80,72 +82,90 @@
           height="350"
         />
       </div>-->
-      <div id="transimage">
-        <!--both set to a null image because i can do that-->
-        <!--in before: "style="margin-left:auto;margin-right:auto;display:block;""-->
-        <img id="trans" width="750" height="350" src="Images/nothing.png"/> 
-        <!--could've just said "transition", but its funnier to just say trans.
+
+    <!-- Code below added via pull request merge from a friend of Elli (Matthew) -->
+
+    <div id="transimage">
+      <!--both set to a null image because i can do that-->
+      <!--in before: "style="margin-left:auto;margin-right:auto;display:block;""-->
+      <img
+        id="trans"
+        width="750"
+        height="350"
+        src="Images/nothing.png"
+        alt="Deals Slide Show"
+      />
+      <!--could've just said "transition", but its funnier to just say trans.
           this layer is going to have the trans image on it, before it gets shifted to final-->
-        <img id="finstat" width="750" height="350" src="Images/nothing.png"/> 
-        <!--this is the final state after the transition finishes-->
-      </div>
+      <img
+        id="finstat"
+        width="750"
+        height="350"
+        src="Images/nothing.png"
+        alt=""
+      />
+      <!--this is the final state after the transition finishes-->
+    </div>
 
-      <script src="Assets/imagetransition.js"></script>
-      <script>
-        // my cowode uwu
-        const imgpafs = ["Images/strongmancoffee.jpg","Images/lattetable.PNG","Images/darkcoffeee.jpg"];
-        async function startscripts(){
-          // start stuff up
-          setTrans("trans",0); //sets transparency to nothin, so for now its all ok!
-          document.getElementById("finstat").src=imgpafs[imgpafs.length-1]; //sets the first image
+    <script src="Assets/imagetransition.js"></script>
+    <script>
+      // New code for slide show
+      const imgpafs = [
+        "Images/strongmancoffee.jpg",
+        "Images/lattetable.PNG",
+        "Images/darkcoffeee.jpg",
+      ];
+      async function startscripts() {
+        // start stuff up
+        setTrans("trans", 0); //sets transparency to nothin, so for now its all ok!
+        document.getElementById("finstat").src = imgpafs[imgpafs.length - 1]; //sets the first image
 
-          // start the rep loop
-          while(true){
-            // just the loop of every item in order
-            for(let x=0;x<imgpafs.length;x++){
-              await doWaittime();
-              await transImage(imgpafs[x]);
-            }
+        // start the rep loop
+        while (true) {
+          // just the loop of every item in order
+          for (let x = 0; x < imgpafs.length; x++) {
+            await doWaittime();
+            await transImage(imgpafs[x]);
           }
         }
+      }
 
-        // the old code
-        // const heroImages = document.querySelectorAll(".hero > div"); //Get all hero images
-        // let currentIndex = 0;
+      // Old code for slideshow
+      // const heroImages = document.querySelectorAll(".hero > div"); //Get all hero images
+      // let currentIndex = 0;
 
-        // //Functions to show and hide images
-        // function showImage(index) {
-        //   heroImages.forEach((image, idx) => {
-        //     if (index === idx) {
-        //       image.classList.add("active");
-        //       image.classList.remove("inactive");
-        //     } else {
-        //       image.classList.remove("active");
-        //       image.classList.add("inactive");
-        //     }
-        //   });
-        // }
+      // //Functions to show and hide images
+      // function showImage(index) {
+      //   heroImages.forEach((image, idx) => {
+      //     if (index === idx) {
+      //       image.classList.add("active");
+      //       image.classList.remove("inactive");
+      //     } else {
+      //       image.classList.remove("active");
+      //       image.classList.add("inactive");
+      //     }
+      //   });
+      // }
 
-        // function hideImage(index) {
-        //   heroImages[index].classList.remove("active");
-        //   heroImages[index].classList.add("inactive");
-        // }
+      // function hideImage(index) {
+      //   heroImages[index].classList.remove("active");
+      //   heroImages[index].classList.add("inactive");
+      // }
 
-        // //Slide show code
-        // function slideShow() {
-        //   hideImage(currentIndex);
-        //   currentIndex = (currentIndex + 1) % heroImages.length;
-        //   showImage(currentIndex);
-        // }
+      // //Slide show code
+      // function slideShow() {
+      //   hideImage(currentIndex);
+      //   currentIndex = (currentIndex + 1) % heroImages.length;
+      //   showImage(currentIndex);
+      // }
 
-        // hideImage(0);
-        // showImage(0);
+      // hideImage(0);
+      // showImage(0);
 
-        // setTimeout(function () {
-        //   setInterval(slideShow, 10000); //< Change image every 10 seconds
-        // }, 0); // < Time until slide show starts
-      </script>
-    </div>
+      // setTimeout(function () {
+      //   setInterval(slideShow, 10000); //< Change image every 10 seconds
+      // }, 0); // < Time until slide show starts
+    </script>
 
     <a href="Pages/Item.html"
       ><button id="redone">

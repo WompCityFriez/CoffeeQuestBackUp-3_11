@@ -89,14 +89,10 @@ body {
   color: #7a3b00;
 }
 
-.Account_Settings > a:hover {
-  color: #270ae4;
-}
-
 .Change_Accounts {
   width: 700px;
   height: 800px;
-  background-color: #809848;
+  background-color: #306844bb;
   border: 3px solid #000000;
   border-radius: 20px;
   padding: 20px;
@@ -191,7 +187,22 @@ body {
 }
 
 .ChangeAccountName:hover {
-  background-color: #ff00c3;
+  animation-name: button-hover;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.Userflex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.9em;
+  justify-content: center;
+}
+
+.Passflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #Username {
@@ -474,28 +485,6 @@ footer {
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-}
-
-/* Animation on submit order button */
-@keyframes button-hover {
-  from {
-    background-color: rgb(42, 120, 0);
-    border: 3px solid #000000;
-  }
-  to {
-    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
-    border: 5px solid #000000;
-  }
-}
-
-/* Animation on other buttons */
-@keyframes button-hover2 {
-  from {
-    background-color: rgb(42, 120, 0);
-  }
-  to {
-    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
-  }
 }
 
 /* Animation on submit order button */
