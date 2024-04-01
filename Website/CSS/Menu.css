@@ -44,7 +44,7 @@
     color: aliceblue;
     font-size: 25px;
     position: absolute;
-    left: 150px;
+    left: 100px;
 }
 
 nav {
@@ -55,7 +55,7 @@ nav {
   #nav1 {
     position: absolute;
     top: 60px;
-    left: 150px;
+    left: 100px;
     color: #ffffff;
     border-radius: 25px;
     background-color: #809848;
@@ -65,12 +65,13 @@ nav {
     font-size: 20px;
     font-family: Ubuntu Condensed;
     border: #000000 solid 2.5px;
+    cursor: pointer;
   }
   
   #nav2 {
     position: absolute;
     top: 60px;
-    left: 300px;
+    left: 250px;
     color: #ffffff;
     border-radius: 25px;
     background-color: #809848;
@@ -80,13 +81,14 @@ nav {
     font-size: 20px;
     font-family: Ubuntu Condensed;
     border: #000000 solid 2.5px;
+    cursor: pointer;
 
   }
   
   #nav3 {
     position: absolute;
     top: 60px;
-    left: 450px;
+    left: 400px;
     color: #ffffff;
     border-radius: 25px;
     background-color: #809848;
@@ -96,12 +98,13 @@ nav {
     font-size: 20px;
     font-family: Ubuntu Condensed;
     border: #000000 solid 2.5px;
+    cursor: pointer;
   }
   
   #nav4 {
     position: absolute;
     top: 60px;
-    left: 600px;
+    left: 550px;
     color: #ffffff;
     border-radius: 25px;
     background-color: #809848;
@@ -111,18 +114,13 @@ nav {
     font-size: 20px;
     font-family: Ubuntu Condensed;
     border: #000000 solid 2.5px;
+    cursor: pointer;
   }
   
   #account-button {
     position: absolute;
     top: 10px;
     left: 1475px;
-  }
-
-  #Logo {
-    position: absolute;
-    top: 0px;
-    left: 0px;
   }
   /* End of nav bar CSS code. */
 
@@ -150,3 +148,40 @@ nav {
     font-family: Ubuntu Condensed;
   }
   /* End of footer CSS code. */
+
+  /*Search bar*/
+  #SearchBar {
+    width: 200px;
+    height: 250px;
+    background-color:#809948eb;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+  }
+  
+  /* box on the left with menu item categories*/
+  #Menu {
+    width: 400px;
+    height: 20px;
+    background-color: #809948eb;
+    border: 5px solid #000000;
+    border-radius: 20px;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 25px;
+    left: 1px;
+    font-family: Ubuntu condensed;
+    font-size: 20px;
+  }
+  

@@ -1,10 +1,8 @@
-@font-face { 
-  font-family: 'Woodwarrior-Regular'; 
-  src: 
-      url('../../fonts/Woodwarrior-Regular.otf')  
-      format('opentype'); 
-  font-weight: normal; 
-  font-style: normal; 
+@font-face {
+  font-family: "Woodwarrior-Regular";
+  src: url("../../fonts/Woodwarrior-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 .ubuntu-condensed-regular {
   font-family: "Ubuntu Condensed", sans-serif;
@@ -14,26 +12,23 @@
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 900
 
-.inter-<uniquifier> {
-font-family: "Inter", sans-serif;
-font-optical-sizing: auto;
-font-weight: <weight>;
-font-style: normal;
-font-variation-settings:
-  "slnt" 0;
+.inter-<uniquifier > {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
 }
 @font-face {
-  font-family: 'SFUIText-Regular'; 
-  src: 
-      url('../../fonts/SFUIText-Regular.otf')  
-      format('opentype'); 
-  font-weight: normal; 
-  font-style: normal; 
+  font-family: "SFUIText-Regular";
+  src: url("../../fonts/SFUIText-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
 body {
   background-image: url(../Images/imgonline-com-ua-TextureSeamless-jesd8SnREaBXB.jpg);
-  background-size:cover;
-  background-repeat:repeat;
+  background-size: cover;
+  background-repeat: repeat;
 }
 .description {
   width: 500px;
@@ -42,7 +37,7 @@ body {
   border: 3px solid #000000;
   border-radius: 20px;
   padding: 20px;
-  text-align:center;
+  text-align: center;
   color: white;
   font-family: Arial, sans-serif;
   position: absolute;
@@ -66,7 +61,7 @@ body {
   position: absolute;
   top: 930px;
   left: 200px;
-  font-family: SFUIText-Regular
+  font-family: SFUIText-Regular;
 }
 #espresso {
   border: 5px solid #000000;
@@ -76,7 +71,7 @@ body {
   left: 150px;
 }
 #QuestCoffeeText {
-  color:white;
+  color: white;
   position: absolute;
   left: 1000px;
   top: 255px;
@@ -90,21 +85,21 @@ body {
   font-family: inter;
   font-size: 35px;
 }
-*{
+* {
   ::-webkit-scrollbar {
-      background: #7a3b00;
+    background: #7a3b00;
   }
-  
+
   ::-webkit-scrollbar-thumb {
-      background: #24b345;
-      -webkit-border-radius: 1.5ex;
+    background: #24b345;
+    -webkit-border-radius: 1.5ex;
   }
-  
+
   ::-webkit-scrollbar-corner {
-      background: #006518a8;
+    background: #006518a8;
   }
- }
- #AddToCart {
+}
+#AddToCart {
   color: white;
   background-color: #67b41ae6;
   border: none;
@@ -116,17 +111,13 @@ body {
   top: 400px;
   font-family: Ubuntu Condensed;
   font-size: 20px;
-  cursor: pointer;
- }
+}
 
- #AddToCart:hover {
-  animation-name: button-hover;
-animation-duration: 0.1s;
-animation-timing-function: ease-in-out;
-animation-fill-mode: forwards;
- }
+#AddToCart:hover {
+  background-color: #67b41a;
+}
 
- #FavoriteButton {
+#FavoriteButton {
   color: white;
   background-color: #758b3cc0;
   background-image: url(../Assets/heart.svg);
@@ -140,22 +131,18 @@ animation-fill-mode: forwards;
   left: 1300px;
   top: 400px;
   position: absolute;
-  cursor: pointer;
- }
-
- #FavoriteButton:hover {
-  background-color: #758b3ce3;
- }
-
- #Page_Title {
+}
+#Page_Title {
   font-family: Woodwarrior-Regular;
   color: aliceblue;
   font-size: 25px;
   position: absolute;
-  left: 100px;
- }
-
- nav {
+  left: 150px;
+}
+#FavoriteButton:hover {
+  background-color: #758b3ce3;
+}
+nav {
   list-style-type: none;
   overflow: hidden;
 }
@@ -163,7 +150,7 @@ animation-fill-mode: forwards;
 #nav1 {
   position: absolute;
   top: 60px;
-  left: 100px;
+  left: 150px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -172,20 +159,12 @@ animation-fill-mode: forwards;
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
-  cursor: pointer;
-}
-
-#nav1:hover {
-  animation-name: button-hover2;
-animation-duration: 0.1s;
-animation-timing-function: ease-in-out;
-animation-fill-mode: forwards;
 }
 
 #nav2 {
   position: absolute;
   top: 60px;
-  left: 250px;
+  left: 300px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -194,20 +173,12 @@ animation-fill-mode: forwards;
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
-  cursor: pointer;
-}
-
-#nav2:hover {
-  animation-name: button-hover2;
-animation-duration: 0.1s;
-animation-timing-function: ease-in-out;
-animation-fill-mode: forwards;
 }
 
 #nav3 {
   position: absolute;
   top: 60px;
-  left: 400px;
+  left: 450px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -216,20 +187,12 @@ animation-fill-mode: forwards;
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
-  cursor: pointer;
-}
-
-#nav3:hover {
-  animation-name: button-hover2;
-animation-duration: 0.1s;
-animation-timing-function: ease-in-out;
-animation-fill-mode: forwards;
 }
 
 #nav4 {
   position: absolute;
   top: 60px;
-  left: 550px;
+  left: 600px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -238,14 +201,6 @@ animation-fill-mode: forwards;
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
-  cursor: pointer;
-}
-
-#nav4:hover {
-  animation-name: button-hover2;
-animation-duration: 0.1s;
-animation-timing-function: ease-in-out;
-animation-fill-mode: forwards;
 }
 
 #account-button {
@@ -253,7 +208,11 @@ animation-fill-mode: forwards;
   top: 10px;
   left: 1475px;
 }
-
+#Logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
 footer {
   position: absolute;
   top: 1575px;
@@ -276,36 +235,8 @@ footer {
   font-size: 20px;
   font-family: Ubuntu Condensed;
 }
-
-#footer-buttons:hover {
-  animation-name: button-hover2;
-animation-duration: 0.1s;
-animation-timing-function: ease-in-out;
-animation-fill-mode: forwards;
-}
 #LofiCoffee {
   position: absolute;
   top: 1000px;
   left: 800px;
-}
-/* Animation on submit order button */
-@keyframes button-hover {
-from {
-  background-color: rgb(42, 120, 0);
-  border: 3px solid #000000;
-}
-to {
-  background-image: Linear-gradient(#007011, #009f2d, #00b30f);
-  border: 5px solid #000000;
-}
-}
-
-/* Animation on other buttons */
-@keyframes button-hover2 {
-from {
-  background-color: rgb(42, 120, 0);
-}
-to {
-  background-image: Linear-gradient(#007011, #009f2d, #00b30f);
-}
 }
