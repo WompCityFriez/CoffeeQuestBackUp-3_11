@@ -160,6 +160,23 @@ span {
   transform: translateX(-100%);
 } */
 
+.Plants {
+  position: absolute;
+  top: 365px;
+  left: 448px;
+  z-index: 1;
+}
+
+#PlantPlant1 {
+  transform: rotate(-20deg);
+}
+
+#PlantPlant2 {
+  position: absolute;
+  left: 838px;
+  transform: rotate(20deg);
+}
+
 #BOGOtext {
   position: absolute;
   top: 1185px;
