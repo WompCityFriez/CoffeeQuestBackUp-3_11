@@ -239,4 +239,5 @@ footer {
   position: absolute;
   top: 1000px;
   left: 800px;
+  border: #000000 solid 2.5px;
 }
