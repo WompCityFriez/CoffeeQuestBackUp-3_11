@@ -114,7 +114,10 @@ body {
 }
 
 #AddToCart:hover {
-  background-color: #67b41a;
+  animation-name: button-hover;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 #FavoriteButton {
@@ -135,9 +138,10 @@ body {
 #Page_Title {
   font-family: Woodwarrior-Regular;
   color: aliceblue;
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
-  left: 150px;
+  left: 100px;
+  top: 30px;
 }
 #FavoriteButton:hover {
   background-color: #758b3ce3;
@@ -150,7 +154,7 @@ nav {
 #nav1 {
   position: absolute;
   top: 60px;
-  left: 150px;
+  left: 100px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -159,12 +163,19 @@ nav {
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
+}
+
+#nav1:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 #nav2 {
   position: absolute;
   top: 60px;
-  left: 300px;
+  left: 250px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -173,12 +184,19 @@ nav {
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
+}
+
+#nav2:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 #nav3 {
   position: absolute;
   top: 60px;
-  left: 450px;
+  left: 400px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -189,10 +207,17 @@ nav {
   font-family: Ubuntu Condensed;
 }
 
+#nav3:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #nav4 {
   position: absolute;
   top: 60px;
-  left: 600px;
+  left: 550px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -201,6 +226,13 @@ nav {
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
+}
+
+#nav4:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 #account-button {
@@ -208,11 +240,7 @@ nav {
   top: 10px;
   left: 1475px;
 }
-#Logo {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
+
 footer {
   position: absolute;
   top: 1575px;
@@ -235,9 +263,39 @@ footer {
   font-size: 20px;
   font-family: Ubuntu Condensed;
 }
+
+#footer-buttons:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #LofiCoffee {
   position: absolute;
   top: 1000px;
   left: 800px;
   border: #000000 solid 2.5px;
+}
+
+/* Animation on submit order button */
+@keyframes button-hover {
+  from {
+    background-color: rgb(42, 120, 0);
+    border: 3px solid #000000;
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+    border: 5px solid #000000;
+  }
+}
+
+/* Animation on other buttons */
+@keyframes button-hover2 {
+  from {
+    background-color: rgb(42, 120, 0);
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+  }
 }
