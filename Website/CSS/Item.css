@@ -111,6 +111,7 @@ body {
   top: 400px;
   font-family: Ubuntu Condensed;
   font-size: 20px;
+  cursor: pointer;
 }
 
 #AddToCart:hover {
@@ -134,6 +135,7 @@ body {
   left: 1300px;
   top: 400px;
   position: absolute;
+  cursor: pointer;
 }
 #Page_Title {
   font-family: Woodwarrior-Regular;
@@ -163,6 +165,7 @@ nav {
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
+  cursor: pointer;
 }
 
 #nav1:hover {
@@ -184,6 +187,7 @@ nav {
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
+  cursor: pointer;
 }
 
 #nav2:hover {
@@ -205,6 +209,7 @@ nav {
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
+  cursor: pointer;
 }
 
 #nav3:hover {
@@ -226,6 +231,7 @@ nav {
   text-align: center;
   font-size: 20px;
   font-family: Ubuntu Condensed;
+  cursor: pointer;
 }
 
 #nav4:hover {

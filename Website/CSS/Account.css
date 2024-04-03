@@ -379,7 +379,7 @@ nav {
 }
 
 #nav1:hover {
-  animation-name: button-hover;
+  animation-name: button-hover2;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
@@ -402,7 +402,7 @@ nav {
 }
 
 #nav2:hover {
-  animation-name: button-hover;
+  animation-name: button-hover2;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
@@ -425,7 +425,7 @@ nav {
 }
 
 #nav3:hover {
-  animation-name: button-hover;
+  animation-name: button-hover2;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
@@ -448,7 +448,7 @@ nav {
 }
 
 #nav4:hover {
-  animation-name: button-hover;
+  animation-name: button-hover2;
   animation-duration: 0.3s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
