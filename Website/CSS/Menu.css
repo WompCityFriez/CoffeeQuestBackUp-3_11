@@ -210,9 +210,7 @@ footer {
   top: 350px;
   left: 350px;
   width: 300px;
-  background-color: white;
-  border-radius: 10px;
-    padding: 20px;
+  z-index: 1;
   }
 
 
@@ -221,10 +219,7 @@ footer {
   top: 1000px;
   left: 1100px;
   width: 400px;
-  background-color: white;
-  border-radius: 10px;
-    padding: 20px;
-
+  z-index: 1;
   }
 
 
@@ -233,9 +228,7 @@ footer {
   top: 1000px;
   left: 300px;
   width: 400px;
-  background-color: white;
-  border-radius: 10px;
-    padding: 20px;
+  z-index: 1;
   }
 
 
@@ -246,9 +239,7 @@ footer {
   top: 750px;
   left: 400px;
   width: 200px;
-  background-color: white;
-  border-radius: 10px;
-    padding: 20px;
+  z-index: 1;
 }
 
 
@@ -257,14 +248,47 @@ footer {
   top: 700px;
   left: 1200px;
   width: 200px;
-  background-color: white;
-  border-radius: 10px;
-    padding: 20px;
+  z-index: 1;
 }
 
 #circle {
   position: absolute;
-  top: 310px;
-  left: 1150px;
-  width: 300px;
+  top: 325px;
+  left: 1175px;
+  width: 250px;
+}
+
+#circle2 {
+  position: absolute;
+  top: 325px;
+  left: 375px;
+  width: 250px;
+}
+
+#circle3 {
+  position: absolute;
+  top: 1000px;
+  left: 1175px;
+  width: 250px;
+}
+
+#circle4 {
+  position: absolute;
+  top: 1000px;
+  left: 375px;
+  width: 250px;
+}
+
+#circle5 {
+  position: absolute;
+  top: 675px;
+  left: 1175px;
+  width: 250px;
+}
+
+#circle6 {
+  position: absolute;
+  top: 675px;
+  left: 375px;
+  width: 250px;
 }
