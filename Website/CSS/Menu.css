@@ -199,7 +199,7 @@ footer {
   #drink {
   position: absolute;
   top: 350px;
-  left: 1150px;
+  left: 1475px;
   width: 300px;
   z-index: 1;
   }
@@ -208,7 +208,7 @@ footer {
   #drink2 {
   position: absolute;
   top: 350px;
-  left: 350px;
+  left: 475px;
   width: 300px;
   z-index: 1;
   }
@@ -217,7 +217,7 @@ footer {
   #item {
   position: absolute;
   top: 1000px;
-  left: 1100px;
+  left: 1430px;
   width: 400px;
   z-index: 1;
   }
@@ -226,7 +226,7 @@ footer {
   #item2 {
   position: absolute;
   top: 1000px;
-  left: 300px;
+  left: 430px;
   width: 400px;
   z-index: 1;
   }
@@ -237,7 +237,7 @@ footer {
 #food {
   position: absolute;
   top: 750px;
-  left: 400px;
+  left: 525px;
   width: 200px;
   z-index: 1;
 }
@@ -246,7 +246,7 @@ footer {
 #food2 {
   position: absolute;
   top: 700px;
-  left: 1200px;
+  left: 1520px;
   width: 200px;
   z-index: 1;
 }
@@ -254,41 +254,41 @@ footer {
 #circle {
   position: absolute;
   top: 325px;
-  left: 1175px;
+  left: 1500px;
   width: 250px;
 }
 
 #circle2 {
   position: absolute;
   top: 325px;
-  left: 375px;
+  left: 500px;
   width: 250px;
 }
 
 #circle3 {
   position: absolute;
   top: 1000px;
-  left: 1175px;
+  left: 1500px;
   width: 250px;
 }
 
 #circle4 {
   position: absolute;
   top: 1000px;
-  left: 375px;
+  left: 500px;
   width: 250px;
 }
 
 #circle5 {
   position: absolute;
   top: 675px;
-  left: 1175px;
+  left: 1500px;
   width: 250px;
 }
 
 #circle6 {
   position: absolute;
   top: 675px;
-  left: 375px;
+  left: 500px;
   width: 250px;
 }
