@@ -201,9 +201,7 @@ footer {
   top: 350px;
   left: 1150px;
   width: 300px;
-  background-color: red;
-  border-radius: 10px;
-    padding: 20px;
+  z-index: 1;
   }
 
 
@@ -262,4 +260,11 @@ footer {
   background-color: white;
   border-radius: 10px;
     padding: 20px;
+}
+
+#circle {
+  position: absolute;
+  top: 310px;
+  left: 1150px;
+  width: 300px;
 }
