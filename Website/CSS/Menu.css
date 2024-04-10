@@ -201,7 +201,9 @@ footer {
   top: 350px;
   left: 1150px;
   width: 300px;
-  background-color: white;
+  background-color: red;
+  border-radius: 10px;
+    padding: 20px;
   }
 
 
@@ -211,6 +213,8 @@ footer {
   left: 350px;
   width: 300px;
   background-color: white;
+  border-radius: 10px;
+    padding: 20px;
   }
 
 
@@ -220,6 +224,9 @@ footer {
   left: 1100px;
   width: 400px;
   background-color: white;
+  border-radius: 10px;
+    padding: 20px;
+
   }
 
 
@@ -229,6 +236,8 @@ footer {
   left: 300px;
   width: 400px;
   background-color: white;
+  border-radius: 10px;
+    padding: 20px;
   }
 
 
@@ -240,6 +249,8 @@ footer {
   left: 400px;
   width: 200px;
   background-color: white;
+  border-radius: 10px;
+    padding: 20px;
 }
 
 
@@ -249,4 +260,6 @@ footer {
   left: 1200px;
   width: 200px;
   background-color: white;
+  border-radius: 10px;
+    padding: 20px;
 }
