@@ -161,7 +161,7 @@ footer {
 
 /*Search bar*/
 #searchBar {
-  width: 200px;
+  width: 800px;
   height: 50px;
   background-color:#809948eb;
   border: 5px solid #000000;
@@ -172,7 +172,7 @@ footer {
   font-family: Arial, sans-serif;
   position: absolute;
   top: 150px;
-  left: 800px;
+  left: 550px;
   font-family: Ubuntu Condensed;
   font-size: 20px;
 }
@@ -201,6 +201,7 @@ footer {
   top: 350px;
   left: 1150px;
   width: 300px;
+  background-color: white;
   }
 
 
@@ -209,6 +210,7 @@ footer {
   top: 350px;
   left: 350px;
   width: 300px;
+  background-color: white;
   }
 
 
@@ -217,6 +219,7 @@ footer {
   top: 1000px;
   left: 1100px;
   width: 400px;
+  background-color: white;
   }
 
 
@@ -225,6 +228,7 @@ footer {
   top: 1000px;
   left: 300px;
   width: 400px;
+  background-color: white;
   }
 
 
@@ -235,6 +239,7 @@ footer {
   top: 750px;
   left: 400px;
   width: 200px;
+  background-color: white;
 }
 
 
@@ -243,4 +248,5 @@ footer {
   top: 700px;
   left: 1200px;
   width: 200px;
+  background-color: white;
 }
