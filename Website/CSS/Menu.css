@@ -76,6 +76,13 @@ nav {
   cursor: pointer;
 }
 
+#nav1:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #nav2 {
   position: absolute;
   top: 60px;
@@ -94,6 +101,13 @@ nav {
 
 }
 
+#nav2:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #nav3 {
   position: absolute;
   top: 60px;
@@ -110,6 +124,13 @@ nav {
   cursor: pointer;
 }
 
+#nav3:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 #nav4 {
   position: absolute;
   top: 60px;
@@ -124,6 +145,13 @@ nav {
   font-family: Ubuntu Condensed;
   border: #000000 solid 2.5px;
   cursor: pointer;
+}
+
+#nav4:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 
 #account-button {
@@ -157,6 +185,14 @@ footer {
   font-size: 20px;
   font-family: Ubuntu Condensed;
 }
+
+#footer-buttons:hover {
+  animation-name: button-hover2;
+  animation-duration: 0.1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
 /* End of footer CSS code. */
 
 
@@ -199,8 +235,8 @@ footer {
 
   #drink {
   position: absolute;
-  top: 350px;
-  left: 1475px;
+  top: 40vh;
+  left: 61vw;
   width: 300px;
   z-index: 1;
   }
@@ -208,7 +244,7 @@ footer {
 
   #drink2 {
   position: absolute;
-  top: 350px;
+  top: 40vh;
   left: 475px;
   width: 300px;
   z-index: 1;
@@ -217,8 +253,8 @@ footer {
 
   #item {
   position: absolute;
-  top: 1000px;
-  left: 1430px;
+  top: 110vh;
+  left: 58vw;
   width: 400px;
   z-index: 1;
   }
@@ -226,8 +262,8 @@ footer {
 
   #item2 {
   position: absolute;
-  top: 1000px;
-  left: 430px;
+  top: 110vh;
+  left: 22vw;
   width: 400px;
   z-index: 1;
   }
@@ -237,8 +273,8 @@ footer {
 
 #food {
   position: absolute;
-  top: 750px;
-  left: 525px;
+  top: 83vh;
+  left: 27vw;
   width: 200px;
   z-index: 1;
 }
@@ -246,50 +282,72 @@ footer {
 
 #food2 {
   position: absolute;
-  top: 700px;
-  left: 1520px;
+  top: 78vh;
+  left: 63vw;
   width: 200px;
   z-index: 1;
 }
 
 #circle {
   position: absolute;
-  top: 325px;
-  left: 1500px;
+  top: 38vh;
+  left: 62vw;
   width: 250px;
 }
 
 #circle2 {
   position: absolute;
-  top: 325px;
-  left: 500px;
+  top: 38vh;
+  left: 26vw;
   width: 250px;
 }
 
 #circle3 {
   position: absolute;
-  top: 1000px;
-  left: 1500px;
+  top: 110vh;
+  left: 62vw;
   width: 250px;
 }
 
 #circle4 {
   position: absolute;
-  top: 1000px;
-  left: 500px;
+  top: 110vh;
+  left: 26vw;
   width: 250px;
 }
 
 #circle5 {
   position: absolute;
-  top: 675px;
-  left: 1500px;
+  top: 75vh;
+  left: 62vw;
   width: 250px;
 }
 
 #circle6 {
   position: absolute;
-  top: 675px;
-  left: 500px;
+  top: 75vh;
+  left: 26vw;
   width: 250px;
+}
+
+/* Animation on submit order button */
+@keyframes button-hover {
+  from {
+    background-color: rgb(42, 120, 0);
+    border: 3px solid #000000;
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+    border: 5px solid #000000;
+  }
+}
+
+/* Animation on other buttons */
+@keyframes button-hover2 {
+  from {
+    background-color: rgb(42, 120, 0);
+  }
+  to {
+    background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+  }
 }
