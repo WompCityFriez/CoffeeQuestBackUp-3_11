@@ -1,0 +1,573 @@
+@font-face {
+    font-family: "Woodwarrior-Regular";
+    src: url("../../fonts/Woodwarrior-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "PlayfairDisplay-Regular";
+    src: url("../../fonts/PlayfairDisplay-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .ubuntu-condensed-regular {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .ubuntu-medium {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  body {
+    background-color: #814e3d;
+    color: white;
+  }
+  
+  .Account_Settings {
+    width: 200px;
+    height: 800px;
+    background-color: #809848;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 700px;
+    left: 3450px;
+    color: #a00000;
+  }
+  
+  .Account_Settings > a {
+    color: #7a3b00;
+  }
+  
+  .Personalchange {
+    width: 700px;
+    height: 800px;
+    background-color: #306844bb;
+    border: 3px solid #000000;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 230px;
+    left: 380px;
+  }
+  
+  /* #account-button {
+    float: right;
+    position: absolute;
+    top: 10px;
+    left: 1475px;
+  } */
+  
+  #Page_Title {
+    font-family: "Woodwarrior-Regular";
+    color: aliceblue;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+  }
+  
+  * {
+    ::-webkit-scrollbar {
+      background: #7a3b00;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: #24b345;
+      -webkit-border-radius: 1.5ex;
+    }
+  
+    ::-webkit-scrollbar-corner {
+      background: #006518a8;
+    }
+  }
+  
+  .ChangeAddress {
+    color: white;
+    background-color: #67b41ae6;
+    border: none;
+    border-radius: 40px;
+    width: 250px;
+    height: 60px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+  
+  .ChangeAddress:hover {
+    animation-name: button-hover;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  .ChangeApartment {
+    color: white;
+    background-color: #67b41ae6;
+    border: none;
+    border-radius: 40px;
+    width: 230px;
+    height: 60px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+
+  .ChangeApartment:hover {
+    animation-name: button-hover;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  .ChangeCity{
+    color: white;
+    background-color: #67b41ae6;
+    border: none;
+    border-radius: 40px;
+    width: 250px;
+    height: 60px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+  
+  .ChangeCity:hover {
+    animation-name: button-hover;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  .ChangePostalCode{
+    color: white;
+    background-color: #67b41ae6;
+    border: none;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+  
+  .ChangePostalCode:hover {
+    animation-name: button-hover;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+
+  .ChangeCountry{
+    color: white;
+    background-color: #67b41ae6;
+    border: none;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+  }
+
+  .ChangeCountry:hover {
+    animation-name: button-hover;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  /* .cardholder {
+    color: white;
+    background-color: #67b41ae6;
+    border: none;
+    border-radius: 40px;
+    width: 500px;
+    height: 70px;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .ChangeAccountName:hover {
+    animation-name: button-hover;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  } */
+  
+  .Userflex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.9em;
+    justify-content: center;
+  }
+  
+  .Passflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #Username {
+    font-size: 25px;
+  }
+  
+  #Username,
+  #Password {
+    float: left;
+  }
+  
+  #Password {
+    font-size: 25px;
+  }
+  
+  #AccountSettings {
+    position: absolute;
+    top: 251px;
+    left: 35px;
+    font-size: 25px;
+  }
+  
+  #PersonalSettings {
+    position: absolute;
+    top: 320px;
+    left: 27px;
+    font-size: 25px;
+  }
+  
+  #PaymentOptions {
+    position: absolute;
+    top: 399px;
+    left: 30px;
+    font-size: 25px;
+  }
+  
+  #Help {
+    position: absolute;
+    top: 460px;
+    left: 31px;
+    font-size: 25px;
+  }
+  
+  #DangerZone {
+    position: absolute;
+    top: 799px;
+    left: 37px;
+    color: #fd0000;
+    font-size: 25px;
+  }
+  
+  #DeleteAccount {
+    position: absolute;
+    top: 900px;
+    left: 45px;
+    color: #a00000;
+    font-size: 25px;
+  }
+  
+  #SignOut {
+    position: absolute;
+    top: 1011px;
+    left: 79px;
+    color: #fd0000;
+    font-size: 25px;
+  }
+  
+  #DeleteAccount:hover,
+  #SignOut:hover {
+    color: #ffffff;
+  }
+  
+  #Line {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    top: 830px;
+    left: 6px;
+    color: #d96800;
+    font-size: 25px;
+    font-weight: 500px;
+    letter-spacing: -6px;
+  }
+  
+  #Diamond {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    top: 833px;
+    left: 3px;
+    color: #d96800;
+    font-size: 25px;
+    font-weight: 500px;
+    letter-spacing: -6px;
+  }
+  
+  #Diamond1 {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    top: 833px;
+    left: 245px;
+    color: #d96800;
+    font-size: 25px;
+    font-weight: 500px;
+    letter-spacing: -6px;
+  }
+  
+  #Arrow {
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    top: 186px;
+    left: 245px;
+    color: #ffffff;
+    font-size: 115px;
+    font-weight: 500px;
+  }
+  
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+    .container {
+      width: 100%;
+    }
+  }
+  
+  /* For screens 768px and larger */
+  @media (min-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    .container {
+      width: 750px;
+    }
+  }
+  
+  /* For screens 992px and larger */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  
+  /* For screens 1200px and larger */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
+  /* <nav> styling */
+  
+  nav {
+    list-style-type: none;
+    overflow: hidden;
+  }
+  
+  #nav1 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #809848;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+    border: #000000 solid 2.5px;
+    cursor: pointer;
+  }
+  
+  #nav1:hover {
+    animation-name: button-hover2;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  #nav2 {
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #809848;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+    border: #000000 solid 2.5px;
+    cursor: pointer;
+  }
+  
+  #nav2:hover {
+    animation-name: button-hover2;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  #nav3 {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #809848;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+    border: #000000 solid 2.5px;
+    cursor: pointer;
+  }
+  
+  #nav3:hover {
+    animation-name: button-hover2;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  #nav4 {
+    position: absolute;
+    top: 60px;
+    left: 550px;
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #809848;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu Condensed;
+    border: #000000 solid 2.5px;
+    cursor: pointer;
+  }
+  
+  #nav4:hover {
+    animation-name: button-hover2;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  /* Footer */
+  footer {
+    position: absolute;
+    top: 1100px;
+    left: 0px;
+    width: 100%;
+    background-color: #182c25;
+    color: white;
+    text-align: center;
+    font-family: Ubuntu Condensed;
+    font-size: 20px;
+  }
+  
+  #footer-buttons {
+    color: #ffffff;
+    border-radius: 25px;
+    background-color: #009f2d;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    font-size: 20px;
+    border: #000000 solid 2.5px;
+    font-family: Ubuntu Condensed;
+    cursor: pointer;
+  }
+  
+  #footer-buttons:hover {
+    animation-name: button-hover2;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+  /* Animation on submit order button */
+  @keyframes button-hover {
+    from {
+      background-color: rgb(42, 120, 0);
+      border: 3px solid #000000;
+    }
+    to {
+      background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+      border: 5px solid #000000;
+    }
+  }
+  
+  /* Animation on other buttons */
+  @keyframes button-hover2 {
+    from {
+      background-color: rgb(42, 120, 0);
+    }
+    to {
+      background-image: Linear-gradient(#007011, #009f2d, #00b30f);
+    }
+  }
+  
