@@ -48,9 +48,10 @@ body{
  #Page_Title{
   font-family: 'Woodwarrior-Regular';
   color: aliceblue;
-  font-size: 25px;
+  font-size: 20px;
   position: absolute;
   left: 100px;
+  top: 30px;
 }
 
 
@@ -179,8 +180,8 @@ footer {
 
 /* box on the left with menu item categories*/
 #Menu {
-  width: 400px;
-  height: 20px;
+  width: 18vw;
+  height: 130vh;
   background-color: #809948eb;
   border: 5px solid #000000;
   border-radius: 20px;
@@ -189,8 +190,8 @@ footer {
   color: white;
   font-family: Arial, sans-serif;
   position: absolute;
-  top: 25px;
-  left: 750px;
+  top: 25vh;
+  left: 1vw;
   font-family: Ubuntu condensed;
   font-size: 20px;
 }
