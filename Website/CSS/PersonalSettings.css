@@ -104,12 +104,12 @@
     left: 380px;
   }
   
-  /* #account-button {
+  #account-button {
     float: right;
     position: absolute;
     top: 10px;
     left: 1475px;
-  } */
+  }
   
   #Page_Title {
     font-family: "Woodwarrior-Regular";
@@ -377,7 +377,7 @@
     user-select: none;
     pointer-events: none;
     position: absolute;
-    top: 186px;
+    top: 255px;
     left: 245px;
     color: #ffffff;
     font-size: 115px;

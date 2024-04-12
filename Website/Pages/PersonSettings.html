@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Account Settings</title>
+    <title>Personal Settings</title>
     <link rel="icon" type="image/x-icon" href="../Images/quest-coffee-logo.svg">
-    <link href="PersonalSettings.css" rel="stylesheet">
+    <link href="../CSS/PersonalSettings.css" rel="stylesheet">
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
@@ -18,7 +18,7 @@
        <!--Site Navigation-->
        <nav>
         <img id="Logo" alt="logo" src="../Images/quest-coffee-logo.svg" width="75" height="75">
-        <span id="Page_Title">Quest Coffee | Account</span>
+        <span id="Page_Title">Quest Coffee | Pesonal Settings</span>
         <br><div id="nav-buttons1"><a href="../Index.html"><input type="button" value="Home" id="nav1"/></a></div>
         <div id="nav-buttons2"><a href="Menu.html"><input type="button" value="Menu" id="nav2"/></a></div>
         <div id="nav-buttons3"><a href="Company.html"><input type="button" value="Info" id="nav3"/></a></div>
@@ -43,15 +43,14 @@
             <br>
             <span id="DangerZone">&#9772;Danger Zone&#9772;</span>
             <br>
-            <a href=""><span id="DeleteAccount">Delete Account</span></a>
-            <script>var DAccount = document.getElementById("DeleteAccount");
-            var SettingsArea = document.getElementByClassName("Change_Delete");
+            <a href="../Index.html"><span id="DeleteAccount">Delete Account</span></a>
+            <script>
+              document.getElementById("DeleteAccount").addEventListener("click", function() {
+                  alert("Your account is going to be deleted now. Thank you for using Quest Coffee!");
+                })
             </script>
             <br>
-            <a href=""><span id="SignOut">Sign Out</span></a>
-            <script>var SOut = document.getElementById("SignOut");
-            var SettingsArea = document.getElementByClassName("Change_Sign");
-            </script>
+            <a href="../Index.html"><span id="SignOut">Sign Out</span></a>
         </div>
 
         <div class="Personalchange">

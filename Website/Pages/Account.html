@@ -33,41 +33,24 @@
             <p>&#10240</p>
 
             <br>
-            <a href=""><span id="AccountSettings">Account Settings</span></a>
-            <script>var ASetting = document.getElementById("AccountSettings");
-            var SettingsArea = document.getElementsByClassName("Change_Accounts");
-
-           ASetting.onclick = function() {
-            SettingsArea.
-           }
-            </script>
+            <a href="Account.html"><span id="AccountSettings">Account Settings</span></a>
             <br>
-            <a href=""><span id="PersonalSettings">Personal Settings</span></a>
-            <script>var PSetting = document.getElementById("PersonalSettings");
-            var SettingsArea = document.getElementsByClassName("Change_Personal");
-            </script>
+            <a href="PersonSettings.html"><span id="PersonalSettings">Personal Settings</span></a>
             <br>
-            <a href=""><span id="PaymentOptions">Payment Options</span></a>
-            <script>var POptions = document.getElementById("PaymentOptions");
-            var SettingsArea = document.getElementByClassName("Change_Payment");
-            </script>
+            <a href="PaymentOptions.html"><span id="PaymentOptions">Payment Options</span></a>
             <br>
-            <a href=""><span id="Help">Help</span></a>
-            <script>var Help = document.getElementById("Help");
-            var SettingsArea = document.getElementByClassName("Change_Help");
-            </script>
+            <a href="Help.html"><span id="Help">Help</span></a>
             <br>
             <span id="DangerZone">&#9772;Danger Zone&#9772;</span>
             <br>
-            <a href=""><span id="DeleteAccount">Delete Account</span></a>
-            <script>var DAccount = document.getElementById("DeleteAccount");
-            var SettingsArea = document.getElementByClassName("Change_Delete");
+            <a href="../Index.html"><span id="DeleteAccount">Delete Account</span></a>
+            <script>
+              document.getElementById("DeleteAccount").addEventListener("click", function(){
+                alert("Your account is going to be deleted now. Thank you for using Quest Coffee!");   
+              });
             </script>
             <br>
-            <a href=""><span id="SignOut">Sign Out</span></a>
-            <script>var SOut = document.getElementById("SignOut");
-            var SettingsArea = document.getElementByClassName("Change_Sign");
-            </script>
+            <a href="../Index.html"><span id="SignOut">Sign Out</span></a>
         </div>
 
         <div class="Change_Accounts">
