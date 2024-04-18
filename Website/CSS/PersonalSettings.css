@@ -139,7 +139,7 @@
     background-color: #67b41ae6;
     border: none;
     border-radius: 40px;
-    width: 250px;
+    width: 215px;
     height: 60px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
@@ -159,7 +159,7 @@
     background-color: #67b41ae6;
     border: none;
     border-radius: 40px;
-    width: 230px;
+    width: 215px;
     height: 60px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
@@ -179,7 +179,7 @@
     background-color: #67b41ae6;
     border: none;
     border-radius: 40px;
-    width: 250px;
+    width: 220px;
     height: 60px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
@@ -199,7 +199,7 @@
     background-color: #67b41ae6;
     border: none;
     border-radius: 40px;
-    width: 150px;
+    width: 220px;
     height: 60px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
@@ -220,7 +220,7 @@
     background-color: #67b41ae6;
     border: none;
     border-radius: 40px;
-    width: 150px;
+    width: 220px; 
     height: 60px;
     font-family: Ubuntu Condensed;
     font-size: 20px;
@@ -234,6 +234,10 @@
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
   }
+
+#star{
+  color: red;
+}
   
   /* .cardholder {
     color: white;
@@ -266,19 +270,63 @@
     align-items: center;
     justify-content: center;
   }
-  
-  #Username {
+
+  #Address {
     font-size: 25px;
   }
   
-  #Username,
-  #Password {
+  #Address,
+  #Apartment,
+  #City,
+  #PostalCode,
+  #Country,
+  #address,
+  #Newapartment,
+  #NewCity,
+  #Country,
+  #NewCountry,
+  #NewPostalCode{
     float: left;
   }
   
-  #Password {
+  #Apartment {
     font-size: 25px;
   }
+
+#address {
+  font-size: 25px;
+}
+
+  #City {
+    font-size: 25px;
+  }
+
+  #Newapartment{
+    font-size: 25px;
+  }
+
+  #PostalCode {
+    font-size: 25px;
+  }
+
+  #NewCity{
+    font-size: 25px;
+  }
+
+  #NewPostalCode{
+    font-size: 25px;
+  }
+
+  #Country{
+    font-size: 25px;
+  }
+
+  #NewCountry{
+    font-size: 25px;
+  }
+
+
+
   
   #AccountSettings {
     position: absolute;
