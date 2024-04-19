@@ -267,17 +267,12 @@
     justify-content: center;
   }
   
-  #Username {
+  #Helpmeplease {
     font-size: 25px;
   }
   
-  #Username,
-  #Password {
+  #Helpmeplease{
     float: left;
-  }
-  
-  #Password {
-    font-size: 25px;
   }
   
   #AccountSettings {
