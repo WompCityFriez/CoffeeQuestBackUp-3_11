@@ -50,8 +50,8 @@ body{
   color: aliceblue;
   font-size: 20px;
   position: absolute;
-  left: 100px;
-  top: 30px;
+  left: 5vw;
+  top: 3vh;
 }
 
 
@@ -62,8 +62,8 @@ nav {
 
 #nav1 {
   position: absolute;
-  top: 60px;
-  left: 100px;
+  top: 7vh;
+  left: 5vw;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -85,8 +85,8 @@ nav {
 
 #nav2 {
   position: absolute;
-  top: 60px;
-  left: 250px;
+  top: 7vh;
+  left: 13vw;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -110,8 +110,8 @@ nav {
 
 #nav3 {
   position: absolute;
-  top: 60px;
-  left: 400px;
+  top: 7vh;
+  left: 21vw;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -133,8 +133,8 @@ nav {
 
 #nav4 {
   position: absolute;
-  top: 60px;
-  left: 550px;
+  top: 7vh;
+  left: 29vw;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -156,8 +156,8 @@ nav {
 
 #account-button {
   position: absolute;
-  top: 10px;
-  left: 1475px;
+  top: 1vh;
+  left: 77vw;
 }
 /* End of nav bar CSS code. */
 
@@ -165,7 +165,7 @@ nav {
 /* Beginning of footer CSS code. */
 footer {
   position: absolute;
-  top: 1500px; /* Adjust pixels for the top command to move the footer wherever you want.  It could to make the webpage longer or move the footer closer to the other content on the page. */
+  top: 165vh; /* Adjust pixels for the top command to move the footer wherever you want.  It could to make the webpage longer or move the footer closer to the other content on the page. */
   left: 0px;
   width: 100%;
   background-color: #182c25;
@@ -208,8 +208,8 @@ footer {
   color: white;
   font-family: Arial, sans-serif;
   position: absolute;
-  top: 150px;
-  left: 550px;
+  top: 17vh;
+  left: 29vw;
   font-family: Ubuntu Condensed;
   font-size: 20px;
 }
