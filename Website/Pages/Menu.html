@@ -13,6 +13,8 @@
 </head>
 
 
+
+
 <body>
     <!--Site Navigation-->
     <div class="NavBar">
@@ -27,27 +29,118 @@
     </nav> </div>
 
 
+    <style>
+      .container, .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+    
+      .item {
+        width: calc(50% - 10px); /* Two items per column with a 10px gap */
+        padding: 10px;
+        margin-bottom: 110px;
+        box-sizing: border-box; /* Include padding in item width calculation */
+      }
+    
+      .item-img {
+        max-width: 27%; /* Adjust the size of the image */
+        height: auto; /* Maintain the aspect ratio */
+      }
+    
+      @media (max-width: 768px) {
+        .item {
+          width: 100%; /* Full width on smaller screens */
+        }
+      }
+
+      #img {
+        margin-top: 25px;
+        margin-left: 5px;
+        width: 155px;
+      }
+
+      #img-s {
+        margin-top: 65px;
+      }
+
+      #img-m {
+        margin-top: 35px;
+      }
+
+      #img-bx {
+        margin-top: 35px;
+      }
+
+      #img-bg {
+        margin-top: 35px;
+      }
+    </style>
+    <div class="container">
+      <div class="item">
+        <img id="circ1" src="../Images/White_Circle.svg.png" alt="1 description" class="item-img">
+      </div>
+      <div class="item">
+        <img id="circ2" src="../Images/White_Circle.svg.png" alt="2 description" class="item-img">
+      </div>
+      <div class="item">
+        <img id="circ3" src="../Images/White_Circle.svg.png" alt="3 description" class="item-img">
+      </div>
+      <div class="item">
+        <img id="circ4" src="../Images/White_Circle.svg.png" alt="4 description" class="item-img">
+      </div>
+      <div class="item">
+        <img id="circ5" src="../Images/White_Circle.svg.png" alt="5 description" class="item-img">
+      </div>
+      <div class="item">
+        <img id="circ6" src="../Images/White_Circle.svg.png" alt="6 description" class="item-img">
+      </div>
+    </div>
+
+
+
+
+    <div class="container2">
+      <div class="item">
+        <a href="../Pages/Item.html"><img src="../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-16oz-removebg-preview.png" alt="1 description" class="item-img" id="img"></a>
+      </div>
+      <div class="item">
+        <img src="../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-16oz-removebg-preview.png" alt="2 description" class="item-img" id="img">
+      </div>
+      <div class="item">
+        <img src="../Images/bacon-egg-cheese-muffin-removebg-preview.png" alt="3 description" class="item-img" id="img-s">
+      </div>
+      <div class="item">
+        <img src="../Images/muffintest2-removebg-preview.png" alt="4 description" class="item-img" id="img-m">
+      </div>
+      <div class="item">
+        <img src="../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-box-removebg-preview.png" alt="5 description" class="item-img" id="img-bx">
+      </div>
+      <div class="item">
+        <img src="../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-bag-removebg-preview.png" alt="6 description" class="item-img" id="img-bg">
+      </div>
+    </div>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
     <!-- Search Bar -->
     <div class="SearchBar">
     <input type="text" id="searchBar" name="searchBar" placeholder="Search...">
     </div>
-
-
+    
     <!-- Item Bar Box -->
     <div id="Menu"></div>
-    <!-- Menu Item Images -->
-    <img id="food" src="../Images/bacon-egg-cheese-muffin-removebg-preview.png" alt="food">
-    <img src="../Images/muffintest2-removebg-preview.png" alt="food2" id="food2">
-    <img src="../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-16oz-removebg-preview.png" alt="drink" id="drink">
-    <a href="Item.html"><img src="../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-16oz-removebg-preview.png" alt="drink2" id="drink2"></a>
-    <img src="../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-bag-removebg-preview.png" alt="item" id="item">
-    <img src="../Assets/Resources/Resources/Quest_Coffee_Images/quest-coffee-box-removebg-preview.png" alt="item2" id="item2">
-    <img src="../Images/White_Circle.svg.png" alt="circle" id="circle">
-    <img src="../Images/White_Circle.svg.png" alt="circle2" id="circle2">
-    <img src="../Images/White_Circle.svg.png" alt="circle3" id="circle3">
-    <img src="../Images/White_Circle.svg.png" alt="circle4" id="circle4">
-    <img src="../Images/White_Circle.svg.png" alt="circle5" id="circle5">
-    <img src="../Images/White_Circle.svg.png" alt="circle6" id="circle6">
 
     <!-- Text with Background -->
     <span id="beverages">Beverages</span>

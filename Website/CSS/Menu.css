@@ -288,47 +288,6 @@ footer {
   z-index: 1;
 }
 
-#circle {
-  position: absolute;
-  top: 38vh;
-  left: 62vw;
-  width: 250px;
-}
-
-#circle2 {
-  position: absolute;
-  top: 38vh;
-  left: 26vw;
-  width: 250px;
-}
-
-#circle3 {
-  position: absolute;
-  top: 110vh;
-  left: 62vw;
-  width: 250px;
-}
-
-#circle4 {
-  position: absolute;
-  top: 110vh;
-  left: 26vw;
-  width: 250px;
-}
-
-#circle5 {
-  position: absolute;
-  top: 75vh;
-  left: 62vw;
-  width: 250px;
-}
-
-#circle6 {
-  position: absolute;
-  top: 75vh;
-  left: 26vw;
-  width: 250px;
-}
 
 /* Animation on submit order button */
 @keyframes button-hover {
@@ -411,3 +370,19 @@ footer {
   font-weight: 800;
   letter-spacing: -6px;
 }
+
+.container {
+  position: absolute;
+  top: 40vh;
+  left: 30vw;
+}
+
+.container2 {
+  position: absolute;
+  top: 40vh;
+  left: 30vw;
+}
+
+
+
+
