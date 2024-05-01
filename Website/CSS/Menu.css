@@ -45,25 +45,30 @@ body{
 
 
  /* Beginning of nav bar CSS code. */
- #Page_Title{
+ #Page_Title {
   font-family: 'Woodwarrior-Regular';
   color: aliceblue;
   font-size: 20px;
-  position: absolute;
-  left: 5vw;
-  top: 3vh;
+  margin-left: 17px;
+  margin-bottom: 30px;
+}
+
+#Logo {
+  margin-bottom: 21px;
 }
 
 
 nav {
-  list-style-type: none;
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  
 }
 
 #nav1 {
-  position: absolute;
-  top: 7vh;
-  left: 5vw;
+  margin-left: -280px;
+  margin-top: 50px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -84,9 +89,8 @@ nav {
 }
 
 #nav2 {
-  position: absolute;
-  top: 7vh;
-  left: 13vw;
+  margin-left: -130px;
+  margin-top: 50px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -109,9 +113,8 @@ nav {
 }
 
 #nav3 {
-  position: absolute;
-  top: 7vh;
-  left: 21vw;
+  margin-left: 0px;
+  margin-top: 50px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -132,9 +135,8 @@ nav {
 }
 
 #nav4 {
-  position: absolute;
-  top: 7vh;
-  left: 29vw;
+  margin-left: 0px;
+  margin-top: 50px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #809848;
@@ -154,10 +156,14 @@ nav {
   animation-fill-mode: forwards;
 }
 
+nav a {
+  text-decoration: none;
+  flex: 1 0 20%;
+  margin: 0 10px;
+}
 #account-button {
-  position: absolute;
-  top: 1vh;
-  left: 77vw;
+  margin-left: calc(100% - 420px);
+  margin-top: -155px;
 }
 /* End of nav bar CSS code. */
 
@@ -165,7 +171,7 @@ nav {
 /* Beginning of footer CSS code. */
 footer {
   position: absolute;
-  top: 165vh; /* Adjust pixels for the top command to move the footer wherever you want.  It could to make the webpage longer or move the footer closer to the other content on the page. */
+  top: 175vh; /* Adjust pixels for the top command to move the footer wherever you want.  It could to make the webpage longer or move the footer closer to the other content on the page. */
   left: 0px;
   width: 100%;
   background-color: #182c25;
@@ -198,21 +204,28 @@ footer {
 
 /*Search bar*/
 #searchBar {
-  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  max-width: 600px;
   height: 50px;
-  background-color:#809948eb;
+  margin: 0 auto;
+  background-color: #809948eb;
   border: 5px solid #000000;
   border-radius: 20px;
   padding: 2px;
   text-align: center;
   color: white;
   font-family: Arial, sans-serif;
-  position: absolute;
-  top: 17vh;
-  left: 29vw;
-  font-family: Ubuntu Condensed;
+  font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 20px;
+  position: absolute;
+  top: 19.5vh;
+  left: 35vw;
 }
+
+
 
 /* box on the left with menu item categories*/
 #Menu {
@@ -234,59 +247,52 @@ footer {
 
 
   #drink {
-  position: absolute;
-  top: 40vh;
-  left: 61vw;
-  width: 300px;
-  z-index: 1;
+    position: absolute;
+    top: 40%;
+    left: calc(61% - 150px); /* Adjust the value as needed */
+    width: 300px;
+    z-index: 1;
   }
-
-
+  
   #drink2 {
-  position: absolute;
-  top: 40vh;
-  left: 475px;
-  width: 300px;
-  z-index: 1;
+    position: absolute;
+    top: 40%;
+    left: calc(100% - 150px); /* Adjust the value as needed */
+    width: 300px;
+    z-index: 1;
   }
-
-
+  
   #item {
-  position: absolute;
-  top: 110vh;
-  left: 58vw;
-  width: 400px;
-  z-index: 1;
+    position: absolute;
+    top: calc(100% - 150px); /* Adjust the value as needed */
+    left: 58%;
+    width: 400px;
+    z-index: 1;
   }
-
-
+  
   #item2 {
-  position: absolute;
-  top: 110vh;
-  left: 22vw;
-  width: 400px;
-  z-index: 1;
+    position: absolute;
+    top: calc(100% - 150px); /* Adjust the value as needed */
+    left: 22%;
+    width: 400px;
+    z-index: 1;
   }
-
-
-
-
-#food {
-  position: absolute;
-  top: 83vh;
-  left: 27vw;
-  width: 200px;
-  z-index: 1;
-}
-
-
-#food2 {
-  position: absolute;
-  top: 78vh;
-  left: 63vw;
-  width: 200px;
-  z-index: 1;
-}
+  
+  #food {
+    position: absolute;
+    top: calc(100% - 75px); /* Adjust the value as needed */
+    left: 27%;
+    width: 200px;
+    z-index: 1;
+  }
+  
+  #food2 {
+    position: absolute;
+    top: calc(100% - 80px); /* Adjust the value as needed */
+    left: 63%;
+    width: 200px;
+    z-index: 1;
+  }
 
 
 /* Animation on submit order button */
@@ -339,42 +345,66 @@ footer {
   user-select: none;
   pointer-events: none;
   position: absolute;
-  top: 33vh;
-  left: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11%;
+  height: 120%;
   color: black;
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
+  margin-left: 815px;
 }
 
 #Line2 {
   user-select: none;
   pointer-events: none;
   position: absolute;
-  top: 70vh;
-  left: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11%;
+  height: 49%;
   color: black;
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
+  margin-left: 815px;
 }
 
 #Line3 {
   user-select: none;
   pointer-events: none;
   position: absolute;
-  top: 105vh;
-  left: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11%;
+  height: 190%;
   color: black;
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
+  margin-left: 815px;
 }
 
 .container {
-  position: absolute;
-  top: 40vh;
-  left: 30vw;
+  position: relative;
+  top: 25vh;
+  left: 28vw;
+}
+
+.item {
+  width: calc(50% - 10px); /* Two items per column with a 10px gap */
+  margin-bottom: 110px;
+  box-sizing: border-box; /* Include padding in item width calculation */
+  margin-right: 10px; /* Add a right margin to create space between items */
+}
+
+.item-img {
+  width: 20%; /* Adjust the width as needed */
+  max-width: 100px; /* Set a maximum width if necessary */
 }
 
 .container2 {
