@@ -207,8 +207,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 550px;
-  max-width: 600px;
   height: 50px;
   margin: 0 auto;
   background-color: #809948eb;
@@ -223,6 +221,12 @@ footer {
   position: absolute;
   top: 19.5vh;
   left: 35vw;
+  width: 30vw;
+  
+  /* Adjust the flex-basis property */
+  flex-basis: 550px;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 
@@ -243,6 +247,7 @@ footer {
   left: 1vw;
   font-family: Ubuntu condensed;
   font-size: 20px;
+  z-index: 1;
 }
 
 
@@ -323,6 +328,7 @@ footer {
   top: 31vh;
   left: 6vw;
   font-size: 2vw;
+  z-index: 1;
 }
 
 #foodtext {
@@ -331,6 +337,7 @@ footer {
   top: 68vh;
   left: 8vw;
   font-size: 2vw;
+  z-index: 1;
 }
 
 #misc {
@@ -339,6 +346,7 @@ footer {
   top: 101vh;
   left: 8vw;
   font-size: 2vw;
+  z-index: 1;
 }
 
 #Line {
@@ -349,12 +357,13 @@ footer {
   justify-content: center;
   align-items: center;
   width: 11%;
-  height: 120%;
+  height: 100%;
   color: black;
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
-  margin-left: 815px;
+  top: -13vh;
+  left: 43vw;
 }
 
 #Line2 {
@@ -370,7 +379,8 @@ footer {
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
-  margin-left: 815px;
+  top: 47vh;
+  left: 43vw;
 }
 
 #Line3 {
@@ -386,14 +396,10 @@ footer {
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
-  margin-left: 815px;
+  top: 10vh;
+  left: 43vw;
 }
 
-.container {
-  position: relative;
-  top: 25vh;
-  left: 28vw;
-}
 
 .item {
   width: calc(50% - 10px); /* Two items per column with a 10px gap */
@@ -403,16 +409,53 @@ footer {
 }
 
 .item-img {
-  width: 20%; /* Adjust the width as needed */
-  max-width: 100px; /* Set a maximum width if necessary */
+  max-width: 27%; /* Adjust the size of the image */
+  height: auto; /* Maintain the aspect ratio */
 }
 
 .container2 {
-  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   top: 40vh;
   left: 30vw;
 }
 
+    
 
 
+#img {
+  margin-top: 300px;
+  margin-left: 300px;
+  width: 155px;
+}
+
+#img2 {
+  margin-top: 300px;
+  margin-left: 550px;
+  width: 155px;
+}
+
+#img-s {
+  margin-top: 50px;
+  margin-left: 550px;
+  width: 155px;
+}
+#img-m {
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 155px;
+}
+
+#img-bx {
+  margin-top: 70px;
+  margin-left: 550px;
+  width: 155px;
+}
+
+#img-bg {
+  margin-top: 70px;
+  margin-left: 300px;
+  width: 155px;
+}
 
