@@ -22,7 +22,8 @@ body{
   background-position: relative;
   background-size: cover;
   background-repeat: repeat-y;
-  background-image:url("../Images/menuupg.png")
+  background-image:url("../Images/menuupg.png");
+  overflow-x: hidden;
 }
 
 
@@ -214,7 +215,7 @@ footer {
   border-radius: 20px;
   padding: 2px;
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: Arial, sans-serif;
   font-family: 'Ubuntu Condensed', sans-serif;
   font-size: 20px;
@@ -356,15 +357,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 11%;
+  width: 2000px; /* Change this to the desired fixed width in pixels */
   height: 100%;
   color: black;
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
   top: -13vh;
-  left: 43vw;
-  overflow: hidden;
+  left: 20vw;
+  overflow-x: hidden;
 }
 
 #Line2 {
@@ -374,15 +375,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 11%;
+  width: 2000px;
   height: 49%;
   color: black;
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
   top: 47vh;
-  left: 43vw;
-  overflow: hidden;
+  left: 20vw;
+  overflow-x: hidden;
 }
 
 #Line3 {
@@ -392,15 +393,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 11%;
+  width: 2000px;
   height: 190%;
   color: black;
   font-size: 1vw;
   font-weight: 800;
   letter-spacing: -6px;
   top: 10vh;
-  left: 43vw;
-  overflow: hidden;
+  left: 20vw;
+  overflow-x: hidden;
 }
 
 
@@ -428,37 +429,37 @@ footer {
 
 
 #img {
-  margin-top: 300px;
-  margin-left: 300px;
+  margin-top: 30%;
+  margin-left: 30%;
   width: 155px;
 }
 
 #img2 {
-  margin-top: 300px;
-  margin-left: 550px;
+  margin-top: 30%;
+  margin-left: 55%;
   width: 155px;
 }
 
 #img-s {
-  margin-top: 50px;
-  margin-left: 550px;
+  margin-top: 5%;
+  margin-left: 55%;
   width: 155px;
 }
 #img-m {
-  margin-top: 50px;
-  margin-left: 300px;
+  margin-top: 5%;
+  margin-left: 30%;
   width: 155px;
 }
 
 #img-bx {
-  margin-top: 70px;
-  margin-left: 550px;
+  margin-top: 7%;
+  margin-left: 55%;
   width: 155px;
 }
 
 #img-bg {
-  margin-top: 70px;
-  margin-left: 300px;
+  margin-top: 7%;
+  margin-left: 30%;
   width: 155px;
 }
 
