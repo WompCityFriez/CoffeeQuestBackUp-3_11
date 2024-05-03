@@ -11,6 +11,6 @@ Anson ( :heavy_check_mark: ) - Item page\
 Kenadi ( :heavy_check_mark: ) - Company info page\
 Alissia - Account page\
 Jaden (Was completed by Matthew, Kenadi, & Anson :heavy_check_mark: ) - Homepage\
-Jaden and Kit - Menu page
+Kenadi & Anson ( ✔️: ) - Menu page
 
 <sub>This can be updated later</sub>
