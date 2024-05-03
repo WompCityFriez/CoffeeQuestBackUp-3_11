@@ -364,6 +364,7 @@ footer {
   letter-spacing: -6px;
   top: -13vh;
   left: 43vw;
+  overflow: hidden;
 }
 
 #Line2 {
@@ -381,6 +382,7 @@ footer {
   letter-spacing: -6px;
   top: 47vh;
   left: 43vw;
+  overflow: hidden;
 }
 
 #Line3 {
@@ -398,6 +400,7 @@ footer {
   letter-spacing: -6px;
   top: 10vh;
   left: 43vw;
+  overflow: hidden;
 }
 
 
