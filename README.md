@@ -1,16 +1,6 @@
-# Hello Team
+#CoffeQuest
+This repo is the source code for a school project created by some Web Development students of K12's OHVA class of 2025.
 
-This repository is for us to work on the website project together
+The site is fully functional as a project made for a fake company named Quest Coffee (we flipped then name around in the repo to be funny), it is not a real coffee ording site but was made to look as close to one as possible.
 
-One person per page and help will be given if needed
-
-## Pages and who they are assigned to
-
-Matthew ( :heavy_check_mark: ) - Checkout page\
-Anson ( :heavy_check_mark: ) - Item page\
-Kenadi ( :heavy_check_mark: ) - Company info page\
-Alissia - Account page\
-Jaden (Was completed by Matthew, Kenadi, & Anson :heavy_check_mark: ) - Homepage\
-Kenadi & Anson ( ✔️: ) - Menu page
-
-<sub>This can be updated later</sub>
+The team has graduated and the site is no longer being worked on (unless something breaks unexpectidly, then one person will fix it).
