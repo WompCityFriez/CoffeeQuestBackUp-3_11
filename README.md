@@ -1,4 +1,4 @@
-#CoffeQuest
+# CoffeQuest
 
 This repo is the source code for a school project created by some Web Development students of K12's OHVA class of 2025.
 
